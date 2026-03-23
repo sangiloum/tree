@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>IBS DIMAG Academic Family Tree</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header id="app-header">
+    <div class="header-left">
+      <h1><span class="title-ibs">IBS</span> <span class="title-dimag">DIMAG</span> Academic Family Tree</h1>
+      <p class="subtitle">Mathematical genealogy of the IBS Discrete Mathematics Group</p>
+    </div>
+    <nav class="controls">
+      <div class="search-wrap">
+        <input id="search-input" type="search" placeholder="Search by name…" autocomplete="off" spellcheck="false">
+        <div id="search-results" class="hidden"></div>
+      </div>
+
+      <div class="filter-group" role="group" aria-label="Node filter">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="current">Current</button>
+        <button class="filter-btn" data-filter="former">Former</button>
+        <button class="filter-btn" data-filter="dimag">DIMAG only</button>
+      </div>
+
+      <div class="slider-wrap">
+        <label for="depth-slider">Depth <span id="depth-value">∞</span></label>
+        <input id="depth-slider" type="range" min="1" max="20" value="20" step="1">
+      </div>
+
+      <div class="slider-wrap">
+        <label for="font-slider">Font <span id="font-value">12</span>px</label>
+        <input id="font-slider" type="range" min="6" max="60" value="12" step="1">
+      </div>
+
+      <button id="reset-btn" title="Reset view">⌂ Reset</button>
+    </nav>
+  </header>
+
+  <main id="graph-container">
+    <svg id="graph" aria-label="Academic family tree graph">
+      <defs>
+        <!-- Arrow marker for directed edges -->
+        <marker id="arrow" viewBox="0 -5 10 10" refX="12" refY="0"
+                markerWidth="6" markerHeight="6" orient="auto">
+          <path d="M0,-5L10,0L0,5" fill="var(--color-edge-hi)" opacity="0.6"/>
+        </marker>
+        <marker id="arrow-lo" viewBox="0 -5 10 10" refX="12" refY="0"
+                markerWidth="6" markerHeight="6" orient="auto">
+          <path d="M0,-5L10,0L0,5" fill="var(--color-edge-lo)" opacity="0.3"/>
+        </marker>
+        <!-- Circular clip for node photos -->
+        <clipPath id="photo-circle-clip" clipPathUnits="objectBoundingBox">
+          <circle cx="0.5" cy="0.5" r="0.5"/>
+        </clipPath>
+        <!-- Drop-shadow glow for current DIMAG (works on light bg) -->
+        <filter id="glow-current" x="-60%" y="-60%" width="220%" height="220%">
+          <feDropShadow dx="0" dy="0" stdDeviation="5" flood-color="#c88000" flood-opacity="0.55"/>
+        </filter>
+        <!-- Drop-shadow glow for former DIMAG -->
+        <filter id="glow-former" x="-60%" y="-60%" width="220%" height="220%">
+          <feDropShadow dx="0" dy="0" stdDeviation="4" flood-color="#17896a" flood-opacity="0.45"/>
+        </filter>
+      </defs>
+      <g id="year-axis"></g>
+      <g id="zoom-layer">
+        <g id="grid-layer"></g>
+        <g id="edges-layer"></g>
+        <g id="nodes-layer"></g>
+        <g id="labels-layer"></g>
+      </g>
+    </svg>
+
+    <!-- Hover tooltip -->
+    <div id="tooltip" class="hidden" role="tooltip"></div>
+
+    <!-- Sidebar detail panel -->
+    <aside id="sidebar" class="hidden" aria-label="Node details">
+      <button id="sidebar-close" aria-label="Close sidebar">✕</button>
+      <div id="sidebar-content"></div>
+    </aside>
+
+    <!-- Loading overlay -->
+    <div id="loading">
+      <div class="spinner"></div>
+      <p>Loading genealogy data…</p>
+    </div>
+
+    <!-- No-data message -->
+    <div id="no-data" class="hidden">
+      <p>No <code>data/genealogy.json</code> found.</p>
+      <p>Run the scraper first:</p>
+      <pre>cd scripts
+pip install -r requirements.txt
+python scrape_genealogy.py</pre>
+    </div>
+  </main>
+
+  <!-- Year scrollbar -->
+  <div id="year-scroll-wrap">
+    <input id="year-scrollbar" type="range" min="1750" max="2030" value="2010">
+  </div>
+
+  <footer id="legend">
+    <div class="legend-item">
+      <span class="legend-dot" style="background:#f5a800;box-shadow:0 0 5px rgba(200,128,0,0.5)"></span>
+      Current DIMAG member
+    </div>
+    <div class="legend-item">
+      <span class="legend-dot" style="background:#18aa80;box-shadow:0 0 4px rgba(23,137,106,0.4)"></span>
+      Former DIMAG member
+    </div>
+    <div class="legend-item">
+      <span class="legend-dot" style="background:#5070c8"></span>
+      Academic ancestor
+    </div>
+    <div class="legend-item">
+      <span class="legend-dot" style="background:#9aabcf"></span>
+      Deep ancestor (&gt;3 gen)
+    </div>
+    <div class="legend-sep"></div>
+    <div class="legend-item legend-small">
+      Data: <a href="https://www.mathgenealogy.org" target="_blank" rel="noopener">Mathematics Genealogy Project</a>
+    </div>
+  </footer>
+
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>
