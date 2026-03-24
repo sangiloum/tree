@@ -859,7 +859,7 @@ function showTooltip(event, d) {
     <div class="tt-name">${d.name || 'Unknown'}</div>
     ${badge}
     ${d.institution ? `<div class="tt-row">Institution: <span>${d.institution}</span></div>` : ''}
-    ${d.year        ? `<div class="tt-row">PhD year: <span>${d.yearEstimated ? '~' : ''}${d.year}</span></div>` : ''}
+    ${(d.year && !d.yearEstimated) ? `<div class="tt-row">PhD year: <span>${d.year}</span></div>` : (d.yearEstimated ? `<div class="tt-row">PhD year: <span>N/A</span></div>` : '')}
     ${d.dissertation ? `<div class="tt-row">Dissertation: <span>${d.dissertation.slice(0,120)}${d.dissertation.length > 120 ? '…' : ''}</span></div>` : ''}
   `.trim();
   tooltip.classList.remove('hidden');
@@ -916,7 +916,7 @@ function openSidebar(d) {
     ? `<div class="sb-section">
          <div class="sb-label">Ancestry chain — ${ancestors.length} ancestor${ancestors.length !== 1 ? 's' : ''}</div>
          <ol class="sb-ancestry-list">
-           ${ancestors.map(a => `<li data-id="${a.id}">${a.name || a.id}${a.year ? ` <span class="sb-year">(${a.yearEstimated ? '~' : ''}${a.year})</span>` : ''}</li>`).join('')}
+           ${ancestors.map(a => `<li data-id="${a.id}">${a.name || a.id}${(a.year && !a.yearEstimated) ? ` <span class="sb-year">(${a.year})</span>` : ''}</li>`).join('')}
          </ol>
          <div class="sb-ancestry-self">${d.name} ← you</div>
        </div>`
@@ -932,7 +932,7 @@ function openSidebar(d) {
     ${badgeHtml}
     ${roleHtml}
     ${d.institution ? `<div class="sb-section"><div class="sb-label">Institution</div><div class="sb-value">${d.institution}</div></div>` : ''}
-    ${d.year        ? `<div class="sb-section"><div class="sb-label">PhD Year${d.yearEstimated ? ' (estimated)' : ''}</div><div class="sb-value">${d.yearEstimated ? '~' : ''}${d.year}</div></div>` : ''}
+    ${(d.year || d.yearEstimated) ? `<div class="sb-section"><div class="sb-label">PhD Year</div><div class="sb-value">${d.yearEstimated ? 'N/A' : d.year}</div></div>` : ''}
     ${d.dissertation ? `<div class="sb-section"><div class="sb-label">Dissertation</div><div class="sb-value" style="font-style:italic">${d.dissertation}</div></div>` : ''}
     <hr class="sb-divider">
     ${ancestryHtml}
