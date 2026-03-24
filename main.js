@@ -64,7 +64,6 @@ let visibleNodes = [];
 let visibleEdges = [];
 
 let simulation;
-let activeFilter    = 'all';
 let selectedNode    = null;
 let currentTransform= d3.zoomIdentity;
 let isFiltered      = false;   // true when double-click hide is active
@@ -527,16 +526,7 @@ function edgeClass(e) {
 
 function init() {
   buildGridLines();
-  applyFilter(activeFilter);
-
-  document.querySelectorAll('.filter-btn').forEach(btn => {
-    btn.addEventListener('click', () => {
-      document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
-      btn.classList.add('active');
-      activeFilter = btn.dataset.filter;
-      render();
-    });
-  });
+  render();
 
   fontSlider.addEventListener('input', () => {
     baseFontSize = +fontSlider.value;
@@ -552,15 +542,10 @@ function init() {
   syncScrollbar(currentTransform);
 }
 
-function applyFilter(filter) {
-  activeFilter = filter;
-  render();
-}
-
 // ── Render ────────────────────────────────────────────────────────────────
 
 function render() {
-  visibleNodes = getVisibleNodes(Infinity, activeFilter);
+  visibleNodes = getVisibleNodes(Infinity, 'all');
   if (isFiltered && filteredNodeIds) {
     visibleNodes = visibleNodes.filter(n => filteredNodeIds.has(n.id));
   }
