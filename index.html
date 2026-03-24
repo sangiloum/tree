@@ -16,6 +16,15 @@
       <h1><span class="title-ibs">IBS</span> <span class="title-dimag">DIMAG</span> Academic Family Tree</h1>
       <p class="subtitle">Mathematical genealogy of the IBS Discrete Mathematics Group</p>
     </div>
+    <div class="mobile-actions">
+      <button id="mobile-search-btn" aria-label="Search">🔍</button>
+      <button id="mobile-settings-btn" aria-label="Settings">⚙</button>
+    </div>
+    <div id="mobile-search-bar" class="hidden">
+      <input id="mobile-search-input" type="search" placeholder="Search by name…" autocomplete="off" spellcheck="false">
+      <div id="mobile-search-results" class="hidden"></div>
+      <button id="mobile-search-close">✕</button>
+    </div>
     <nav class="controls">
       <div class="search-wrap">
         <input id="search-input" type="search" placeholder="Search by name…" autocomplete="off" spellcheck="false">
@@ -27,11 +36,6 @@
         <button class="filter-btn" data-filter="current">Current</button>
         <button class="filter-btn" data-filter="former">Former</button>
         <button class="filter-btn" data-filter="dimag">DIMAG only</button>
-      </div>
-
-      <div class="slider-wrap">
-        <label for="depth-slider">Depth <span id="depth-value">∞</span></label>
-        <input id="depth-slider" type="range" min="1" max="20" value="20" step="1">
       </div>
 
       <div class="slider-wrap">
@@ -47,13 +51,13 @@
     <svg id="graph" aria-label="Academic family tree graph">
       <defs>
         <!-- Arrow marker for directed edges -->
-        <marker id="arrow" viewBox="0 -5 10 10" refX="12" refY="0"
-                markerWidth="6" markerHeight="6" orient="auto">
-          <path d="M0,-5L10,0L0,5" fill="var(--color-edge-hi)" opacity="0.6"/>
+        <marker id="arrow" viewBox="0 -5 10 10" refX="10" refY="0"
+                markerWidth="8" markerHeight="8" orient="auto">
+          <path d="M0,-5L10,0L0,5" fill="#b87000" opacity="0.9"/>
         </marker>
-        <marker id="arrow-lo" viewBox="0 -5 10 10" refX="12" refY="0"
-                markerWidth="6" markerHeight="6" orient="auto">
-          <path d="M0,-5L10,0L0,5" fill="var(--color-edge-lo)" opacity="0.3"/>
+        <marker id="arrow-lo" viewBox="0 -5 10 10" refX="10" refY="0"
+                markerWidth="7" markerHeight="7" orient="auto">
+          <path d="M0,-5L10,0L0,5" fill="#7088c0" opacity="0.65"/>
         </marker>
         <!-- Circular clip for node photos -->
         <clipPath id="photo-circle-clip" clipPathUnits="objectBoundingBox">
@@ -129,6 +133,25 @@ python scrape_genealogy.py</pre>
       Data: <a href="https://www.mathgenealogy.org" target="_blank" rel="noopener">Mathematics Genealogy Project</a>
     </div>
   </footer>
+
+  <div id="mobile-overlay" class="hidden"></div>
+  <div id="mobile-sheet" class="hidden">
+    <div class="mobile-sheet-header">
+      <span>Settings</span>
+      <button id="mobile-sheet-close">✕</button>
+    </div>
+    <div class="filter-group">
+      <button class="filter-btn active" data-filter="all">All</button>
+      <button class="filter-btn" data-filter="current">Current</button>
+      <button class="filter-btn" data-filter="former">Former</button>
+      <button class="filter-btn" data-filter="dimag">DIMAG only</button>
+    </div>
+    <div class="slider-wrap">
+      <label for="mobile-font-slider">Font <span id="mobile-font-value">12</span>px</label>
+      <input id="mobile-font-slider" type="range" min="6" max="60" value="12" step="1">
+    </div>
+    <button id="mobile-reset-btn">⌂ Reset</button>
+  </div>
 
   <script src="https://d3js.org/d3.v7.min.js"></script>
   <script src="main.js"></script>

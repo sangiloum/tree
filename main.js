@@ -64,7 +64,6 @@ let visibleNodes = [];
 let visibleEdges = [];
 
 let simulation;
-let currentDepth    = 20;
 let activeFilter    = 'all';
 let selectedNode    = null;
 let currentTransform= d3.zoomIdentity;
@@ -88,12 +87,24 @@ const loadingEl      = document.getElementById('loading');
 const noDataEl       = document.getElementById('no-data');
 const searchInput    = document.getElementById('search-input');
 const searchResults  = document.getElementById('search-results');
-const depthSlider    = document.getElementById('depth-slider');
-const depthValue     = document.getElementById('depth-value');
 const fontSlider     = document.getElementById('font-slider');
 const fontValue      = document.getElementById('font-value');
 const resetBtn       = document.getElementById('reset-btn');
 const yearScrollbar  = document.getElementById('year-scrollbar');
+
+// Mobile refs
+const mobileSearchBtn    = document.getElementById('mobile-search-btn');
+const mobileSettingsBtn  = document.getElementById('mobile-settings-btn');
+const mobileSearchBar    = document.getElementById('mobile-search-bar');
+const mobileSearchInput  = document.getElementById('mobile-search-input');
+const mobileSearchResults= document.getElementById('mobile-search-results');
+const mobileSearchClose  = document.getElementById('mobile-search-close');
+const mobileSheet        = document.getElementById('mobile-sheet');
+const mobileOverlay      = document.getElementById('mobile-overlay');
+const mobileSheetClose   = document.getElementById('mobile-sheet-close');
+const mobileFontSlider   = document.getElementById('mobile-font-slider');
+const mobileFontValue    = document.getElementById('mobile-font-value');
+const mobileResetBtn     = document.getElementById('mobile-reset-btn');
 
 // ── Zoom behavior ─────────────────────────────────────────────────────────
 
@@ -248,6 +259,7 @@ async function loadData() {
 
     buildLookups();
     estimateMissingYears();
+    updateScrollbarRange();
     loadingEl.classList.add('hidden');
     init();
   } catch (err) {
@@ -262,6 +274,7 @@ async function loadData() {
         allEdges = [];
         buildLookups();
         estimateMissingYears();
+        updateScrollbarRange();
         loadingEl.classList.add('hidden');
         init();
       } catch {
@@ -332,29 +345,48 @@ function findMemberInfo(mgpId) {
   return null;
 }
 
-// Estimate missing years from neighbor years
+// Set scrollbar min/max to match actual data range so the thumb reaches both ends
+function updateScrollbarRange() {
+  const years = allNodes.map(n => n.year).filter(Boolean);
+  if (!years.length) return;
+  const dataMin = Math.min(...years);
+  const dataMax = Math.max(...years);
+  const pad = 10; // years of padding beyond the data at each end
+  // scrollbar.value = (YEAR_MIN + YEAR_MAX) - yearCenter, so:
+  //   min value → newest year (dataMax + pad)
+  //   max value → oldest year (dataMin - pad)
+  yearScrollbar.min = Math.floor((YEAR_MIN + YEAR_MAX) - (dataMax + pad));
+  yearScrollbar.max = Math.ceil( (YEAR_MIN + YEAR_MAX) - (dataMin - pad));
+}
+
+// Estimate missing years from neighbor years.
+// Uses a snapshot of known years at the start of each pass so that
+// within-pass estimates never feed into other estimates in the same pass.
+// This prevents cascading errors through long chains of no-year nodes.
 function estimateMissingYears() {
-  let changed = true;
-  let iters = 0;
-  while (changed && iters++ < 20) {
-    changed = false;
+  const MAX_PASSES = 5;
+  for (let pass = 0; pass < MAX_PASSES; pass++) {
+    const snapshot = new Map(allNodes.map(n => [n.id, n.year]));
+    let anyChange = false;
     for (const n of allNodes) {
       if (n.year) continue;
-      // From students: advisor year ≈ min(student_year) - 8
       const studentYears = (n.students || [])
-        .map(id => nodeById.get(id)?.year).filter(Boolean);
+        .map(id => snapshot.get(id)).filter(Boolean);
       if (studentYears.length) {
         n.year = Math.min(...studentYears) - 8;
-        changed = true; continue;
+        n.yearEstimated = true;
+        anyChange = true;
+        continue;
       }
-      // From advisors: student year ≈ max(advisor_year) + 8
       const advisorYears = (n.advisors || [])
-        .map(id => nodeById.get(id)?.year).filter(Boolean);
+        .map(id => snapshot.get(id)).filter(Boolean);
       if (advisorYears.length) {
         n.year = Math.max(...advisorYears) + 8;
-        changed = true;
+        n.yearEstimated = true;
+        anyChange = true;
       }
     }
+    if (!anyChange) break;
   }
 }
 
@@ -497,12 +529,6 @@ function init() {
   buildGridLines();
   applyFilter(activeFilter);
 
-  depthSlider.addEventListener('input', () => {
-    currentDepth = +depthSlider.value;
-    depthValue.textContent = currentDepth >= 20 ? '∞' : currentDepth;
-    render();
-  });
-
   document.querySelectorAll('.filter-btn').forEach(btn => {
     btn.addEventListener('click', () => {
       document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
@@ -522,7 +548,7 @@ function init() {
   resetBtn.addEventListener('click', resetView);
   document.getElementById('sidebar-close').addEventListener('click', closeSidebar);
   setupSearch();
-  setupMobileList();
+  setupMobile();
   syncScrollbar(currentTransform);
 }
 
@@ -534,7 +560,7 @@ function applyFilter(filter) {
 // ── Render ────────────────────────────────────────────────────────────────
 
 function render() {
-  visibleNodes = getVisibleNodes(currentDepth, activeFilter);
+  visibleNodes = getVisibleNodes(Infinity, activeFilter);
   if (isFiltered && filteredNodeIds) {
     visibleNodes = visibleNodes.filter(n => filteredNodeIds.has(n.id));
   }
@@ -833,7 +859,7 @@ function showTooltip(event, d) {
     <div class="tt-name">${d.name || 'Unknown'}</div>
     ${badge}
     ${d.institution ? `<div class="tt-row">Institution: <span>${d.institution}</span></div>` : ''}
-    ${d.year        ? `<div class="tt-row">PhD year: <span>${d.year}</span></div>` : ''}
+    ${d.year        ? `<div class="tt-row">PhD year: <span>${d.yearEstimated ? '~' : ''}${d.year}</span></div>` : ''}
     ${d.dissertation ? `<div class="tt-row">Dissertation: <span>${d.dissertation.slice(0,120)}${d.dissertation.length > 120 ? '…' : ''}</span></div>` : ''}
   `.trim();
   tooltip.classList.remove('hidden');
@@ -890,18 +916,23 @@ function openSidebar(d) {
     ? `<div class="sb-section">
          <div class="sb-label">Ancestry chain — ${ancestors.length} ancestor${ancestors.length !== 1 ? 's' : ''}</div>
          <ol class="sb-ancestry-list">
-           ${ancestors.map(a => `<li data-id="${a.id}">${a.name || a.id}${a.year ? ` <span class="sb-year">(${a.year})</span>` : ''}</li>`).join('')}
+           ${ancestors.map(a => `<li data-id="${a.id}">${a.name || a.id}${a.year ? ` <span class="sb-year">(${a.yearEstimated ? '~' : ''}${a.year})</span>` : ''}</li>`).join('')}
          </ol>
          <div class="sb-ancestry-self">${d.name} ← you</div>
        </div>`
     : '';
 
+  const photoHtml = d.mgp_id
+    ? `<img class="sb-photo" src="data/photos/${d.mgp_id}.jpg" alt="${d.name}" onerror="this.style.display='none'">`
+    : '';
+
   sidebarContent.innerHTML = `
+    ${photoHtml}
     <h2>${d.name || 'Unknown'}${krHtml}</h2>
     ${badgeHtml}
     ${roleHtml}
     ${d.institution ? `<div class="sb-section"><div class="sb-label">Institution</div><div class="sb-value">${d.institution}</div></div>` : ''}
-    ${d.year        ? `<div class="sb-section"><div class="sb-label">PhD Year</div><div class="sb-value">${d.year}</div></div>` : ''}
+    ${d.year        ? `<div class="sb-section"><div class="sb-label">PhD Year${d.yearEstimated ? ' (estimated)' : ''}</div><div class="sb-value">${d.yearEstimated ? '~' : ''}${d.year}</div></div>` : ''}
     ${d.dissertation ? `<div class="sb-section"><div class="sb-label">Dissertation</div><div class="sb-value" style="font-style:italic">${d.dissertation}</div></div>` : ''}
     <hr class="sb-divider">
     ${ancestryHtml}
@@ -920,11 +951,13 @@ function openSidebar(d) {
   });
 
   sidebar.classList.remove('hidden');
+  if (window.innerWidth <= 600) mobileOverlay.classList.remove('hidden');
 }
 
 function closeSidebar() {
   selectedNode = null;
   sidebar.classList.add('hidden');
+  if (window.innerWidth <= 600) mobileOverlay.classList.add('hidden');
   if (!isFiltered) clearHighlight();
 }
 
@@ -1008,30 +1041,32 @@ function dblClickNode(event, d) {
 
 // ── Search ────────────────────────────────────────────────────────────────
 
+function performSearch(q, inputEl, resultsEl) {
+  q = q.trim().toLowerCase();
+  if (q.length < 2) { resultsEl.classList.add('hidden'); return; }
+  const matches = allNodes.filter(n => n.name?.toLowerCase().includes(q)).slice(0, 10);
+  if (!matches.length) { resultsEl.classList.add('hidden'); return; }
+
+  resultsEl.innerHTML = matches.map(n => `
+    <div class="search-result-item" data-id="${n.id}">
+      ${n.name}
+      <span class="dim">${n.institution || ''}${n.year ? ` · ${n.year}` : ''}</span>
+    </div>`).join('');
+
+  resultsEl.querySelectorAll('.search-result-item').forEach(el => {
+    el.addEventListener('click', () => {
+      const n = nodeById.get(+el.dataset.id || el.dataset.id);
+      if (n) { navigateTo(n); resultsEl.classList.add('hidden'); inputEl.value = ''; }
+    });
+  });
+  resultsEl.classList.remove('hidden');
+}
+
 function setupSearch() {
   let timer;
   searchInput.addEventListener('input', () => {
     clearTimeout(timer);
-    timer = setTimeout(() => {
-      const q = searchInput.value.trim().toLowerCase();
-      if (q.length < 2) { searchResults.classList.add('hidden'); return; }
-      const matches = allNodes.filter(n => n.name?.toLowerCase().includes(q)).slice(0, 10);
-      if (!matches.length) { searchResults.classList.add('hidden'); return; }
-
-      searchResults.innerHTML = matches.map(n => `
-        <div class="search-result-item" data-id="${n.id}">
-          ${n.name}
-          <span class="dim">${n.institution || ''}${n.year ? ` · ${n.year}` : ''}</span>
-        </div>`).join('');
-
-      searchResults.querySelectorAll('.search-result-item').forEach(el => {
-        el.addEventListener('click', () => {
-          const n = nodeById.get(+el.dataset.id || el.dataset.id);
-          if (n) { navigateTo(n); searchResults.classList.add('hidden'); searchInput.value = ''; }
-        });
-      });
-      searchResults.classList.remove('hidden');
-    }, 200);
+    timer = setTimeout(() => performSearch(searchInput.value, searchInput, searchResults), 200);
   });
 
   document.addEventListener('click', e => {
@@ -1085,26 +1120,57 @@ function resetView() {
   fitNodes(dimagNodes);
 }
 
-// ── Mobile list ───────────────────────────────────────────────────────────
+// ── Mobile controls ────────────────────────────────────────────────────────
 
-function setupMobileList() {
-  if (window.innerWidth > 600) return;
-  const container = document.createElement('div');
-  container.id = 'mobile-list';
-  const dimagNodes = allNodes.filter(n => n.dimag_status);
-  container.innerHTML = `
-    <h2 style="padding:8px;font-size:1rem;">DIMAG Members</h2>
-    <table>
-      <thead><tr><th>Name</th><th>Status</th><th>Year</th></tr></thead>
-      <tbody>${dimagNodes.map(n => `
-        <tr>
-          <td>${n.mgp_id ? `<a href="https://www.mathgenealogy.org/id.php?id=${n.mgp_id}" target="_blank">${n.name}</a>` : n.name}</td>
-          <td style="color:${n.dimag_status === 'current' ? 'var(--color-current)' : 'var(--color-former)'}">${n.dimag_status}</td>
-          <td>${n.year || '—'}</td>
-        </tr>`).join('')}
-      </tbody>
-    </table>`;
-  document.getElementById('graph-container').after(container);
+function setupMobile() {
+  if (!mobileSearchBtn) return;
+
+  // Search toggle
+  mobileSearchBtn.addEventListener('click', () => {
+    mobileSearchBar.classList.remove('hidden');
+    mobileSearchInput.focus();
+  });
+  mobileSearchClose.addEventListener('click', closeMobileSearch);
+  mobileSearchInput.addEventListener('click', e => e.stopPropagation());
+
+  let mobileTimer;
+  mobileSearchInput.addEventListener('input', () => {
+    clearTimeout(mobileTimer);
+    mobileTimer = setTimeout(() => performSearch(mobileSearchInput.value, mobileSearchInput, mobileSearchResults), 200);
+  });
+
+  // Settings sheet
+  mobileSettingsBtn.addEventListener('click', openMobileSheet);
+  mobileSheetClose.addEventListener('click', closeMobileSheet);
+  mobileOverlay.addEventListener('click', () => { closeMobileSheet(); closeSidebar(); });
+
+  // Font slider
+  mobileFontSlider.addEventListener('input', () => {
+    baseFontSize = +mobileFontSlider.value;
+    mobileFontValue.textContent = baseFontSize;
+    fontValue.textContent = baseFontSize;
+    fontSlider.value = mobileFontSlider.value;
+    render();
+  });
+
+  // Reset
+  mobileResetBtn.addEventListener('click', () => { closeMobileSheet(); resetView(); });
+}
+
+function openMobileSheet() {
+  mobileSheet.classList.remove('hidden');
+  mobileOverlay.classList.remove('hidden');
+}
+
+function closeMobileSheet() {
+  mobileSheet.classList.add('hidden');
+  mobileOverlay.classList.add('hidden');
+}
+
+function closeMobileSearch() {
+  mobileSearchBar.classList.add('hidden');
+  mobileSearchInput.value = '';
+  mobileSearchResults.classList.add('hidden');
 }
 
 // ── Bootstrap ─────────────────────────────────────────────────────────────

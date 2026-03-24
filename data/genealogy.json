@@ -2033,7 +2033,7 @@
     {
       "id": 107016,
       "name": "Gyula  Vályi",
-      "year": null,
+      "year": 1881,
       "institution": "Ferenc József Tudományegyetem",
       "dissertation": "A másodrendű partialis differentialis egyenletek elméletéhez. (German\ntitle: Zur Theorie der partiellen Differentialgleichungen zweiter Ordnung)",
       "advisors": [
@@ -2398,7 +2398,7 @@
     {
       "id": 84657,
       "name": "Albert Potter Wills",
-      "year": null,
+      "year": 1897,
       "institution": "Clark University",
       "dissertation": "On the Susceptibility of Diamagnetic and Weakly Magnetic Substances",
       "advisors": [
@@ -2472,7 +2472,7 @@
     {
       "id": 7487,
       "name": "Hermann Amandus Schwarz",
-      "year": null,
+      "year": 1864,
       "institution": "Universität Berlin",
       "dissertation": "De superficiebus in planum explicabilibus primorum septem ordinum",
       "advisors": [
@@ -2542,7 +2542,7 @@
     {
       "id": 90711,
       "name": "Moritz  Réthy",
-      "year": null,
+      "year": 1874,
       "institution": "Ruprecht-Karls-Universität Heidelberg",
       "dissertation": "",
       "advisors": [
@@ -2857,7 +2857,7 @@
     {
       "id": 31354,
       "name": "Augustus Edward Hough Love",
-      "year": null,
+      "year": 1886,
       "institution": "University of Cambridge",
       "dissertation": "",
       "advisors": [],
@@ -2869,7 +2869,7 @@
     {
       "id": 18571,
       "name": "Edmund Taylor Whittaker",
-      "year": null,
+      "year": 1895,
       "institution": "University of Cambridge",
       "dissertation": "",
       "advisors": [
@@ -2895,7 +2895,7 @@
     {
       "id": 7298,
       "name": "David  Hilbert",
-      "year": null,
+      "year": 1885,
       "institution": "Universität Königsberg",
       "dissertation": "Über invariante Eigenschaften specieller binärer Formen, insbesondere der Kugelfunctionen",
       "advisors": [
@@ -2988,7 +2988,7 @@
     {
       "id": 84506,
       "name": "Arthur Gordon Webster",
-      "year": null,
+      "year": 1890,
       "institution": "Universität Berlin",
       "dissertation": "Versuche über eine Methode zur Bestimmung des Verhältnisses der elektromagnetischen zur elektrostatischen Einheit der Elektricität",
       "advisors": [
@@ -3041,7 +3041,7 @@
     {
       "id": 18331,
       "name": "Ernst Eduard Kummer",
-      "year": null,
+      "year": 1831,
       "institution": "Martin-Luther-Universität Halle-Wittenberg",
       "dissertation": "De cosinuum et sinuum potestatibus secundum cosinus et sinus arcuum multiplicium evolvendis",
       "advisors": [
@@ -3112,7 +3112,7 @@
     {
       "id": 7486,
       "name": "Karl Theodor Wilhelm Weierstraß",
-      "year": null,
+      "year": 1841,
       "institution": "Universität Münster",
       "dissertation": "Über die Entwicklung der Modularfunktionen",
       "advisors": [
@@ -3195,7 +3195,7 @@
     {
       "id": 18336,
       "name": "Leo  Königsberger",
-      "year": null,
+      "year": 1860,
       "institution": "Universität Berlin",
       "dissertation": "De motu puncti versus duo fixa centra attracti",
       "advisors": [
@@ -3385,7 +3385,7 @@
     {
       "id": 31357,
       "name": "Arnold Johannes Wilhelm Sommerfeld",
-      "year": null,
+      "year": 1891,
       "institution": "Universität Königsberg",
       "dissertation": "Die willkürlichen Functionen in der mathematischen Physik",
       "advisors": [
@@ -3439,7 +3439,7 @@
     {
       "id": 67327,
       "name": "Gustav Adolf Harnack",
-      "year": null,
+      "year": 1873,
       "institution": "Universität Leipzig",
       "dissertation": "Zur Quellenkritik der Geschichte des Gnosticismus",
       "advisors": [
@@ -3455,7 +3455,7 @@
     {
       "id": 25466,
       "name": "Alois  Riehl",
-      "year": null,
+      "year": 1868,
       "institution": "Universität Innsbruck",
       "dissertation": "",
       "advisors": [],
@@ -3489,7 +3489,7 @@
     {
       "id": 17829,
       "name": "Andrew Russell Forsyth",
-      "year": null,
+      "year": 1881,
       "institution": "University of Cambridge",
       "dissertation": "",
       "advisors": [
@@ -3503,7 +3503,7 @@
     {
       "id": 17467,
       "name": "George Howard Darwin",
-      "year": null,
+      "year": 1871,
       "institution": "University of Cambridge",
       "dissertation": "",
       "advisors": [],
@@ -3516,7 +3516,7 @@
     {
       "id": 7404,
       "name": "C. L. Ferdinand (Carl Louis) Lindemann",
-      "year": null,
+      "year": 1873,
       "institution": "Friedrich-Alexander-Universität Erlangen-Nürnberg",
       "dissertation": "Über unendlich kleine Bewegungen und über Kraftsysteme bei allgemeiner projektivischer Maßbestimmung",
       "advisors": [
@@ -3579,7 +3579,7 @@
     {
       "id": 16915,
       "name": "Heinrich Martin Weber",
-      "year": null,
+      "year": 1863,
       "institution": "Ruprecht-Karls-Universität Heidelberg",
       "dissertation": "(no dissertation required)",
       "advisors": [
@@ -3619,7 +3619,7 @@
     {
       "id": 49057,
       "name": "Hermann Ludwig Ferdinand von Helmholtz",
-      "year": null,
+      "year": 1842,
       "institution": "Universität Berlin",
       "dissertation": "De fabrica systematis nervosi evertebratorum",
       "advisors": [
@@ -3662,7 +3662,7 @@
     {
       "id": 25484,
       "name": "Heinrich Ferdinand Scherk",
-      "year": null,
+      "year": 1823,
       "institution": "Universität Berlin",
       "dissertation": "De evolvenda functione ....   disquisitiones nonnullae analyticae",
       "advisors": [
@@ -3678,7 +3678,7 @@
     {
       "id": 29458,
       "name": "Christoph  Gudermann",
-      "year": null,
+      "year": 1823,
       "institution": "Humboldt-Universität zu Berlin",
       "dissertation": "",
       "advisors": [
@@ -3713,7 +3713,7 @@
     {
       "id": 7451,
       "name": "William Edward Story",
-      "year": null,
+      "year": 1875,
       "institution": "Universität Leipzig",
       "dissertation": "On the Algebraic Relations Existing Between the Polars of a Binary Quintic",
       "advisors": [
@@ -3747,7 +3747,7 @@
     {
       "id": 7401,
       "name": "C. Felix (Christian) Klein",
-      "year": null,
+      "year": 1868,
       "institution": "Rheinische Friedrich-Wilhelms-Universität Bonn",
       "dissertation": "Ueber die Transformation der allgemeinen Gleichung des zweiten Grades zwischen Linien-Coordinaten auf eine canonische Form",
       "advisors": [
@@ -3829,7 +3829,7 @@
     {
       "id": 72581,
       "name": "Mathias (Matyas)  Lerch",
-      "year": null,
+      "year": 1885,
       "institution": "Universität Berlin",
       "dissertation": "",
       "advisors": [
@@ -3846,7 +3846,7 @@
     {
       "id": 34187,
       "name": "Moritz Wilhelm Drobisch",
-      "year": null,
+      "year": 1824,
       "institution": "Universität Leipzig",
       "dissertation": "Theoriae analyseos geometricae prolusio",
       "advisors": [
@@ -3888,7 +3888,7 @@
     {
       "id": 155982,
       "name": "Adolf Georg Karl Wilhelm Ebert",
-      "year": null,
+      "year": 1844,
       "institution": "Georg-August-Universität Göttingen",
       "dissertation": "Historia Ioannis secundi Castellae regis, usque ad pugnam apud Olmedium commissamenarrata",
       "advisors": [],
@@ -3901,7 +3901,7 @@
     {
       "id": 67041,
       "name": "John  Trowbridge",
-      "year": null,
+      "year": 1873,
       "institution": "Harvard University",
       "dissertation": "I. A New Form of Galvanometer.  II. On the Electromotive Actions of Liquids Separated by Membranes.  III. On the Electrical Conditin of Gas Flames,  IV. Ohm’s Law Considered from a Geometrical Point of View.  V. Induced Currents and Derived Circuits",
       "advisors": [
@@ -3916,7 +3916,7 @@
     {
       "id": 7824,
       "name": "Arthur  Cayley",
-      "year": null,
+      "year": 1864,
       "institution": "Universiteit Leiden and University College Dublin and University of Oxford",
       "dissertation": "(First two degrees were Law degrees)",
       "advisors": [
@@ -3932,7 +3932,7 @@
     {
       "id": 46967,
       "name": "Otto  Hesse",
-      "year": null,
+      "year": 1840,
       "institution": "Universität Königsberg",
       "dissertation": "De octo punctis intersectionis trium superficium secundi ordinis",
       "advisors": [
@@ -3959,7 +3959,7 @@
     {
       "id": 23194,
       "name": "Johannes Peter Müller",
-      "year": null,
+      "year": 1822,
       "institution": "Rheinische Friedrich-Wilhelms-Universität Bonn",
       "dissertation": "Commentarii de phoronomia animalium",
       "advisors": [
@@ -3981,7 +3981,7 @@
     {
       "id": 27230,
       "name": "Walter William Rouse Ball",
-      "year": null,
+      "year": 1874,
       "institution": "University of Cambridge",
       "dissertation": "No thesis, served as a research student.",
       "advisors": [],
@@ -3993,7 +3993,7 @@
     {
       "id": 18603,
       "name": "Friedrich Wilhelm Bessel",
-      "year": null,
+      "year": 1810,
       "institution": "Georg-August-Universität Göttingen",
       "dissertation": "",
       "advisors": [
@@ -4010,7 +4010,7 @@
     {
       "id": 65162,
       "name": "Heinrich Wilhelm Brandes",
-      "year": null,
+      "year": 1800,
       "institution": "Georg-August-Universität Göttingen",
       "dissertation": "Versuche, die Entfernung, die Geschwindigkeit und die Bahnen der Sternschnuppen zu bestimmen",
       "advisors": [
@@ -4025,7 +4025,7 @@
     {
       "id": 57667,
       "name": "Bernhard Friedrich Thibaut",
-      "year": null,
+      "year": 1796,
       "institution": "Georg-August-Universität Göttingen",
       "dissertation": "Dissertatio historiam controversiae circa numerorum negativorum et impossibilium logarithmos sistens",
       "advisors": [
@@ -4044,7 +4044,7 @@
     {
       "id": 32858,
       "name": "Carl Gottfried Neumann",
-      "year": null,
+      "year": 1856,
       "institution": "Universität Königsberg",
       "dissertation": "De problemate quodam mechanico, quod ad primam classem integralium ultraellipticorum revocatur",
       "advisors": [
@@ -4086,7 +4086,7 @@
     {
       "id": 18589,
       "name": "Wilhelm  Scheibner",
-      "year": null,
+      "year": 1848,
       "institution": "Martin-Luther-Universität Halle-Wittenberg",
       "dissertation": "",
       "advisors": [
@@ -4146,7 +4146,7 @@
     {
       "id": 7402,
       "name": "Julius  Plücker",
-      "year": null,
+      "year": 1823,
       "institution": "Philipps-Universität Marburg",
       "dissertation": "Generalem analyeseos applicationem ad ea quae geometriae altioris et mechanicae basis et fundamenta sunt e serie Tayloria deducit",
       "advisors": [
@@ -4163,7 +4163,7 @@
     {
       "id": 19964,
       "name": "Rudolf Otto Sigismund Lipschitz",
-      "year": null,
+      "year": 1853,
       "institution": "Universität Berlin",
       "dissertation": "Determinatio status magnetici viribus inducentibus commoti in ellipsoide",
       "advisors": [
@@ -4180,7 +4180,7 @@
     {
       "id": 17982,
       "name": "Leopold  Kronecker",
-      "year": null,
+      "year": 1845,
       "institution": "Universität Berlin",
       "dissertation": "De unitatibus complexis",
       "advisors": [
@@ -4207,7 +4207,7 @@
     {
       "id": 140135,
       "name": "Karl Brandan Mollweide",
-      "year": null,
+      "year": 1796,
       "institution": "Universität Helmstedt",
       "dissertation": "",
       "advisors": [
@@ -4221,7 +4221,7 @@
     {
       "id": 170019,
       "name": "Wilhelm Traugott Krug",
-      "year": null,
+      "year": 1791,
       "institution": "Martin-Luther-Universität Halle-Wittenberg",
       "dissertation": "Principium cui religionis Christianae auctor doctrinam de moribus\nsuperstruxit ad tempora eius atque consilia aptissime et maxime accommodate constitutum",
       "advisors": [
@@ -4237,7 +4237,7 @@
     {
       "id": 132487,
       "name": "Joseph  Lovering",
-      "year": null,
+      "year": 1833,
       "institution": "Harvard University",
       "dissertation": "The Application of the Principle of Fluxions to the Solution of Different Problems",
       "advisors": [
@@ -4251,7 +4251,7 @@
     {
       "id": 42016,
       "name": "William  Hopkins",
-      "year": null,
+      "year": 1830,
       "institution": "University of Cambridge",
       "dissertation": "(None)",
       "advisors": [
@@ -4272,7 +4272,7 @@
     {
       "id": 15635,
       "name": "Carl Gustav Jacob Jacobi",
-      "year": null,
+      "year": 1825,
       "institution": "Humboldt-Universität zu Berlin",
       "dissertation": "Disquisitiones Analyticae de Fractionibus Simplicibus",
       "advisors": [
@@ -4292,7 +4292,7 @@
     {
       "id": 101865,
       "name": "Philipp Franz von Walther",
-      "year": null,
+      "year": 1803,
       "institution": "Ludwig-Maximilians-Universität Landshut",
       "dissertation": "",
       "advisors": [
@@ -4309,7 +4309,7 @@
     {
       "id": 104394,
       "name": "Karl Asmund Rudolphi",
-      "year": null,
+      "year": 1795,
       "institution": "Universität Greifswald",
       "dissertation": "Observationes circa vermes intestinales",
       "advisors": [
@@ -4323,7 +4323,7 @@
     {
       "id": 233065,
       "name": "Karl August Franz Josef Mayer",
-      "year": null,
+      "year": 1812,
       "institution": "Eberhard-Karls-Universität Tübingen",
       "dissertation": "Dissertatio inauguralis medica sistens experimenta quaedam in animalibus aqua suffocatis instituta cum corollariis annexis",
       "advisors": [
@@ -4337,7 +4337,7 @@
     {
       "id": 18231,
       "name": "Carl Friedrich Gauß",
-      "year": null,
+      "year": 1799,
       "institution": "Universität Helmstedt",
       "dissertation": "Demonstratio nova theorematis omnem functionem algebraicam rationalem integram unius variabilis in factores reales primi vel secundi gradus resolvi posse",
       "advisors": [
@@ -4365,7 +4365,7 @@
     {
       "id": 66476,
       "name": "Abraham Gotthelf Kästner",
-      "year": null,
+      "year": 1739,
       "institution": "Universität Leipzig",
       "dissertation": "Theoria radicum in aequationibus",
       "advisors": [
@@ -4390,7 +4390,7 @@
     {
       "id": 65161,
       "name": "Georg Christoph Lichtenberg",
-      "year": null,
+      "year": 1765,
       "institution": "Georg-August-Universität Göttingen",
       "dissertation": "",
       "advisors": [
@@ -4410,7 +4410,7 @@
     {
       "id": 57706,
       "name": "Friedrich Julius Richelot",
-      "year": null,
+      "year": 1831,
       "institution": "Universität Königsberg",
       "dissertation": "De resolutione algebraica aequationis X^257=1, sive de divisione circuli per bisectionem anguli septies repetitam in partes 257 inter se aequales commentatio coronata",
       "advisors": [
@@ -4427,7 +4427,7 @@
     {
       "id": 29642,
       "name": "Christian Ludwig Gerling",
-      "year": null,
+      "year": 1812,
       "institution": "Georg-August-Universität Göttingen",
       "dissertation": "Methodi projectionis orthographicae usum ad calculos parallacticos facilitandos explicavit simulque eclipsin solarem die VII. Septbr. 1820 [7 September 1820] apparituram",
       "advisors": [
@@ -4443,7 +4443,7 @@
     {
       "id": 17946,
       "name": "Gustav Peter Lejeune Dirichlet",
-      "year": null,
+      "year": 1827,
       "institution": "Rheinische Friedrich-Wilhelms-Universität Bonn",
       "dissertation": "Partial Results on Fermat's Last Theorem, Exponent 5",
       "advisors": [
@@ -4468,7 +4468,7 @@
     {
       "id": 47064,
       "name": "Martin  Ohm",
-      "year": null,
+      "year": 1811,
       "institution": "Friedrich-Alexander-Universität Erlangen-Nürnberg",
       "dissertation": "De elevatione serierum infinitarum secundi ordinis ad potestatem exponentis indeterminati",
       "advisors": [
@@ -4493,7 +4493,7 @@
     {
       "id": 62547,
       "name": "Johann Franz Friedrich Encke",
-      "year": null,
+      "year": 1825,
       "institution": "",
       "dissertation": "We show a link to Gauß to show a connection in our intellectual heritage.",
       "advisors": [
@@ -4513,7 +4513,7 @@
     {
       "id": 18230,
       "name": "Johann Friedrich Pfaff",
-      "year": null,
+      "year": 1786,
       "institution": "Georg-August-Universität Göttingen",
       "dissertation": "Commentatio de ortibus et occasibus siderum apud auctores classicos commemoratis",
       "advisors": [
@@ -4533,7 +4533,7 @@
     {
       "id": 176139,
       "name": "Karl Ludwig Nitzsch",
-      "year": null,
+      "year": 1790,
       "institution": "Martin-Luther-Universität Halle-Wittenberg",
       "dissertation": "",
       "advisors": [],
@@ -4545,7 +4545,7 @@
     {
       "id": 169078,
       "name": "Johann Jacob Ebert",
-      "year": null,
+      "year": 1761,
       "institution": "Universität Leipzig",
       "dissertation": "Dubitationes Contra Miracula Restitutionis",
       "advisors": [],
@@ -4557,7 +4557,7 @@
     {
       "id": 80886,
       "name": "Benjamin  Peirce",
-      "year": null,
+      "year": 1829,
       "institution": "Harvard University",
       "dissertation": "",
       "advisors": [
@@ -4572,7 +4572,7 @@
     {
       "id": 102043,
       "name": "Adam  Sedgwick",
-      "year": null,
+      "year": 1811,
       "institution": "University of Cambridge",
       "dissertation": "(none)",
       "advisors": [
@@ -4587,7 +4587,7 @@
     {
       "id": 41423,
       "name": "Enno Heeren Dirksen",
-      "year": null,
+      "year": 1820,
       "institution": "Georg-August-Universität Göttingen",
       "dissertation": "Historiae progressuum instrumentorum mensurae angulorum accuratiori interserventium inde a Tob. Meyeri temporibus ad umbratione non de artificio multiplicationis",
       "advisors": [
@@ -4613,7 +4613,7 @@
     {
       "id": 101851,
       "name": "Georg Joseph Beer",
-      "year": null,
+      "year": 1786,
       "institution": "Universität Wien",
       "dissertation": "",
       "advisors": [
@@ -4628,7 +4628,7 @@
     {
       "id": 101852,
       "name": "Johan Peter Frank",
-      "year": null,
+      "year": 1766,
       "institution": "Ruprecht-Karls-Universität Heidelberg",
       "dissertation": "Dissertatio medica curas infantum physico-medicas exhibens",
       "advisors": [
@@ -4642,7 +4642,7 @@
     {
       "id": 106530,
       "name": "Christian Ehrenfried von Weigel",
-      "year": null,
+      "year": 1771,
       "institution": "Georg-August-Universität Göttingen",
       "dissertation": "",
       "advisors": [
@@ -4656,7 +4656,7 @@
     {
       "id": 332255,
       "name": "Wilhelm Gottfried Ploucqet",
-      "year": null,
+      "year": 1766,
       "institution": "Eberhard-Karls-Universität Tübingen",
       "dissertation": "De vi corporum organisatorum assimilatrici",
       "advisors": [
@@ -4670,7 +4670,7 @@
     {
       "id": 57670,
       "name": "Christian August Hausen",
-      "year": null,
+      "year": 1713,
       "institution": "Martin-Luther-Universität Halle-Wittenberg",
       "dissertation": "De corpore scissuris figurisque non cruetando ductu",
       "advisors": [
@@ -4688,7 +4688,7 @@
     {
       "id": 17865,
       "name": "Siméon Denis Poisson",
-      "year": null,
+      "year": 1800,
       "institution": "École Polytechnique",
       "dissertation": "",
       "advisors": [
@@ -4721,7 +4721,7 @@
     {
       "id": 47025,
       "name": "Karl Christian von Langsdorf",
-      "year": null,
+      "year": 1781,
       "institution": "Georg-August-Universität Göttingen and Justus-Liebig-Universität Gießen and Universität Erfurt",
       "dissertation": "",
       "advisors": [
@@ -4765,7 +4765,7 @@
     {
       "id": 102036,
       "name": "Thomas  Jones",
-      "year": null,
+      "year": 1782,
       "institution": "University of Cambridge",
       "dissertation": "(none)",
       "advisors": [
@@ -4795,7 +4795,7 @@
     {
       "id": 57659,
       "name": "Johann Tobias Mayer",
-      "year": null,
+      "year": 1773,
       "institution": "Georg-August-Universität Göttingen",
       "dissertation": "Tetragonometriae specimen",
       "advisors": [
@@ -4813,7 +4813,7 @@
     {
       "id": 101850,
       "name": "Joseph  Barth",
-      "year": null,
+      "year": 1772,
       "institution": "Universität Wien",
       "dissertation": "",
       "advisors": [
@@ -4827,7 +4827,7 @@
     {
       "id": 101855,
       "name": "Georg Matthäus Gattenhof",
-      "year": null,
+      "year": 1748,
       "institution": "Bayerische Julius-Maximilians-Universität Würzburg",
       "dissertation": "De calculo renum et vesicae",
       "advisors": [
@@ -4841,7 +4841,7 @@
     {
       "id": 92586,
       "name": "Johann Christian Polykarp Erxleben",
-      "year": null,
+      "year": 1767,
       "institution": "Georg-August-Universität Göttingen",
       "dissertation": "",
       "advisors": [
@@ -4855,7 +4855,7 @@
     {
       "id": 123957,
       "name": "Ferdinand Christoph Oetinger",
-      "year": null,
+      "year": 1739,
       "institution": "Martin-Luther-Universität Halle-Wittenberg",
       "dissertation": "Dissertatio inauguralis medica, de belladonna, tanquam specifico in cancro, imprimis occulto",
       "advisors": [
@@ -4870,7 +4870,7 @@
     {
       "id": 72669,
       "name": "Johann Christoph Wichmannshausen",
-      "year": null,
+      "year": 1685,
       "institution": "Universität Leipzig",
       "dissertation": "Disputationem Moralem De Divortiis Secundum Jus Naturae",
       "advisors": [
@@ -4884,7 +4884,7 @@
     {
       "id": 128986,
       "name": "Johann Andreas Planer",
-      "year": null,
+      "year": 1686,
       "institution": "Martin-Luther-Universität Halle-Wittenberg",
       "dissertation": "Gynaeceum Doctum, sive Dissertatio Historico-literaria",
       "advisors": [
@@ -4899,7 +4899,7 @@
     {
       "id": 17864,
       "name": "Joseph Louis Lagrange",
-      "year": null,
+      "year": 1754,
       "institution": "",
       "dissertation": "Epistolary Correspondence on Variational Calculus",
       "advisors": [
@@ -4915,7 +4915,7 @@
     {
       "id": 108295,
       "name": "Pierre-Simon  Laplace",
-      "year": null,
+      "year": 1769,
       "institution": "Université de Caen Normandie",
       "dissertation": "Recherches sur le calcul integral aux differences infiniment petites et aux differences finies",
       "advisors": [
@@ -4930,7 +4930,7 @@
     {
       "id": 127668,
       "name": "Johann Georg Büsch",
-      "year": null,
+      "year": 1752,
       "institution": "Georg-August-Universität Göttingen",
       "dissertation": "",
       "advisors": [
@@ -4944,7 +4944,7 @@
     {
       "id": 133301,
       "name": "Thomas  Postlethwaite",
-      "year": null,
+      "year": 1756,
       "institution": "University of Cambridge",
       "dissertation": "Note that Wisson was Postlethwaite's Cambridge tutor",
       "advisors": [
@@ -4958,7 +4958,7 @@
     {
       "id": 103066,
       "name": "John  Cranke",
-      "year": null,
+      "year": 1774,
       "institution": "University of Cambridge",
       "dissertation": "",
       "advisors": [],
@@ -4970,7 +4970,7 @@
     {
       "id": 129421,
       "name": "Edward  Waring",
-      "year": null,
+      "year": 1760,
       "institution": "University of Cambridge",
       "dissertation": "",
       "advisors": [],
@@ -4996,7 +4996,7 @@
     {
       "id": 101853,
       "name": "Anton  von Störck",
-      "year": null,
+      "year": 1757,
       "institution": "Universität Wien",
       "dissertation": "Dissertatio inauguralis medica De conceptu, partu naturali, difficili, et praeternaturali",
       "advisors": [
@@ -5010,7 +5010,7 @@
     {
       "id": 121249,
       "name": "Georg Ludwig Hueber",
-      "year": null,
+      "year": 1726,
       "institution": "Bayerische Julius-Maximilians-Universität Würzburg",
       "dissertation": "Lithographiae Wirceburgensis, ducentis lapidum figuratorum, a potiori insectiformium, prodigiosis imaginibus exornatae specimen primum",
       "advisors": [
@@ -5024,7 +5024,7 @@
     {
       "id": 123968,
       "name": "Michael  Alberti",
-      "year": null,
+      "year": 1703,
       "institution": "Martin-Luther-Universität Halle-Wittenberg",
       "dissertation": "Dissertatio medica, de hypochondriaco-hysterico malo ; Disputatio inauguralis medica de erroribus medicinae practicae",
       "advisors": [
@@ -5038,7 +5038,7 @@
     {
       "id": 21235,
       "name": "Otto  Mencke",
-      "year": null,
+      "year": 1665,
       "institution": "Universität Leipzig",
       "dissertation": "Ex Theologia naturali -- De Absoluta Dei Simplicitate, Micropolitiam, id est Rempublicam In Microcosmo Conspicuam",
       "advisors": [
@@ -5053,7 +5053,7 @@
     {
       "id": 128046,
       "name": "Johann  Pasch",
-      "year": null,
+      "year": 1683,
       "institution": "Martin-Luther-Universität Halle-Wittenberg",
       "dissertation": "Conjunctiones in genere dissertatione astronomico-theorica",
       "advisors": [
@@ -5067,7 +5067,7 @@
     {
       "id": 38586,
       "name": "Leonhard  Euler",
-      "year": null,
+      "year": 1726,
       "institution": "Universität Basel",
       "dissertation": "Dissertatio physica de sono",
       "advisors": [
@@ -5086,7 +5086,7 @@
     {
       "id": 108266,
       "name": "Jean Le Rond d'Alembert",
-      "year": null,
+      "year": 1735,
       "institution": "Collège Mazarin",
       "dissertation": "",
       "advisors": [
@@ -5100,7 +5100,7 @@
     {
       "id": 60782,
       "name": "Johann Andreas Segner",
-      "year": null,
+      "year": 1725,
       "institution": "Friedrich-Schiller-Universität Jena",
       "dissertation": "Dissertatio epistolica qua regulam Harrioti de modo ex aequationum signis numerum radicum tam verarum quam spuriarum eas componentium, cognoscendi, demonstrare, simulque rationem structurae instrumenti novi, sectionibus conicis secundi generis plerisque, ac omnibus primi, describendis apti",
       "advisors": [
@@ -5117,7 +5117,7 @@
     {
       "id": 133367,
       "name": "Stephen  Whisson",
-      "year": null,
+      "year": 1742,
       "institution": "University of Cambridge",
       "dissertation": "Taylor was Whisson's Cambridge tutor",
       "advisors": [
@@ -5131,7 +5131,7 @@
     {
       "id": 101856,
       "name": "Herman  Boerhaave",
-      "year": null,
+      "year": 1690,
       "institution": "Universiteit Leiden",
       "dissertation": "Disputatio philosophica inauguralis de distinctione mentis a corpore",
       "advisors": [
@@ -5171,7 +5171,7 @@
     {
       "id": 101854,
       "name": "Gerard  van Swieten",
-      "year": null,
+      "year": 1725,
       "institution": "Universiteit Leiden",
       "dissertation": "Dissertatio medica inauguralis, de arteriae fabrica et efficacia in corpore humano",
       "advisors": [
@@ -5198,7 +5198,7 @@
     {
       "id": 123977,
       "name": "Georg Ernst Stahl",
-      "year": null,
+      "year": 1684,
       "institution": "Friedrich-Schiller-Universität Jena",
       "dissertation": "Dissertatio medica inauguralis de intestinis : eorumque morbis ac symptomatis, cognoscendis et curandis",
       "advisors": [
@@ -5212,7 +5212,7 @@
     {
       "id": 137705,
       "name": "Jakob  Thomasius",
-      "year": null,
+      "year": 1643,
       "institution": "Universität Leipzig",
       "dissertation": "",
       "advisors": [
@@ -5228,7 +5228,7 @@
     {
       "id": 127962,
       "name": "Michael d. J.  Walther",
-      "year": null,
+      "year": 1656,
       "institution": "Martin-Luther-Universität Halle-Wittenberg",
       "dissertation": "Manichaeismi recensionem historicam ad placidam \"symphilologian\" exponit",
       "advisors": [
@@ -5252,7 +5252,7 @@
     {
       "id": 53410,
       "name": "Johann  Bernoulli",
-      "year": null,
+      "year": 1690,
       "institution": "Universität Basel",
       "dissertation": "Dissertatio de effervescentia et fermentatione; Dissertatio Inauguralis Physico-Anatomica de Motu Musculorum",
       "advisors": [
@@ -5271,7 +5271,7 @@
     {
       "id": 294942,
       "name": "Léonor  Caron",
-      "year": null,
+      "year": 1710,
       "institution": "Collège Mazarin",
       "dissertation": "",
       "advisors": [
@@ -5285,7 +5285,7 @@
     {
       "id": 125886,
       "name": "Georg Erhard Hamberger",
-      "year": null,
+      "year": 1684,
       "institution": "Friedrich-Schiller-Universität Jena",
       "dissertation": "",
       "advisors": [],
@@ -5302,7 +5302,7 @@
     {
       "id": 133368,
       "name": "Walter  Taylor",
-      "year": null,
+      "year": 1723,
       "institution": "University of Cambridge",
       "dissertation": "Note that Smith (who was a student of Cotes) was Taylor's Cambridge tutor",
       "advisors": [
@@ -5316,7 +5316,7 @@
     {
       "id": 115155,
       "name": "Wolferd  Senguerdius",
-      "year": null,
+      "year": 1666,
       "institution": "Athenaeum Illustre Amsterdam",
       "dissertation": "Compendium physicae",
       "advisors": [
@@ -5333,7 +5333,7 @@
     {
       "id": 124000,
       "name": "Rudolf Wilhelm Krause",
-      "year": null,
+      "year": 1667,
       "institution": "Athenaeum Illustre Amsterdam",
       "dissertation": "De Angina",
       "advisors": [
@@ -5348,7 +5348,7 @@
     {
       "id": 143630,
       "name": "Friedrich  Leibniz",
-      "year": null,
+      "year": 1622,
       "institution": "Universität Leipzig",
       "dissertation": "",
       "advisors": [],
@@ -5360,7 +5360,7 @@
     {
       "id": 127801,
       "name": "Aegidius  Strauch",
-      "year": null,
+      "year": 1633,
       "institution": "Martin-Luther-Universität Halle-Wittenberg",
       "dissertation": "Disputatio Physica De Elementis In Genere Et In Specie",
       "advisors": [
@@ -5374,7 +5374,7 @@
     {
       "id": 54440,
       "name": "Jacob  Bernoulli",
-      "year": null,
+      "year": 1676,
       "institution": "Universität Basel",
       "dissertation": "Primi et Secundi Adami Collatio",
       "advisors": [
@@ -5390,7 +5390,7 @@
     {
       "id": 129628,
       "name": "Nikolaus  Eglinger",
-      "year": null,
+      "year": 1660,
       "institution": "Universität Basel",
       "dissertation": "Disputatio medica in universam physiologiam; Disputatio Medica Inauguralis De Angina",
       "advisors": [
@@ -5405,7 +5405,7 @@
     {
       "id": 112689,
       "name": "Pierre  Varignon",
-      "year": null,
+      "year": 1687,
       "institution": "Académie royale des sciences de Paris",
       "dissertation": "Projet d'une nouvelle méchanique avec un examen de l'opinion de M. Borelli sur les propriétez des poids suspendus par des cordes",
       "advisors": [
@@ -5420,7 +5420,7 @@
     {
       "id": 103068,
       "name": "Robert  Smith",
-      "year": null,
+      "year": 1715,
       "institution": "University of Cambridge",
       "dissertation": "",
       "advisors": [
@@ -5434,7 +5434,7 @@
     {
       "id": 115471,
       "name": "Arnold  Senguerdius",
-      "year": null,
+      "year": 1630,
       "institution": "Universiteit Leiden",
       "dissertation": "Dispvtationvm theologicarvm, quæ ex ordine repeti consueverunt, vigesima tertia, de Vetero & Novo Testamento",
       "advisors": [
@@ -5451,7 +5451,7 @@
     {
       "id": 208258,
       "name": "Gerardus Leonardus Blasius",
-      "year": null,
+      "year": 1648,
       "institution": "Universiteit Leiden",
       "dissertation": "",
       "advisors": [],
@@ -5463,7 +5463,7 @@
     {
       "id": 127734,
       "name": "Nicolaus  Zapf",
-      "year": null,
+      "year": 1622,
       "institution": "Friedrich-Schiller-Universität Jena",
       "dissertation": "De Justificatione Hominis Coram Deo",
       "advisors": [
@@ -5477,7 +5477,7 @@
     {
       "id": 143084,
       "name": "Peter  Werenfels",
-      "year": null,
+      "year": 1649,
       "institution": "Universität Basel",
       "dissertation": "Diatribe In Psalmum S. S. Psalterii Primum. De Vnica Et Vera Hominis Felicitate",
       "advisors": [
@@ -5491,7 +5491,7 @@
     {
       "id": 125125,
       "name": "Emmanuel  Stupanus",
-      "year": null,
+      "year": 1613,
       "institution": "Universität Basel",
       "dissertation": "De omnis pleuritidis theoria et generali therapia themata medica",
       "advisors": [
@@ -5507,7 +5507,7 @@
     {
       "id": 129708,
       "name": "Johann Caspar Bauhin",
-      "year": null,
+      "year": 1649,
       "institution": "Universität Basel",
       "dissertation": "Signorum medicorum doctrina, annexa sphygmice, uromantia & crisium theoria, ex praecipuis Galen. & Hippocr. monumentis semeioticis excerpta",
       "advisors": [
@@ -5536,7 +5536,7 @@
     {
       "id": 103067,
       "name": "Roger  Cotes",
-      "year": null,
+      "year": 1706,
       "institution": "University of Cambridge",
       "dissertation": "",
       "advisors": [
@@ -5551,7 +5551,7 @@
     {
       "id": 115395,
       "name": "Antonius  Thysius",
-      "year": null,
+      "year": 1582,
       "institution": "Universiteit Leiden",
       "dissertation": "",
       "advisors": [
@@ -5565,7 +5565,7 @@
     {
       "id": 115008,
       "name": "Franck Pieterszoon Burgersdijk",
-      "year": null,
+      "year": 1614,
       "institution": "Universiteit Leiden",
       "dissertation": "",
       "advisors": [
@@ -5581,7 +5581,7 @@
     {
       "id": 127424,
       "name": "Erasmus  Schmidt",
-      "year": null,
+      "year": 1592,
       "institution": "Martin-Luther-Universität Halle-Wittenberg",
       "dissertation": "",
       "advisors": [
@@ -5597,7 +5597,7 @@
     {
       "id": 143083,
       "name": "Theodor  Zwinger, Jr.",
-      "year": null,
+      "year": 1630,
       "institution": "Universität Basel",
       "dissertation": "De Illustri Sententia Apostolica Hebr. c. 13. V. 8",
       "advisors": [
@@ -5611,7 +5611,7 @@
     {
       "id": 130248,
       "name": "Petrus  Ryff",
-      "year": null,
+      "year": 1584,
       "institution": "Universität Basel",
       "dissertation": "De Affectibus cordis",
       "advisors": [
@@ -5625,7 +5625,7 @@
     {
       "id": 60985,
       "name": "Gottfried Wilhelm Leibniz",
-      "year": null,
+      "year": 1666,
       "institution": "Universität Leipzig",
       "dissertation": "Disputatio arithmetica de complexionibus",
       "advisors": [
@@ -5641,7 +5641,7 @@
     {
       "id": 74313,
       "name": "Isaac  Newton",
-      "year": null,
+      "year": 1668,
       "institution": "University of Cambridge",
       "dissertation": "Pulleyn was his official tutor, whereas Barrow was NOT a formal advisor but probably had the greatest influence on the young Newton",
       "advisors": [],
@@ -5655,7 +5655,7 @@
     {
       "id": 152238,
       "name": "Lambert  Daneau",
-      "year": null,
+      "year": 1553,
       "institution": "Collège de France",
       "dissertation": "",
       "advisors": [
@@ -5669,7 +5669,7 @@
     {
       "id": 114992,
       "name": "Gilbert  Jacchaeus",
-      "year": null,
+      "year": 1601,
       "institution": "University of St. Andrews",
       "dissertation": "De libero arbitrio;",
       "advisors": [
@@ -5686,7 +5686,7 @@
     {
       "id": 127898,
       "name": "Sethus  Calvisius",
-      "year": null,
+      "year": 1582,
       "institution": "Universität Leipzig",
       "dissertation": "",
       "advisors": [
@@ -5713,7 +5713,7 @@
     {
       "id": 143082,
       "name": "Sebastian  Beck",
-      "year": null,
+      "year": 1610,
       "institution": "Universität Basel",
       "dissertation": "Illustre Axioma, Ivstvs Avtem Fide Sva Vivet",
       "advisors": [
@@ -5727,7 +5727,7 @@
     {
       "id": 182090,
       "name": "Felix  Plater",
-      "year": null,
+      "year": 1557,
       "institution": "Université de Montpellier",
       "dissertation": "",
       "advisors": [
@@ -5741,7 +5741,7 @@
     {
       "id": 60984,
       "name": "Erhard  Weigel",
-      "year": null,
+      "year": 1650,
       "institution": "Universität Leipzig",
       "dissertation": "De ascensionibus et descensionibus astronomicis dissertatio",
       "advisors": [
@@ -5769,7 +5769,7 @@
     {
       "id": 131606,
       "name": "Adrien  Turnèbe",
-      "year": null,
+      "year": 1532,
       "institution": "Collège de France",
       "dissertation": "",
       "advisors": [
@@ -5784,7 +5784,7 @@
     {
       "id": 128122,
       "name": "Duncan  Liddel",
-      "year": null,
+      "year": 1582,
       "institution": "Europa-Universität Viadrina Frankfurt an der Oder and Universität Breslau",
       "dissertation": "Themata De Melancholia",
       "advisors": [
@@ -5801,7 +5801,7 @@
     {
       "id": 127864,
       "name": "Nikolaus  Selnecker",
-      "year": null,
+      "year": 1570,
       "institution": "Martin-Luther-Universität Halle-Wittenberg",
       "dissertation": "",
       "advisors": [],
@@ -5813,7 +5813,7 @@
     {
       "id": 127790,
       "name": "Moritz Valentin Steinmetz",
-      "year": null,
+      "year": 1550,
       "institution": "Universität Leipzig",
       "dissertation": "De Peste Capita Disputationis Ordinariae",
       "advisors": [
@@ -5829,7 +5829,7 @@
     {
       "id": 143045,
       "name": "Johann Jacob Grynaeus",
-      "year": null,
+      "year": 1559,
       "institution": "Universität Basel",
       "dissertation": "",
       "advisors": [
@@ -5843,7 +5843,7 @@
     {
       "id": 158329,
       "name": "Guillaume  Rondelet",
-      "year": null,
+      "year": 1529,
       "institution": "Université de Paris",
       "dissertation": "",
       "advisors": [
@@ -5857,7 +5857,7 @@
     {
       "id": 144221,
       "name": "Philipp  Müller",
-      "year": null,
+      "year": 1604,
       "institution": "Universität Leipzig",
       "dissertation": "",
       "advisors": [
@@ -5871,7 +5871,7 @@
     {
       "id": 131546,
       "name": "Jacques  Toussain",
-      "year": null,
+      "year": 1521,
       "institution": "Université de Paris",
       "dissertation": "",
       "advisors": [
@@ -5886,7 +5886,7 @@
     {
       "id": 128305,
       "name": "John  Craig",
-      "year": null,
+      "year": 1580,
       "institution": "Universität Basel",
       "dissertation": "Diexodus medica de hepatis dispositionibus",
       "advisors": [
@@ -5900,7 +5900,7 @@
     {
       "id": 128348,
       "name": "Paul  Wittich",
-      "year": null,
+      "year": 1566,
       "institution": "Martin-Luther-Universität Halle-Wittenberg and Universität Leipzig",
       "dissertation": "",
       "advisors": [
@@ -5914,7 +5914,7 @@
     {
       "id": 126827,
       "name": "Georg Joachim von Leuchen Rheticus",
-      "year": null,
+      "year": 1535,
       "institution": "Martin-Luther-Universität Halle-Wittenberg",
       "dissertation": "",
       "advisors": [
@@ -5944,7 +5944,7 @@
     {
       "id": 182092,
       "name": "Simon  Sulzer",
-      "year": null,
+      "year": 1531,
       "institution": "Collège Saint-Guillaume à Strasbourg",
       "dissertation": "",
       "advisors": [
@@ -5958,7 +5958,7 @@
     {
       "id": 119159,
       "name": "Johannes Winter von Andernach",
-      "year": null,
+      "year": 1527,
       "institution": "Université Catholique de Louvain",
       "dissertation": "",
       "advisors": [
@@ -5975,7 +5975,7 @@
     {
       "id": 144220,
       "name": "Christoph  Meurer",
-      "year": null,
+      "year": 1582,
       "institution": "Universität Leipzig",
       "dissertation": "De Iride seu Arcu coelesti",
       "advisors": [
@@ -5989,7 +5989,7 @@
     {
       "id": 131517,
       "name": "Guillaume  Budé",
-      "year": null,
+      "year": 1486,
       "institution": "Université d'Orléans and Université de Paris",
       "dissertation": "",
       "advisors": [
@@ -6005,7 +6005,7 @@
     {
       "id": 125148,
       "name": "Theodor  Zwinger",
-      "year": null,
+      "year": 1553,
       "institution": "Collège de France",
       "dissertation": "",
       "advisors": [
@@ -6020,7 +6020,7 @@
     {
       "id": 127092,
       "name": "Valentin  Thau",
-      "year": null,
+      "year": 1555,
       "institution": "Universität Leipzig",
       "dissertation": "",
       "advisors": [
@@ -6035,7 +6035,7 @@
     {
       "id": 126730,
       "name": "Johannes  Volmar",
-      "year": null,
+      "year": 1515,
       "institution": "Martin-Luther-Universität Halle-Wittenberg",
       "dissertation": "",
       "advisors": [
@@ -6049,7 +6049,7 @@
     {
       "id": 126177,
       "name": "Nicolaus (Mikołaj Kopernik) Copernicus",
-      "year": null,
+      "year": 1499,
       "institution": "Università di Bologna and Università degli Studi di Padova and Uniwersytet Jagielloński and Università degli Studi di Ferrara",
       "dissertation": "",
       "advisors": [
@@ -6064,7 +6064,7 @@
     {
       "id": 131399,
       "name": "Wolfgang Fabricius Capito",
-      "year": null,
+      "year": 1506,
       "institution": "Universität Ingolstadt",
       "dissertation": "",
       "advisors": [
@@ -6079,7 +6079,7 @@
     {
       "id": 126571,
       "name": "Rutger  Rescius",
-      "year": null,
+      "year": 1513,
       "institution": "Université de Paris",
       "dissertation": "",
       "advisors": [
@@ -6106,7 +6106,7 @@
     {
       "id": 131541,
       "name": "Janus  Lascaris",
-      "year": null,
+      "year": 1472,
       "institution": "Università degli Studi di Padova",
       "dissertation": "",
       "advisors": [
@@ -6122,7 +6122,7 @@
     {
       "id": 125047,
       "name": "Petrus (Pierre de La Ramée) Ramus",
-      "year": null,
+      "year": 1536,
       "institution": "Collège de Navarre",
       "dissertation": "Quaecumque ab Aristotele dicta essent, commentitia esse",
       "advisors": [
@@ -6139,7 +6139,7 @@
     {
       "id": 127011,
       "name": "Johannes  Hommel",
-      "year": null,
+      "year": 1543,
       "institution": "Martin-Luther-Universität Halle-Wittenberg",
       "dissertation": "",
       "advisors": [
@@ -6155,7 +6155,7 @@
     {
       "id": 126724,
       "name": "Bonifazius  Erasmi",
-      "year": null,
+      "year": 1509,
       "institution": "Martin-Luther-Universität Halle-Wittenberg",
       "dissertation": "",
       "advisors": [],
@@ -6167,7 +6167,7 @@
     {
       "id": 126113,
       "name": "Leonhard (Leonard Vitreatoris z Dobczyc) von Dobschütz",
-      "year": null,
+      "year": 1489,
       "institution": "Uniwersytet Jagielloński",
       "dissertation": "",
       "advisors": [],
@@ -6179,7 +6179,7 @@
     {
       "id": 126112,
       "name": "Domenico Maria Novara da Ferrara",
-      "year": null,
+      "year": 1483,
       "institution": "Università degli Studi di Firenze",
       "dissertation": "",
       "advisors": [
@@ -6194,7 +6194,7 @@
     {
       "id": 126659,
       "name": "Ulrich  Zasius",
-      "year": null,
+      "year": 1501,
       "institution": "Albert-Ludwigs-Universität Freiburg im Breisgau",
       "dissertation": "",
       "advisors": [],
@@ -6207,7 +6207,7 @@
     {
       "id": 127181,
       "name": "Girolamo (Hieronymus Aleander) Aleandro",
-      "year": null,
+      "year": 1499,
       "institution": "Università degli Studi di Padova",
       "dissertation": "",
       "advisors": [
@@ -6223,7 +6223,7 @@
     {
       "id": 131561,
       "name": "Basilios  Bessarion",
-      "year": null,
+      "year": 1436,
       "institution": "Mystras",
       "dissertation": "",
       "advisors": [
@@ -6239,7 +6239,7 @@
     {
       "id": 131576,
       "name": "Demetrios  Chalcocondyles",
-      "year": null,
+      "year": 1452,
       "institution": "Mystras and Accademia Romana",
       "dissertation": "",
       "advisors": [
@@ -6253,7 +6253,7 @@
     {
       "id": 125665,
       "name": "Johannes (Johann Sturm) Sturmius",
-      "year": null,
+      "year": 1527,
       "institution": "Université Catholique de Louvain",
       "dissertation": "",
       "advisors": [
@@ -6271,7 +6271,7 @@
     {
       "id": 126736,
       "name": "Erasmus  Reinhold",
-      "year": null,
+      "year": 1535,
       "institution": "Martin-Luther-Universität Halle-Wittenberg",
       "dissertation": "",
       "advisors": [
@@ -6291,7 +6291,7 @@
     {
       "id": 126956,
       "name": "Philipp  Melanchthon",
-      "year": null,
+      "year": 1511,
       "institution": "Ruprecht-Karls-Universität Heidelberg",
       "dissertation": "",
       "advisors": [
@@ -6308,7 +6308,7 @@
     {
       "id": 126109,
       "name": "Johannes Müller Regiomontanus",
-      "year": null,
+      "year": 1457,
       "institution": "Universität Leipzig and Universität Wien",
       "dissertation": "",
       "advisors": [
@@ -6347,7 +6347,7 @@
     {
       "id": 131447,
       "name": "Scipione  Fortiguerra",
-      "year": null,
+      "year": 1493,
       "institution": "Università degli Studi di Firenze",
       "dissertation": "",
       "advisors": [
@@ -6361,7 +6361,7 @@
     {
       "id": 131575,
       "name": "Georgios Plethon Gemistos",
-      "year": null,
+      "year": 1380,
       "institution": "",
       "dissertation": "Nómoi (Book of Laws)",
       "advisors": [
@@ -6378,7 +6378,7 @@
     {
       "id": 131584,
       "name": "Theodoros  Gazes",
-      "year": null,
+      "year": 1433,
       "institution": "Università di Mantova and Imperial University of Constantinople",
       "dissertation": "",
       "advisors": [
@@ -6393,7 +6393,7 @@
     {
       "id": 125658,
       "name": "Nicolas (Nicolaes Cleynaerts) Clénard",
-      "year": null,
+      "year": 1515,
       "institution": "Université Catholique de Louvain",
       "dissertation": "",
       "advisors": [
@@ -6408,7 +6408,7 @@
     {
       "id": 126667,
       "name": "Jakob  Milich",
-      "year": null,
+      "year": 1520,
       "institution": "Albert-Ludwigs-Universität Freiburg im Breisgau",
       "dissertation": "",
       "advisors": [
@@ -6422,7 +6422,7 @@
     {
       "id": 127107,
       "name": "Johannes  Stöffler",
-      "year": null,
+      "year": 1476,
       "institution": "Universität Ingolstadt",
       "dissertation": "",
       "advisors": [],
@@ -6435,7 +6435,7 @@
     {
       "id": 126087,
       "name": "Georg  von Peuerbach",
-      "year": null,
+      "year": 1440,
       "institution": "Universität Wien",
       "dissertation": "",
       "advisors": [
@@ -6449,7 +6449,7 @@
     {
       "id": 131535,
       "name": "Angelo  Poliziano",
-      "year": null,
+      "year": 1477,
       "institution": "Università degli Studi di Firenze",
       "dissertation": "",
       "advisors": [
@@ -6492,7 +6492,7 @@
     {
       "id": 134873,
       "name": "Vittorino  da Feltre",
-      "year": null,
+      "year": 1416,
       "institution": "Università degli Studi di Padova",
       "dissertation": "",
       "advisors": [
@@ -6510,7 +6510,7 @@
     {
       "id": 125681,
       "name": "Jacobus (Jacques Masson) Latomus",
-      "year": null,
+      "year": 1502,
       "institution": "Collège de Montaigu",
       "dissertation": "",
       "advisors": [
@@ -6524,7 +6524,7 @@
     {
       "id": 125682,
       "name": "Jan (Johannes Campensis) van Campen",
-      "year": null,
+      "year": 1519,
       "institution": "Universität Ingolstadt",
       "dissertation": "",
       "advisors": [
@@ -6538,7 +6538,7 @@
     {
       "id": 125938,
       "name": "Desiderius  Erasmus",
-      "year": null,
+      "year": 1497,
       "institution": "Collège de Montaigu",
       "dissertation": "",
       "advisors": [
@@ -6554,7 +6554,7 @@
     {
       "id": 126887,
       "name": "Johannes  von Gmunden",
-      "year": null,
+      "year": 1406,
       "institution": "Universität Wien",
       "dissertation": "",
       "advisors": [
@@ -6568,7 +6568,7 @@
     {
       "id": 131539,
       "name": "Marsilio  Ficino",
-      "year": null,
+      "year": 1462,
       "institution": "Università degli Studi di Firenze",
       "dissertation": "",
       "advisors": [
@@ -6596,7 +6596,7 @@
     {
       "id": 146365,
       "name": "Nilos  Kabasilas",
-      "year": null,
+      "year": 1363,
       "institution": "",
       "dissertation": "",
       "advisors": [
@@ -6610,7 +6610,7 @@
     {
       "id": 298290,
       "name": "Gasparino  da Barzizza",
-      "year": null,
+      "year": 1413,
       "institution": "Università degli Studi di Padova",
       "dissertation": "",
       "advisors": [],
@@ -6622,7 +6622,7 @@
     {
       "id": 298304,
       "name": "Giovanni  Conversini",
-      "year": null,
+      "year": 1363,
       "institution": "Università di Bologna",
       "dissertation": "",
       "advisors": [],
@@ -6635,7 +6635,7 @@
     {
       "id": 134931,
       "name": "Guarino  da Verona",
-      "year": null,
+      "year": 1408,
       "institution": "Imperial University of Constantinople",
       "dissertation": "",
       "advisors": [
@@ -6650,7 +6650,7 @@
     {
       "id": 125888,
       "name": "Jan  Standonck",
-      "year": null,
+      "year": 1474,
       "institution": "Collège Sainte-Barbe",
       "dissertation": "",
       "advisors": [],
@@ -6665,7 +6665,7 @@
     {
       "id": 125760,
       "name": "Johann (Johannes Kapnion) Reuchlin",
-      "year": null,
+      "year": 1477,
       "institution": "Universität Basel",
       "dissertation": "",
       "advisors": [
@@ -6681,7 +6681,7 @@
     {
       "id": 125898,
       "name": "Alexander  Hegius",
-      "year": null,
+      "year": 1463,
       "institution": "Universität Rostock",
       "dissertation": "",
       "advisors": [
@@ -6696,7 +6696,7 @@
     {
       "id": 127264,
       "name": "Heinrich  von Langenstein",
-      "year": null,
+      "year": 1363,
       "institution": "Université de Paris",
       "dissertation": "",
       "advisors": [
@@ -6710,7 +6710,7 @@
     {
       "id": 131444,
       "name": "Johannes  Argyropoulos",
-      "year": null,
+      "year": 1444,
       "institution": "Università degli Studi di Padova",
       "dissertation": "",
       "advisors": [
@@ -6741,7 +6741,7 @@
     {
       "id": 176844,
       "name": "Gregory  Palamas",
-      "year": null,
+      "year": 1316,
       "institution": "Imperial University of Constantinople",
       "dissertation": "",
       "advisors": [
@@ -6769,7 +6769,7 @@
     {
       "id": 128012,
       "name": "Rudolf  Agricola",
-      "year": null,
+      "year": 1478,
       "institution": "Università degli Studi di Ferrara",
       "dissertation": "",
       "advisors": [
@@ -6799,7 +6799,7 @@
     {
       "id": 199357,
       "name": "Nicole  Oresme",
-      "year": null,
+      "year": 1356,
       "institution": "Université de Paris",
       "dissertation": "",
       "advisors": [],
@@ -6811,7 +6811,7 @@
     {
       "id": 184631,
       "name": "Theodore  Metochites",
-      "year": null,
+      "year": 1315,
       "institution": "Imperial University of Constantinople",
       "dissertation": "",
       "advisors": [
@@ -6826,7 +6826,7 @@
     {
       "id": 179836,
       "name": "Geert (Gerardus Magnus) Groote",
-      "year": null,
+      "year": 1358,
       "institution": "Université de Paris",
       "dissertation": "",
       "advisors": [],
@@ -6838,7 +6838,7 @@
     {
       "id": 179837,
       "name": "Florens (Florentius Radwyn) Radewyns",
-      "year": null,
+      "year": 1378,
       "institution": "Charles University",
       "dissertation": "",
       "advisors": [],
@@ -6850,7 +6850,7 @@
     {
       "id": 184632,
       "name": "Manuel  Bryennios",
-      "year": null,
+      "year": 1300,
       "institution": "Imperial University of Constantinople",
       "dissertation": "",
       "advisors": [
@@ -6864,7 +6864,7 @@
     {
       "id": 201288,
       "name": "Gregory  Chioniadis",
-      "year": null,
+      "year": 1296,
       "institution": "Ilkhans Court at Tabriz",
       "dissertation": "",
       "advisors": [
@@ -6924,7 +6924,7 @@
     {
       "id": 287480,
       "name": "Athīr al-Dīn  al-Mufaḍḍal al-Abharī",
-      "year": null,
+      "year": 1264,
       "institution": "",
       "dissertation": "",
       "advisors": [
@@ -6966,7 +6966,7 @@
     {
       "id": 287479,
       "name": "Qutb al-Dīn  Ibrāhīm al-Mīṣrī",
-      "year": null,
+      "year": 1222,
       "institution": "",
       "dissertation": "",
       "advisors": [
@@ -6980,7 +6980,7 @@
     {
       "id": 295739,
       "name": "Ghiyāth al-Dīn Abū al-Fatḥ ʿUmar ibn Ibrāhīm al-Khayyām al-Nīsābūrī",
-      "year": null,
+      "year": 1068,
       "institution": "",
       "dissertation": "",
       "advisors": [
@@ -8577,6 +8577,8 @@
   "meta": {
     "generated": "2026-03-23T13:32:23.523346+00:00",
     "node_count": 338,
-    "edge_count": 375
+    "edge_count": 375,
+    "patched": "2026-03-24T05:59:20.281758+00:00",
+    "patch_added_years": 196
   }
 }
