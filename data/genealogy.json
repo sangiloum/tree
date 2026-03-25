@@ -323,6 +323,89 @@
       "dimag_status": "former"
     },
     {
+      "id": 14897,
+      "name": "Woong  Kook",
+      "year": 1997,
+      "institution": "Stanford University",
+      "dissertation": "Categories Of Acyclic Graphs And Automorphisms Of Free Groups",
+      "advisors": [
+        14885
+      ],
+      "students": [
+        285192,
+        255586,
+        198064,
+        "no-mgp-Jinha Kim"
+      ],
+      "dimag_status": null
+    },
+    {
+      "id": 99061,
+      "name": "Gregory Z. Gutin",
+      "year": 1993,
+      "institution": "Tel Aviv University",
+      "dissertation": "Paths and Cycles in Directed Graphs",
+      "advisors": [
+        58918
+      ],
+      "students": [
+        163111,
+        "no-mgp-Eun Jung Kim"
+      ],
+      "dimag_status": null
+    },
+    {
+      "id": 163442,
+      "name": "Shubhangi  Saraf",
+      "year": 2012,
+      "institution": "Massachusetts Institute of Technology",
+      "dissertation": "The method of multiplicities",
+      "advisors": [
+        72850
+      ],
+      "students": [
+        217250,
+        224197,
+        298998,
+        "no-mgp-Ben Lund"
+      ],
+      "dimag_status": null
+    },
+    {
+      "id": 172829,
+      "name": "Saket  Saurabh",
+      "year": 2008,
+      "institution": "The Institute of Mathematical Sciences, Chennai",
+      "dissertation": "Exact algorithms for optimization and parameterized versions of some graph theoretic problems",
+      "advisors": [
+        67044
+      ],
+      "students": [
+        283032,
+        336374,
+        172830,
+        "no-mgp-Roohani Sharma"
+      ],
+      "dimag_status": null
+    },
+    {
+      "id": 250938,
+      "name": "Stéphan  Thomassé",
+      "year": 1995,
+      "institution": "Université Claude Bernard Lyon 1",
+      "dissertation": "Catégoricité, belordre et décomposabilité des relations",
+      "advisors": [
+        23645
+      ],
+      "students": [
+        250937,
+        268580,
+        271407,
+        "no-mgp-Colin Geniet"
+      ],
+      "dimag_status": null
+    },
+    {
       "id": 41257,
       "name": "Uday Sankara Reddy",
       "year": 1986,
@@ -338,19 +421,6 @@
         41259,
         41258
       ],
-      "dimag_status": null
-    },
-    {
-      "id": 315591,
-      "name": "Hoil  Lee",
-      "year": 2023,
-      "institution": "Korea Advanced Institute of Science and Technology (KAIST)",
-      "dissertation": "Infinitely Wide Neural Networks with Heavy-tail and Inter-node Dependence",
-      "advisors": [
-        72524,
-        69604
-      ],
-      "students": [],
       "dimag_status": null
     },
     {
@@ -379,18 +449,6 @@
         193724,
         142527
       ],
-      "dimag_status": null
-    },
-    {
-      "id": 231364,
-      "name": "Jisu  Jeong",
-      "year": 2018,
-      "institution": "Korea Advanced Institute of Science and Technology (KAIST)",
-      "dissertation": "Parameterized algorithms for width parameters",
-      "advisors": [
-        92455
-      ],
-      "students": [],
       "dimag_status": null
     },
     {
@@ -764,6 +822,169 @@
       "students": [
         325616,
         325618
+      ],
+      "dimag_status": null
+    },
+    {
+      "id": 14885,
+      "name": "Gunnar Erik Carlsson",
+      "year": 1976,
+      "institution": "Stanford University",
+      "dissertation": "Operations in Connective K-Theory and Associated Cohomology Theories",
+      "advisors": [
+        18610
+      ],
+      "students": [
+        138760,
+        234893,
+        105621,
+        158101,
+        24855,
+        24856,
+        138905,
+        24858,
+        198045,
+        24862,
+        112292,
+        180903,
+        194215,
+        98347,
+        14897,
+        18867,
+        18868,
+        18869,
+        271551,
+        125759,
+        18627,
+        18628,
+        18629,
+        18630,
+        104009,
+        177229,
+        89296,
+        167137,
+        184171,
+        184172,
+        184173,
+        184174,
+        178415,
+        37999,
+        127089,
+        142205
+      ],
+      "dimag_status": null
+    },
+    {
+      "id": 58918,
+      "name": "Noga M. Alon",
+      "year": 1983,
+      "institution": "Hebrew University of Jerusalem",
+      "dissertation": "Extremal Problems in Combinatorics",
+      "advisors": [
+        58897
+      ],
+      "students": [
+        135237,
+        269714,
+        74772,
+        127003,
+        197020,
+        167069,
+        183969,
+        74401,
+        162596,
+        336165,
+        117220,
+        117221,
+        117222,
+        117223,
+        117224,
+        117225,
+        298096,
+        283761,
+        261300,
+        103092,
+        99061,
+        83256,
+        60733,
+        184254,
+        48895
+      ],
+      "dimag_status": null
+    },
+    {
+      "id": 72850,
+      "name": "Madhu  Sudan",
+      "year": 1992,
+      "institution": "University of California, Berkeley",
+      "dissertation": "Efficient Checking of Polynomials and Proofs and the Hardness of Approximation Problems",
+      "advisors": [
+        38686
+      ],
+      "students": [
+        44100,
+        302981,
+        224774,
+        76795,
+        138440,
+        199945,
+        155978,
+        158167,
+        100569,
+        55201,
+        101731,
+        104619,
+        155823,
+        286513,
+        163442,
+        163443,
+        239734,
+        155959,
+        262456,
+        294393,
+        76794,
+        155963
+      ],
+      "dimag_status": null
+    },
+    {
+      "id": 67044,
+      "name": "Venkatesh  Raman",
+      "year": 1991,
+      "institution": "University of Waterloo",
+      "dissertation": "Sorting In-Place with Minimum Data Movement",
+      "advisors": [
+        65036
+      ],
+      "students": [
+        336389,
+        96435,
+        251027,
+        336374,
+        172829,
+        172830
+      ],
+      "dimag_status": null
+    },
+    {
+      "id": 23645,
+      "name": "Maurice Andre Pouzet",
+      "year": 1978,
+      "institution": "Université Claude Bernard Lyon 1",
+      "dissertation": "Sur la th\\'eorie des relations",
+      "advisors": [
+        24547
+      ],
+      "students": [
+        207232,
+        81186,
+        206467,
+        151333,
+        206187,
+        24556,
+        206189,
+        250938,
+        58972
       ],
       "dimag_status": null
     },
@@ -1274,6 +1495,152 @@
       "dimag_status": null
     },
     {
+      "id": 18610,
+      "name": "R. James (Richard) Milgram",
+      "year": 1964,
+      "institution": "University of Minnesota - Twin Cities",
+      "dissertation": "The Homology Ring of Symmetric Products of Moore Spaces",
+      "advisors": [
+        4638
+      ],
+      "students": [
+        18626,
+        15171,
+        9926,
+        3144,
+        14885,
+        18613,
+        18614,
+        18615,
+        18616,
+        18617,
+        18618,
+        18619,
+        18620,
+        18621,
+        18622,
+        18623
+      ],
+      "dimag_status": null
+    },
+    {
+      "id": 58897,
+      "name": "Micha Asher Perles",
+      "year": 1964,
+      "institution": "Hebrew University of Jerusalem",
+      "dissertation": "",
+      "advisors": [
+        26965
+      ],
+      "students": [
+        62336,
+        181568,
+        206050,
+        99075,
+        58918,
+        151319,
+        84365,
+        103023,
+        146835,
+        63895
+      ],
+      "dimag_status": null
+    },
+    {
+      "id": 38686,
+      "name": "Umesh Virkumar Vazirani",
+      "year": 1986,
+      "institution": "University of California, Berkeley",
+      "dissertation": "Randomness, Adversaries and Computation",
+      "advisors": [
+        13373
+      ],
+      "students": [
+        61632,
+        178945,
+        70148,
+        93830,
+        240013,
+        273360,
+        273361,
+        72850,
+        273362,
+        134099,
+        273363,
+        273365,
+        92055,
+        273366,
+        273367,
+        273368,
+        170192,
+        273364,
+        70107,
+        69543,
+        237931,
+        178353,
+        119734,
+        109495,
+        173686,
+        59769
+      ],
+      "dimag_status": null
+    },
+    {
+      "id": 65036,
+      "name": "J. Ian  Munro",
+      "year": 1971,
+      "institution": "University of Toronto",
+      "dissertation": "Some Results in the Study of Algorithms",
+      "advisors": [
+        42043
+      ],
+      "students": [
+        67073,
+        67014,
+        67015,
+        67016,
+        67017,
+        67018,
+        67019,
+        67020,
+        67021,
+        67022,
+        67092,
+        276570,
+        234076,
+        172960,
+        193442,
+        67044,
+        66981,
+        67045,
+        181234,
+        232499,
+        145652,
+        145653,
+        145654,
+        145655,
+        65084,
+        301501
+      ],
+      "dimag_status": null
+    },
+    {
+      "id": 24547,
+      "name": "Ernest  Corominas",
+      "year": 1952,
+      "institution": "Université de Paris",
+      "dissertation": "",
+      "advisors": [
+        24548
+      ],
+      "students": [
+        180077,
+        81180,
+        23645
+      ],
+      "dimag_status": null
+    },
+    {
       "id": 25275,
       "name": "Richard Manning Karp",
       "year": 1959,
@@ -1614,44 +1981,6 @@
       "dimag_status": null
     },
     {
-      "id": 58918,
-      "name": "Noga M. Alon",
-      "year": 1983,
-      "institution": "Hebrew University of Jerusalem",
-      "dissertation": "Extremal Problems in Combinatorics",
-      "advisors": [
-        58897
-      ],
-      "students": [
-        135237,
-        269714,
-        74772,
-        127003,
-        197020,
-        167069,
-        183969,
-        74401,
-        162596,
-        336165,
-        117220,
-        117221,
-        117222,
-        117223,
-        117224,
-        117225,
-        298096,
-        283761,
-        261300,
-        103092,
-        99061,
-        83256,
-        60733,
-        184254,
-        48895
-      ],
-      "dimag_status": null
-    },
-    {
       "id": 11321,
       "name": "Frigyes (Frédéric) Riesz",
       "year": 1902,
@@ -1759,6 +2088,175 @@
         52907,
         23371,
         25717
+      ],
+      "dimag_status": null
+    },
+    {
+      "id": 4638,
+      "name": "Alfred  Aeppli",
+      "year": 1956,
+      "institution": "ETH Zürich",
+      "dissertation": "Modifikation von reelen und komplexen Mannigfaltigkeiten (Modification of real and Complex Manifolds)",
+      "advisors": [
+        18355,
+        17409
+      ],
+      "students": [
+        1796,
+        2856,
+        2891,
+        2317,
+        18610,
+        18611,
+        18612,
+        2932
+      ],
+      "dimag_status": null
+    },
+    {
+      "id": 26965,
+      "name": "Branko  Grünbaum",
+      "year": 1957,
+      "institution": "Hebrew University of Jerusalem",
+      "dissertation": "On Some Properties of Minkowski Spaces (in Hebrew)",
+      "advisors": [
+        48145
+      ],
+      "students": [
+        60928,
+        26948,
+        44237,
+        147854,
+        28174,
+        58897,
+        116376,
+        62048,
+        28075,
+        28076,
+        28077,
+        28078,
+        28079,
+        28080,
+        28081,
+        28082,
+        28144,
+        27643,
+        27644
+      ],
+      "dimag_status": null
+    },
+    {
+      "id": 13373,
+      "name": "Manuel  Blum",
+      "year": 1964,
+      "institution": "Massachusetts Institute of Technology",
+      "dissertation": "A Machine-Independent Theory of the Complexity of Recursive Functions",
+      "advisors": [
+        6869
+      ],
+      "students": [
+        100354,
+        31748,
+        177276,
+        241808,
+        236057,
+        38686,
+        50082,
+        35879,
+        11563,
+        78255,
+        117553,
+        61380,
+        43900,
+        152521,
+        32459,
+        64971,
+        77138,
+        192341,
+        192342,
+        192343,
+        192344,
+        192345,
+        62298,
+        192348,
+        90589,
+        192349,
+        58854,
+        82551,
+        31472,
+        31473,
+        31474,
+        82549,
+        82550,
+        26869,
+        82552,
+        82553,
+        82554,
+        82555,
+        82556
+      ],
+      "dimag_status": null
+    },
+    {
+      "id": 42043,
+      "name": "Allan Bertram Borodin",
+      "year": 1969,
+      "institution": "Cornell University",
+      "dissertation": "Computational Complexity and the Existence of Complexity Gaps",
+      "advisors": [
+        10404,
+        9041
+      ],
+      "students": [
+        333250,
+        303299,
+        71944,
+        328137,
+        65036,
+        344782,
+        85072,
+        85073,
+        84754,
+        156307,
+        84756,
+        84757,
+        84758,
+        84759,
+        85074,
+        190233,
+        71762,
+        73172,
+        58780,
+        255780,
+        72235,
+        147121,
+        176625
+      ],
+      "dimag_status": null
+    },
+    {
+      "id": 24548,
+      "name": "Arnaud  Denjoy",
+      "year": 1909,
+      "institution": "École Normale Supérieure Paris",
+      "dissertation": "Sur les produits canoniques d'ordre infini",
+      "advisors": [
+        105158
+      ],
+      "students": [
+        63456,
+        293248,
+        24547,
+        113572,
+        188260,
+        293287,
+        293064,
+        41418,
+        15600,
+        79926,
+        60313,
+        293274,
+        72251
       ],
       "dimag_status": null
     },
@@ -2004,29 +2502,6 @@
         91252,
         42709,
         50997
-      ],
-      "dimag_status": null
-    },
-    {
-      "id": 58897,
-      "name": "Micha Asher Perles",
-      "year": 1964,
-      "institution": "Hebrew University of Jerusalem",
-      "dissertation": "",
-      "advisors": [
-        26965
-      ],
-      "students": [
-        62336,
-        181568,
-        206050,
-        99075,
-        58918,
-        151319,
-        84365,
-        103023,
-        146835,
-        63895
       ],
       "dimag_status": null
     },
@@ -2278,6 +2753,331 @@
       "dimag_status": null
     },
     {
+      "id": 18355,
+      "name": "Beno  Eckmann",
+      "year": 1942,
+      "institution": "ETH Zürich",
+      "dissertation": "Zur Homotopietheorie gefaserter Räume",
+      "advisors": [
+        17409,
+        57566
+      ],
+      "students": [
+        121607,
+        4638,
+        18242,
+        18386,
+        103565,
+        121746,
+        121750,
+        121751,
+        121752,
+        121753,
+        15013,
+        18356,
+        18357,
+        18358,
+        18359,
+        18360,
+        18361,
+        18362,
+        103611,
+        18363,
+        18365,
+        54459,
+        18366,
+        18368,
+        18369,
+        18364,
+        18370,
+        18371,
+        18372,
+        18373,
+        18374,
+        18376,
+        18375,
+        18377,
+        18378,
+        18379,
+        24780,
+        18380,
+        18382,
+        18381,
+        18384,
+        18385,
+        18383,
+        18387,
+        18388,
+        18389,
+        18390,
+        18391,
+        18392,
+        18394,
+        24792,
+        18393,
+        18395,
+        18396,
+        18397,
+        18398,
+        18401,
+        18402,
+        18399,
+        18400,
+        18403,
+        18404,
+        18405,
+        18406,
+        18407,
+        18408,
+        18409,
+        18410,
+        18411,
+        121591,
+        18367,
+        22489
+      ],
+      "dimag_status": null
+    },
+    {
+      "id": 17409,
+      "name": "Heinz  Hopf",
+      "year": 1925,
+      "institution": "Universität Berlin",
+      "dissertation": "Über Zusammmenhänge zwischen Topologie und Metrik von Mannigfaltigkeiten",
+      "advisors": [
+        7361,
+        19524
+      ],
+      "students": [
+        21252,
+        47246,
+        21648,
+        22420,
+        121882,
+        54301,
+        4638,
+        232735,
+        103456,
+        60189,
+        63014,
+        63015,
+        63021,
+        76461,
+        18355,
+        18356,
+        74805,
+        18359,
+        63031,
+        103609,
+        103610,
+        103611,
+        103612,
+        18365,
+        18363,
+        103614,
+        103615,
+        18366,
+        20674,
+        22722,
+        20673,
+        18370,
+        30924,
+        59087,
+        15188,
+        22486,
+        22487,
+        22488,
+        22489,
+        22490,
+        22491,
+        22492,
+        34270,
+        102751,
+        25318,
+        7787,
+        58478,
+        17394,
+        121591
+      ],
+      "dimag_status": null
+    },
+    {
+      "id": 48145,
+      "name": "Aryeh  Dvoretzky",
+      "year": 1941,
+      "institution": "Hebrew University of Jerusalem",
+      "dissertation": "",
+      "advisors": [
+        37083
+      ],
+      "students": [
+        22752,
+        176738,
+        125444,
+        123940,
+        55596,
+        1421,
+        62382,
+        59052,
+        44237,
+        26965
+      ],
+      "dimag_status": null
+    },
+    {
+      "id": 6869,
+      "name": "Marvin Lee Minsky",
+      "year": 1954,
+      "institution": "Princeton University",
+      "dissertation": "Theory of Neural-Analog Reinforcement Systems and Its Application to the Brain Model Problem",
+      "advisors": [
+        8581
+      ],
+      "students": [
+        61057,
+        61058,
+        61059,
+        61064,
+        61066,
+        61067,
+        61068,
+        96396,
+        61070,
+        61072,
+        61074,
+        61075,
+        61077,
+        61081,
+        61084,
+        61085,
+        61086,
+        61089,
+        207138,
+        61091,
+        61093,
+        61096,
+        61097,
+        26538,
+        20655,
+        208435,
+        13373,
+        41537,
+        13379,
+        13380,
+        69574,
+        61044,
+        61046,
+        61048,
+        61051,
+        61052,
+        61053
+      ],
+      "dimag_status": null
+    },
+    {
+      "id": 10404,
+      "name": "Juris  Hartmanis",
+      "year": 1955,
+      "institution": "California Institute of Technology",
+      "dissertation": "Some Embedding Theorems for Lattices",
+      "advisors": [
+        10395
+      ],
+      "students": [
+        39489,
+        94793,
+        41483,
+        131088,
+        88402,
+        79379,
+        38611,
+        77014,
+        50527,
+        98274,
+        88681,
+        30442,
+        131053,
+        44018,
+        13683,
+        108534,
+        131063,
+        27961,
+        42043,
+        131071
+      ],
+      "dimag_status": null
+    },
+    {
+      "id": 9041,
+      "name": "Robert Lee Constable",
+      "year": 1968,
+      "institution": "University of Wisconsin-Madison",
+      "dissertation": "Extending and Refining Hierarchies of Computable Functions",
+      "advisors": [
+        8012
+      ],
+      "students": [
+        66049,
+        60938,
+        50061,
+        50063,
+        35475,
+        50068,
+        64790,
+        50712,
+        229284,
+        89508,
+        41513,
+        75189,
+        42043,
+        73531,
+        76991,
+        76992,
+        76993,
+        124994,
+        76995,
+        76996,
+        76997,
+        76998,
+        76999,
+        77000,
+        77001,
+        76994,
+        77003,
+        77004,
+        77005,
+        77006,
+        77007,
+        77008,
+        77011,
+        77012,
+        77013,
+        73561,
+        309341,
+        150758,
+        150760,
+        73705,
+        150761,
+        73590,
+        73591
+      ],
+      "dimag_status": null
+    },
+    {
+      "id": 105158,
+      "name": "René-Louis  Baire",
+      "year": 1899,
+      "institution": "Université de Paris",
+      "dissertation": "Sur les fonctions de variables réelles",
+      "advisors": [
+        34266
+      ],
+      "students": [
+        24548
+      ],
+      "dimag_status": null
+    },
+    {
       "id": 18953,
       "name": "Howard Hathaway Aiken",
       "year": 1939,
@@ -2508,38 +3308,6 @@
       "dimag_status": null
     },
     {
-      "id": 26965,
-      "name": "Branko  Grünbaum",
-      "year": 1957,
-      "institution": "Hebrew University of Jerusalem",
-      "dissertation": "On Some Properties of Minkowski Spaces (in Hebrew)",
-      "advisors": [
-        48145
-      ],
-      "students": [
-        60928,
-        26948,
-        44237,
-        147854,
-        28174,
-        58897,
-        116376,
-        62048,
-        28075,
-        28076,
-        28077,
-        28078,
-        28079,
-        28080,
-        28081,
-        28082,
-        28144,
-        27643,
-        27644
-      ],
-      "dimag_status": null
-    },
-    {
       "id": 90711,
       "name": "Moritz  Réthy",
       "year": 1874,
@@ -2587,74 +3355,11 @@
       "id": 317471,
       "name": "Willis  Wissler",
       "year": null,
-      "institution": "",
+      "institution": null,
       "dissertation": "",
       "advisors": [],
       "students": [
         127397
-      ],
-      "dimag_status": null
-    },
-    {
-      "id": 17409,
-      "name": "Heinz  Hopf",
-      "year": 1925,
-      "institution": "Universität Berlin",
-      "dissertation": "Über Zusammmenhänge zwischen Topologie und Metrik von Mannigfaltigkeiten",
-      "advisors": [
-        7361,
-        19524
-      ],
-      "students": [
-        21252,
-        47246,
-        21648,
-        22420,
-        121882,
-        54301,
-        4638,
-        232735,
-        103456,
-        60189,
-        63014,
-        63015,
-        63021,
-        76461,
-        18355,
-        18356,
-        74805,
-        18359,
-        63031,
-        103609,
-        103610,
-        103611,
-        103612,
-        18365,
-        18363,
-        103614,
-        103615,
-        18366,
-        20674,
-        22722,
-        20673,
-        18370,
-        30924,
-        59087,
-        15188,
-        22486,
-        22487,
-        22488,
-        22489,
-        22490,
-        22491,
-        22492,
-        34270,
-        102751,
-        25318,
-        7787,
-        58478,
-        17394,
-        121591
       ],
       "dimag_status": null
     },
@@ -2835,6 +3540,229 @@
         23450,
         36379,
         82431
+      ],
+      "dimag_status": null
+    },
+    {
+      "id": 57566,
+      "name": "Ferdinand  Gonseth",
+      "year": 1915,
+      "institution": "ETH Zürich",
+      "dissertation": "Etude synthétique et applications de l\\'apolarité",
+      "advisors": [
+        57094,
+        44413
+      ],
+      "students": [
+        63041,
+        62026,
+        121740,
+        121744,
+        121745,
+        121746,
+        121747,
+        22486,
+        22487,
+        22490,
+        22491,
+        103644,
+        103645,
+        103456,
+        7592,
+        7787,
+        18355,
+        60220
+      ],
+      "dimag_status": null
+    },
+    {
+      "id": 19524,
+      "name": "Ludwig  Bieberbach",
+      "year": 1910,
+      "institution": "Georg-August-Universität Göttingen",
+      "dissertation": "Zur Theorie der automorphen Funktionen",
+      "advisors": [
+        7401
+      ],
+      "students": [
+        17409,
+        19715,
+        19716,
+        19717,
+        19718,
+        19719,
+        19720,
+        19721,
+        19465,
+        19722,
+        19723,
+        19725,
+        19724,
+        19727,
+        19728,
+        19729,
+        19730,
+        36263,
+        17966,
+        17969,
+        17971,
+        17977,
+        20668,
+        20673,
+        20679,
+        20680,
+        65484,
+        20685,
+        20712,
+        20713,
+        20714,
+        17394,
+        20722,
+        20724,
+        20726,
+        62582
+      ],
+      "dimag_status": null
+    },
+    {
+      "id": 37083,
+      "name": "Michael (Mihály) Fekete",
+      "year": 1909,
+      "institution": "Eötvös Loránd University",
+      "dissertation": "",
+      "advisors": [
+        7488
+      ],
+      "students": [
+        332704,
+        11981,
+        48145,
+        45297,
+        88214,
+        23607,
+        319894
+      ],
+      "dimag_status": null
+    },
+    {
+      "id": 8581,
+      "name": "Albert William Tucker",
+      "year": 1932,
+      "institution": "Princeton University",
+      "dissertation": "An Abstract Approach to Manifolds",
+      "advisors": [
+        7461
+      ],
+      "students": [
+        18496,
+        46053,
+        20358,
+        10282,
+        29519,
+        29426,
+        29491,
+        6869,
+        24502,
+        24501,
+        43001,
+        18590
+      ],
+      "dimag_status": null
+    },
+    {
+      "id": 10395,
+      "name": "Robert Palmer Dilworth",
+      "year": 1939,
+      "institution": "California Institute of Technology",
+      "dissertation": "The Structure and Arithmetical Theory of Non-Commutative Residuated Lattices",
+      "advisors": [
+        10385
+      ],
+      "students": [
+        43072,
+        10399,
+        10400,
+        10401,
+        10402,
+        10403,
+        10404,
+        10405,
+        10406,
+        10407,
+        10408,
+        10409,
+        10410,
+        10411,
+        10473,
+        10413,
+        10412,
+        7739
+      ],
+      "dimag_status": null
+    },
+    {
+      "id": 8012,
+      "name": "Stephen Cole Kleene",
+      "year": 1934,
+      "institution": "Princeton University",
+      "dissertation": "A Theory of Positive Integers in Formal Logic",
+      "advisors": [
+        8011
+      ],
+      "students": [
+        8291,
+        8091,
+        9640,
+        8233,
+        8558,
+        8560,
+        9041,
+        9042,
+        8401,
+        8407,
+        8251,
+        8285,
+        8414
+      ],
+      "dimag_status": null
+    },
+    {
+      "id": 34266,
+      "name": "C. Émile (Charles) Picard",
+      "year": 1877,
+      "institution": "Université de Paris",
+      "dissertation": "Applications des complexes lineaires a l'etude des surfaces et des courbes gauches",
+      "advisors": [
+        34254
+      ],
+      "students": [
+        12546,
+        293058,
+        105158,
+        293063,
+        76358,
+        80970,
+        41611,
+        68620,
+        214989,
+        334031,
+        23314,
+        292818,
+        138132,
+        53459,
+        293142,
+        293205,
+        59161,
+        292890,
+        53473,
+        293419,
+        24555,
+        293229,
+        106862,
+        161007,
+        6385,
+        105396,
+        122554
       ],
       "dimag_status": null
     },
@@ -3170,29 +4098,6 @@
       "dimag_status": null
     },
     {
-      "id": 48145,
-      "name": "Aryeh  Dvoretzky",
-      "year": 1941,
-      "institution": "Hebrew University of Jerusalem",
-      "dissertation": "",
-      "advisors": [
-        37083
-      ],
-      "students": [
-        22752,
-        176738,
-        125444,
-        123940,
-        55596,
-        1421,
-        62382,
-        59052,
-        44237,
-        26965
-      ],
-      "dimag_status": null
-    },
-    {
       "id": 18336,
       "name": "Leo  Königsberger",
       "year": 1860,
@@ -3287,55 +4192,6 @@
         24886,
         6590,
         1407
-      ],
-      "dimag_status": null
-    },
-    {
-      "id": 19524,
-      "name": "Ludwig  Bieberbach",
-      "year": 1910,
-      "institution": "Georg-August-Universität Göttingen",
-      "dissertation": "Zur Theorie der automorphen Funktionen",
-      "advisors": [
-        7401
-      ],
-      "students": [
-        17409,
-        19715,
-        19716,
-        19717,
-        19718,
-        19719,
-        19720,
-        19721,
-        19465,
-        19722,
-        19723,
-        19725,
-        19724,
-        19727,
-        19728,
-        19729,
-        19730,
-        36263,
-        17966,
-        17969,
-        17971,
-        17977,
-        20668,
-        20673,
-        20679,
-        20680,
-        65484,
-        20685,
-        20712,
-        20713,
-        20714,
-        17394,
-        20722,
-        20724,
-        20726,
-        62582
       ],
       "dimag_status": null
     },
@@ -3468,6 +4324,237 @@
         51792,
         201936,
         55801
+      ],
+      "dimag_status": null
+    },
+    {
+      "id": 57094,
+      "name": "Louis  Kollros",
+      "year": 1905,
+      "institution": "Universität Zürich",
+      "dissertation": "Un algorithme pour l'approximation simultaneé de deux grandeurs",
+      "advisors": [
+        29675
+      ],
+      "students": [
+        15241,
+        121740,
+        15245,
+        121742,
+        121741,
+        121743,
+        103578,
+        103579,
+        103580,
+        103642,
+        103643,
+        103644,
+        121888,
+        121632,
+        103645,
+        57566,
+        121579,
+        121580,
+        121846
+      ],
+      "dimag_status": null
+    },
+    {
+      "id": 44413,
+      "name": "Marcel Hans Grossmann",
+      "year": 1902,
+      "institution": "Universität Zürich",
+      "dissertation": "Über die metrischen Eigenschaften kollinearer Gebilde",
+      "advisors": [
+        27250,
+        7405
+      ],
+      "students": [
+        121632,
+        103578,
+        121741,
+        103793,
+        121748,
+        121749,
+        103642,
+        103579,
+        103580,
+        57566
+      ],
+      "dimag_status": null
+    },
+    {
+      "id": 7401,
+      "name": "C. Felix (Christian) Klein",
+      "year": 1868,
+      "institution": "Rheinische Friedrich-Wilhelms-Universität Bonn",
+      "dissertation": "Ueber die Transformation der allgemeinen Gleichung des zweiten Grades zwischen Linien-Coordinaten auf eine canonische Form",
+      "advisors": [
+        7402,
+        19964
+      ],
+      "students": [
+        7424,
+        7426,
+        7427,
+        7428,
+        7429,
+        7430,
+        7431,
+        85765,
+        7433,
+        7434,
+        7435,
+        7436,
+        7437,
+        7438,
+        7432,
+        7439,
+        7441,
+        7442,
+        7443,
+        63508,
+        7445,
+        7446,
+        7447,
+        7448,
+        7449,
+        7450,
+        7444,
+        217634,
+        61745,
+        53041,
+        65087,
+        93506,
+        19524,
+        217696,
+        217697,
+        18555,
+        74381,
+        71565,
+        100246,
+        183446,
+        65946,
+        7611,
+        7417,
+        35016,
+        7421,
+        37342,
+        745,
+        7403,
+        46060,
+        7404,
+        7405,
+        7407,
+        7408,
+        46064,
+        7410,
+        167155,
+        7412,
+        7413,
+        7414,
+        7415,
+        7416,
+        7409,
+        7418,
+        7419,
+        7420,
+        5885,
+        7422,
+        7423
+      ],
+      "dimag_status": null
+    },
+    {
+      "id": 10385,
+      "name": "Morgan  Ward",
+      "year": 1928,
+      "institution": "California Institute of Technology",
+      "dissertation": "The Foundations of General Arithmetic",
+      "advisors": [
+        7868
+      ],
+      "students": [
+        7616,
+        299215,
+        10395,
+        10396,
+        10397,
+        10398
+      ],
+      "dimag_status": null
+    },
+    {
+      "id": 8011,
+      "name": "Alonzo  Church",
+      "year": 1927,
+      "institution": "Princeton University",
+      "dissertation": "Alternatives to Zermelo's Assumption",
+      "advisors": [
+        805
+      ],
+      "students": [
+        8014,
+        71304,
+        116617,
+        12695,
+        70947,
+        8027,
+        8012,
+        95309,
+        95310,
+        8015,
+        28367,
+        8016,
+        8018,
+        8017,
+        8020,
+        8019,
+        91603,
+        8023,
+        8021,
+        8025,
+        8026,
+        8024,
+        8028,
+        8029,
+        8030,
+        8022,
+        8032,
+        8033,
+        8034,
+        8035,
+        8036,
+        8037,
+        8031,
+        96851,
+        8013,
+        82303
+      ],
+      "dimag_status": null
+    },
+    {
+      "id": 34254,
+      "name": "Gaston  Darboux",
+      "year": 1866,
+      "institution": "Université de Paris",
+      "dissertation": "Sur les surfaces orthogonales",
+      "advisors": [
+        26995
+      ],
+      "students": [
+        12546,
+        81192,
+        11369,
+        293420,
+        293421,
+        293071,
+        161010,
+        145784,
+        34266,
+        96283,
+        293053,
+        39071
       ],
       "dimag_status": null
     },
@@ -3691,26 +4778,6 @@
       "dimag_status": null
     },
     {
-      "id": 37083,
-      "name": "Michael (Mihály) Fekete",
-      "year": 1909,
-      "institution": "Eötvös Loránd University",
-      "dissertation": "",
-      "advisors": [
-        7488
-      ],
-      "students": [
-        332704,
-        11981,
-        48145,
-        45297,
-        88214,
-        23607,
-        319894
-      ],
-      "dimag_status": null
-    },
-    {
       "id": 7451,
       "name": "William Edward Story",
       "year": 1875,
@@ -3741,88 +4808,6 @@
         7469,
         7470,
         7476
-      ],
-      "dimag_status": null
-    },
-    {
-      "id": 7401,
-      "name": "C. Felix (Christian) Klein",
-      "year": 1868,
-      "institution": "Rheinische Friedrich-Wilhelms-Universität Bonn",
-      "dissertation": "Ueber die Transformation der allgemeinen Gleichung des zweiten Grades zwischen Linien-Coordinaten auf eine canonische Form",
-      "advisors": [
-        7402,
-        19964
-      ],
-      "students": [
-        7424,
-        7426,
-        7427,
-        7428,
-        7429,
-        7430,
-        7431,
-        85765,
-        7433,
-        7434,
-        7435,
-        7436,
-        7437,
-        7438,
-        7432,
-        7439,
-        7441,
-        7442,
-        7443,
-        63508,
-        7445,
-        7446,
-        7447,
-        7448,
-        7449,
-        7450,
-        7444,
-        217634,
-        61745,
-        53041,
-        65087,
-        93506,
-        19524,
-        217696,
-        217697,
-        18555,
-        74381,
-        71565,
-        100246,
-        183446,
-        65946,
-        7611,
-        7417,
-        35016,
-        7421,
-        37342,
-        745,
-        7403,
-        46060,
-        7404,
-        7405,
-        7407,
-        7408,
-        46064,
-        7410,
-        167155,
-        7412,
-        7413,
-        7414,
-        7415,
-        7416,
-        7409,
-        7418,
-        7419,
-        7420,
-        5885,
-        7422,
-        7423
       ],
       "dimag_status": null
     },
@@ -3895,6 +4880,166 @@
       "students": [
         51877,
         67327
+      ],
+      "dimag_status": null
+    },
+    {
+      "id": 29675,
+      "name": "Hermann  Minkowski",
+      "year": 1885,
+      "institution": "Universität Königsberg",
+      "dissertation": "Untersuchungen über quadratische Formen Bestimmung der Anzahl verschiedener Formen, welche ein gegebenes Genus enthält",
+      "advisors": [
+        7404
+      ],
+      "students": [
+        57094,
+        76334,
+        52381,
+        52409,
+        52410,
+        7517,
+        52382
+      ],
+      "dimag_status": null
+    },
+    {
+      "id": 27250,
+      "name": "Otto Wilhelm Fiedler",
+      "year": 1858,
+      "institution": "Universität Leipzig",
+      "dissertation": "Die Zentralprojektion als geometrische Wissenschaft",
+      "advisors": [
+        35953,
+        56263
+      ],
+      "students": [
+        27233,
+        44413
+      ],
+      "dimag_status": null
+    },
+    {
+      "id": 7405,
+      "name": "Adolf  Weiler",
+      "year": 1873,
+      "institution": "Friedrich-Alexander-Universität Erlangen-Nürnberg",
+      "dissertation": "Über die verschiedenen Gattungen der Komplexe 2. Grades",
+      "advisors": [
+        7401
+      ],
+      "students": [
+        255115,
+        103484,
+        44413,
+        228150
+      ],
+      "dimag_status": null
+    },
+    {
+      "id": 7402,
+      "name": "Julius  Plücker",
+      "year": 1823,
+      "institution": "Philipps-Universität Marburg",
+      "dissertation": "Generalem analyeseos applicationem ad ea quae geometriae altioris et mechanicae basis et fundamenta sunt e serie Tayloria deducit",
+      "advisors": [
+        29642
+      ],
+      "students": [
+        7401,
+        137028,
+        231030,
+        190351
+      ],
+      "dimag_status": null
+    },
+    {
+      "id": 19964,
+      "name": "Rudolf Otto Sigismund Lipschitz",
+      "year": 1853,
+      "institution": "Universität Berlin",
+      "dissertation": "Determinatio status magnetici viribus inducentibus commoti in ellipsoide",
+      "advisors": [
+        17946,
+        47064
+      ],
+      "students": [
+        46992,
+        7401,
+        55027
+      ],
+      "dimag_status": null
+    },
+    {
+      "id": 7868,
+      "name": "Eric Temple Bell",
+      "year": 1912,
+      "institution": "Columbia University",
+      "dissertation": "The Cyclotomic Quinary Quintic",
+      "advisors": [
+        7611,
+        37346
+      ],
+      "students": [
+        10394,
+        11371,
+        1489,
+        10386,
+        10385,
+        10388,
+        10389,
+        10390,
+        10391,
+        10392,
+        10393,
+        136954,
+        10387,
+        7644
+      ],
+      "dimag_status": null
+    },
+    {
+      "id": 805,
+      "name": "Oswald  Veblen",
+      "year": 1903,
+      "institution": "The University of Chicago",
+      "dissertation": "A System of Axioms for Geometry",
+      "advisors": [
+        806
+      ],
+      "students": [
+        23944,
+        18568,
+        1354,
+        8011,
+        1485,
+        1486,
+        1423,
+        1488,
+        1491,
+        5656,
+        35422,
+        286,
+        1377,
+        1271,
+        4344,
+        1468
+      ],
+      "dimag_status": null
+    },
+    {
+      "id": 26995,
+      "name": "Michel  Chasles",
+      "year": 1814,
+      "institution": "École Polytechnique",
+      "dissertation": "",
+      "advisors": [
+        17865
+      ],
+      "students": [
+        7865,
+        199754,
+        34254
       ],
       "dimag_status": null
     },
@@ -4144,40 +5289,6 @@
       "dimag_status": null
     },
     {
-      "id": 7402,
-      "name": "Julius  Plücker",
-      "year": 1823,
-      "institution": "Philipps-Universität Marburg",
-      "dissertation": "Generalem analyeseos applicationem ad ea quae geometriae altioris et mechanicae basis et fundamenta sunt e serie Tayloria deducit",
-      "advisors": [
-        29642
-      ],
-      "students": [
-        7401,
-        137028,
-        231030,
-        190351
-      ],
-      "dimag_status": null
-    },
-    {
-      "id": 19964,
-      "name": "Rudolf Otto Sigismund Lipschitz",
-      "year": 1853,
-      "institution": "Universität Berlin",
-      "dissertation": "Determinatio status magnetici viribus inducentibus commoti in ellipsoide",
-      "advisors": [
-        17946,
-        47064
-      ],
-      "students": [
-        46992,
-        7401,
-        55027
-      ],
-      "dimag_status": null
-    },
-    {
       "id": 17982,
       "name": "Leopold  Kronecker",
       "year": 1845,
@@ -4231,6 +5342,210 @@
       "students": [
         168018,
         34187
+      ],
+      "dimag_status": null
+    },
+    {
+      "id": 35953,
+      "name": "August Ferdinand Möbius",
+      "year": 1815,
+      "institution": "Universität Leipzig",
+      "dissertation": "De computandis occultationibus fixarum per planetas",
+      "advisors": [
+        18230
+      ],
+      "students": [
+        168009,
+        34188,
+        3122,
+        27250,
+        168020,
+        157277
+      ],
+      "dimag_status": null
+    },
+    {
+      "id": 56263,
+      "name": "Wilhelm Gottlieb Hankel",
+      "year": 1839,
+      "institution": "Martin-Luther-Universität Halle-Wittenberg",
+      "dissertation": "De thermoelectricitate crystallorum",
+      "advisors": [
+        101893
+      ],
+      "students": [
+        157280,
+        51429,
+        177351,
+        59657,
+        34186,
+        168011,
+        141932,
+        136714,
+        27250,
+        168021,
+        46069,
+        167160,
+        62585,
+        57978,
+        169374
+      ],
+      "dimag_status": null
+    },
+    {
+      "id": 29642,
+      "name": "Christian Ludwig Gerling",
+      "year": 1812,
+      "institution": "Georg-August-Universität Göttingen",
+      "dissertation": "Methodi projectionis orthographicae usum ad calculos parallacticos facilitandos explicavit simulque eclipsin solarem die VII. Septbr. 1820 [7 September 1820] apparituram",
+      "advisors": [
+        18231
+      ],
+      "students": [
+        225034,
+        7402,
+        55316
+      ],
+      "dimag_status": null
+    },
+    {
+      "id": 17946,
+      "name": "Gustav Peter Lejeune Dirichlet",
+      "year": 1827,
+      "institution": "Rheinische Friedrich-Wilhelms-Universität Bonn",
+      "dissertation": "Partial Results on Fermat's Last Theorem, Exponent 5",
+      "advisors": [
+        17865,
+        17981
+      ],
+      "students": [
+        250105,
+        59343,
+        156723,
+        66101,
+        76438,
+        63736,
+        156729,
+        61850,
+        227483,
+        19964,
+        17982
+      ],
+      "dimag_status": null
+    },
+    {
+      "id": 47064,
+      "name": "Martin  Ohm",
+      "year": 1811,
+      "institution": "Friedrich-Alexander-Universität Erlangen-Nürnberg",
+      "dissertation": "De elevatione serierum infinitarum secundi ordinis ad potestatem exponentis indeterminati",
+      "advisors": [
+        47025
+      ],
+      "students": [
+        18598,
+        58045,
+        58056,
+        51692,
+        51693,
+        63741,
+        63740,
+        63742,
+        250105,
+        19964,
+        45117,
+        58046
+      ],
+      "dimag_status": null
+    },
+    {
+      "id": 7611,
+      "name": "Frank Nelson Cole",
+      "year": 1886,
+      "institution": "Harvard University",
+      "dissertation": "A Contribution to the Theory of the General Equation of the Sixth Degree",
+      "advisors": [
+        7401
+      ],
+      "students": [
+        37361,
+        4610,
+        7868
+      ],
+      "dimag_status": null
+    },
+    {
+      "id": 37346,
+      "name": "Cassius Jackson Keyser",
+      "year": 1902,
+      "institution": "Columbia University",
+      "dissertation": "The Plane Geometry of the Point in Space of Four Dimesions",
+      "advisors": [],
+      "students": [
+        7868,
+        37357
+      ],
+      "dimag_status": null
+    },
+    {
+      "id": 806,
+      "name": "E. H. (Eliakim Hastings) Moore",
+      "year": 1885,
+      "institution": "Yale University",
+      "dissertation": "Extensions of Certain Theorems of Clifford and Cayley in the Geometry of n Dimensions",
+      "advisors": [
+        7865
+      ],
+      "students": [
+        5889,
+        6145,
+        5891,
+        5890,
+        5893,
+        5697,
+        5895,
+        6082,
+        6083,
+        6090,
+        5899,
+        5901,
+        5909,
+        5913,
+        6171,
+        286,
+        5921,
+        6114,
+        5923,
+        6116,
+        5925,
+        805,
+        5865,
+        5868,
+        5874,
+        5879,
+        6073,
+        5882,
+        5883,
+        6077,
+        5695
+      ],
+      "dimag_status": null
+    },
+    {
+      "id": 17865,
+      "name": "Siméon Denis Poisson",
+      "year": 1800,
+      "institution": "École Polytechnique",
+      "dissertation": "",
+      "advisors": [
+        17864,
+        108295
+      ],
+      "students": [
+        55185,
+        17946,
+        26995,
+        259973
       ],
       "dimag_status": null
     },
@@ -4425,76 +5740,10 @@
       "dimag_status": null
     },
     {
-      "id": 29642,
-      "name": "Christian Ludwig Gerling",
-      "year": 1812,
-      "institution": "Georg-August-Universität Göttingen",
-      "dissertation": "Methodi projectionis orthographicae usum ad calculos parallacticos facilitandos explicavit simulque eclipsin solarem die VII. Septbr. 1820 [7 September 1820] apparituram",
-      "advisors": [
-        18231
-      ],
-      "students": [
-        225034,
-        7402,
-        55316
-      ],
-      "dimag_status": null
-    },
-    {
-      "id": 17946,
-      "name": "Gustav Peter Lejeune Dirichlet",
-      "year": 1827,
-      "institution": "Rheinische Friedrich-Wilhelms-Universität Bonn",
-      "dissertation": "Partial Results on Fermat's Last Theorem, Exponent 5",
-      "advisors": [
-        17865,
-        17981
-      ],
-      "students": [
-        250105,
-        59343,
-        156723,
-        66101,
-        76438,
-        63736,
-        156729,
-        61850,
-        227483,
-        19964,
-        17982
-      ],
-      "dimag_status": null
-    },
-    {
-      "id": 47064,
-      "name": "Martin  Ohm",
-      "year": 1811,
-      "institution": "Friedrich-Alexander-Universität Erlangen-Nürnberg",
-      "dissertation": "De elevatione serierum infinitarum secundi ordinis ad potestatem exponentis indeterminati",
-      "advisors": [
-        47025
-      ],
-      "students": [
-        18598,
-        58045,
-        58056,
-        51692,
-        51693,
-        63741,
-        63740,
-        63742,
-        250105,
-        19964,
-        45117,
-        58046
-      ],
-      "dimag_status": null
-    },
-    {
       "id": 62547,
       "name": "Johann Franz Friedrich Encke",
       "year": 1825,
-      "institution": "",
+      "institution": "Universität Berlin",
       "dissertation": "We show a link to Gauß to show a connection in our intellectual heritage.",
       "advisors": [
         18231
@@ -4551,6 +5800,105 @@
       "advisors": [],
       "students": [
         170019
+      ],
+      "dimag_status": null
+    },
+    {
+      "id": 101893,
+      "name": "Johann Salomo Christoph Schweigger",
+      "year": 1800,
+      "institution": "Friedrich-Alexander-Universität Erlangen-Nürnberg",
+      "dissertation": "Dissertatio de Diomede Homeri",
+      "advisors": [
+        76486,
+        127135,
+        47025,
+        57659
+      ],
+      "students": [
+        57721,
+        124908,
+        56263
+      ],
+      "dimag_status": null
+    },
+    {
+      "id": 17981,
+      "name": "Jean-Baptiste Joseph Fourier",
+      "year": null,
+      "institution": "École Normale Supérieure",
+      "dissertation": "",
+      "advisors": [
+        17864
+      ],
+      "students": [
+        17946,
+        43262
+      ],
+      "dimag_status": null
+    },
+    {
+      "id": 47025,
+      "name": "Karl Christian von Langsdorf",
+      "year": 1781,
+      "institution": "Georg-August-Universität Göttingen and Justus-Liebig-Universität Gießen and Universität Erfurt",
+      "dissertation": "",
+      "advisors": [
+        66476
+      ],
+      "students": [
+        47064,
+        59684,
+        101893,
+        90694
+      ],
+      "dimag_status": null
+    },
+    {
+      "id": 7865,
+      "name": "H. A. (Hubert Anson) Newton",
+      "year": 1850,
+      "institution": "Yale University",
+      "dissertation": "",
+      "advisors": [
+        26995
+      ],
+      "students": [
+        22376,
+        132578,
+        806,
+        118720
+      ],
+      "dimag_status": null
+    },
+    {
+      "id": 17864,
+      "name": "Joseph Louis Lagrange",
+      "year": 1754,
+      "institution": "Università di Torino",
+      "dissertation": "Epistolary Correspondence on Variational Calculus",
+      "advisors": [
+        38586
+      ],
+      "students": [
+        17865,
+        17981,
+        43262
+      ],
+      "dimag_status": null
+    },
+    {
+      "id": 108295,
+      "name": "Pierre-Simon  Laplace",
+      "year": 1769,
+      "institution": "Université de Caen Normandie",
+      "dissertation": "Recherches sur le calcul integral aux differences infiniment petites et aux differences finies",
+      "advisors": [
+        108266
+      ],
+      "students": [
+        294953,
+        17865
       ],
       "dimag_status": null
     },
@@ -4686,56 +6034,6 @@
       "dimag_status": null
     },
     {
-      "id": 17865,
-      "name": "Siméon Denis Poisson",
-      "year": 1800,
-      "institution": "École Polytechnique",
-      "dissertation": "",
-      "advisors": [
-        17864,
-        108295
-      ],
-      "students": [
-        55185,
-        17946,
-        26995,
-        259973
-      ],
-      "dimag_status": null
-    },
-    {
-      "id": 17981,
-      "name": "Jean-Baptiste Joseph Fourier",
-      "year": null,
-      "institution": "École Normale Supérieure",
-      "dissertation": "",
-      "advisors": [
-        17864
-      ],
-      "students": [
-        17946,
-        43262
-      ],
-      "dimag_status": null
-    },
-    {
-      "id": 47025,
-      "name": "Karl Christian von Langsdorf",
-      "year": 1781,
-      "institution": "Georg-August-Universität Göttingen and Justus-Liebig-Universität Gießen and Universität Erfurt",
-      "dissertation": "",
-      "advisors": [
-        66476
-      ],
-      "students": [
-        47064,
-        59684,
-        101893,
-        90694
-      ],
-      "dimag_status": null
-    },
-    {
       "id": 127710,
       "name": "Johann Elert Bode",
       "year": null,
@@ -4751,10 +6049,87 @@
       "dimag_status": null
     },
     {
+      "id": 76486,
+      "name": "Georg Friedrich Hildebrandt",
+      "year": 1783,
+      "institution": "Georg-August-Universität Göttingen",
+      "dissertation": "Dissertationem inauguralem de pulmonibus",
+      "advisors": [
+        76485
+      ],
+      "students": [
+        101893
+      ],
+      "dimag_status": null
+    },
+    {
+      "id": 127135,
+      "name": "Franz August Wolf",
+      "year": null,
+      "institution": null,
+      "dissertation": "",
+      "advisors": [],
+      "students": [
+        101893
+      ],
+      "dimag_status": null
+    },
+    {
+      "id": 57659,
+      "name": "Johann Tobias Mayer",
+      "year": 1773,
+      "institution": "Georg-August-Universität Göttingen",
+      "dissertation": "Tetragonometriae specimen",
+      "advisors": [
+        66476,
+        65161
+      ],
+      "students": [
+        41423,
+        225908,
+        101893,
+        225895
+      ],
+      "dimag_status": null
+    },
+    {
+      "id": 38586,
+      "name": "Leonhard  Euler",
+      "year": 1726,
+      "institution": "Universität Basel",
+      "dissertation": "Dissertatio physica de sono",
+      "advisors": [
+        53410
+      ],
+      "students": [
+        17864,
+        144394,
+        112812,
+        122737,
+        122738,
+        122708
+      ],
+      "dimag_status": null
+    },
+    {
+      "id": 108266,
+      "name": "Jean Le Rond d'Alembert",
+      "year": 1735,
+      "institution": "Collège Mazarin",
+      "dissertation": "",
+      "advisors": [
+        294942
+      ],
+      "students": [
+        108295
+      ],
+      "dimag_status": null
+    },
+    {
       "id": 147797,
       "name": "Nathaniel  Bowditch",
       "year": null,
-      "institution": "",
+      "institution": null,
       "dissertation": "",
       "advisors": [],
       "students": [
@@ -4781,7 +6156,7 @@
       "id": 102037,
       "name": "John  Dawson",
       "year": null,
-      "institution": "",
+      "institution": null,
       "dissertation": "",
       "advisors": [
         129421,
@@ -4789,24 +6164,6 @@
       ],
       "students": [
         102043
-      ],
-      "dimag_status": null
-    },
-    {
-      "id": 57659,
-      "name": "Johann Tobias Mayer",
-      "year": 1773,
-      "institution": "Georg-August-Universität Göttingen",
-      "dissertation": "Tetragonometriae specimen",
-      "advisors": [
-        66476,
-        65161
-      ],
-      "students": [
-        41423,
-        225908,
-        101893,
-        225895
       ],
       "dimag_status": null
     },
@@ -4897,37 +6254,6 @@
       "dimag_status": null
     },
     {
-      "id": 17864,
-      "name": "Joseph Louis Lagrange",
-      "year": 1754,
-      "institution": "",
-      "dissertation": "Epistolary Correspondence on Variational Calculus",
-      "advisors": [
-        38586
-      ],
-      "students": [
-        17865,
-        17981,
-        43262
-      ],
-      "dimag_status": null
-    },
-    {
-      "id": 108295,
-      "name": "Pierre-Simon  Laplace",
-      "year": 1769,
-      "institution": "Université de Caen Normandie",
-      "dissertation": "Recherches sur le calcul integral aux differences infiniment petites et aux differences finies",
-      "advisors": [
-        108266
-      ],
-      "students": [
-        294953,
-        17865
-      ],
-      "dimag_status": null
-    },
-    {
       "id": 127668,
       "name": "Johann Georg Büsch",
       "year": 1752,
@@ -4938,6 +6264,56 @@
       ],
       "students": [
         127710
+      ],
+      "dimag_status": null
+    },
+    {
+      "id": 76485,
+      "name": "Johann Friedrich Gmelin",
+      "year": 1768,
+      "institution": "Eberhard-Karls-Universität Tübingen",
+      "dissertation": "Irritabilitatem vegetabilium, in singulis plantarum partibus exploratam ulterioribusque experimentis confirmatam",
+      "advisors": [
+        76484,
+        123957
+      ],
+      "students": [
+        123979,
+        76486,
+        126334
+      ],
+      "dimag_status": null
+    },
+    {
+      "id": 53410,
+      "name": "Johann  Bernoulli",
+      "year": 1690,
+      "institution": "Universität Basel",
+      "dissertation": "Dissertatio de effervescentia et fermentatione; Dissertatio Inauguralis Physico-Anatomica de Motu Musculorum",
+      "advisors": [
+        54440,
+        129628
+      ],
+      "students": [
+        235010,
+        108998,
+        110897,
+        38586,
+        113403
+      ],
+      "dimag_status": null
+    },
+    {
+      "id": 294942,
+      "name": "Léonor  Caron",
+      "year": 1710,
+      "institution": "Collège Mazarin",
+      "dissertation": "",
+      "advisors": [
+        112689
+      ],
+      "students": [
+        108266
       ],
       "dimag_status": null
     },
@@ -5065,39 +6441,6 @@
       "dimag_status": null
     },
     {
-      "id": 38586,
-      "name": "Leonhard  Euler",
-      "year": 1726,
-      "institution": "Universität Basel",
-      "dissertation": "Dissertatio physica de sono",
-      "advisors": [
-        53410
-      ],
-      "students": [
-        17864,
-        144394,
-        112812,
-        122737,
-        122738,
-        122708
-      ],
-      "dimag_status": null
-    },
-    {
-      "id": 108266,
-      "name": "Jean Le Rond d'Alembert",
-      "year": 1735,
-      "institution": "Collège Mazarin",
-      "dissertation": "",
-      "advisors": [
-        294942
-      ],
-      "students": [
-        108295
-      ],
-      "dimag_status": null
-    },
-    {
       "id": 60782,
       "name": "Johann Andreas Segner",
       "year": 1725,
@@ -5111,6 +6454,67 @@
         60817,
         127668,
         60815
+      ],
+      "dimag_status": null
+    },
+    {
+      "id": 76484,
+      "name": "Phillip Friedrich Gmelin",
+      "year": 1742,
+      "institution": "Eberhard-Karls-Universität Tübingen",
+      "dissertation": "De hypopyo: dem Eyter-Aug, gravi ac intricato affectu oculi",
+      "advisors": [
+        76483
+      ],
+      "students": [
+        126026,
+        76485
+      ],
+      "dimag_status": null
+    },
+    {
+      "id": 54440,
+      "name": "Jacob  Bernoulli",
+      "year": 1676,
+      "institution": "Universität Basel",
+      "dissertation": "Primi et Secundi Adami Collatio",
+      "advisors": [
+        143084
+      ],
+      "students": [
+        96720,
+        53410,
+        103742
+      ],
+      "dimag_status": null
+    },
+    {
+      "id": 129628,
+      "name": "Nikolaus  Eglinger",
+      "year": 1660,
+      "institution": "Universität Basel",
+      "dissertation": "Disputatio medica in universam physiologiam; Disputatio Medica Inauguralis De Angina",
+      "advisors": [
+        125125,
+        129708
+      ],
+      "students": [
+        53410
+      ],
+      "dimag_status": null
+    },
+    {
+      "id": 112689,
+      "name": "Pierre  Varignon",
+      "year": 1687,
+      "institution": "Académie royale des sciences de Paris",
+      "dissertation": "Projet d'une nouvelle méchanique avec un examen de l'opinion de M. Borelli sur les propriétez des poids suspendus par des cordes",
+      "advisors": [
+        143011
+      ],
+      "students": [
+        112748,
+        294942
       ],
       "dimag_status": null
     },
@@ -5187,7 +6591,7 @@
       "id": 121242,
       "name": "Adam  Beringer",
       "year": null,
-      "institution": "",
+      "institution": null,
       "dissertation": "",
       "advisors": [],
       "students": [
@@ -5250,39 +6654,6 @@
       "dimag_status": null
     },
     {
-      "id": 53410,
-      "name": "Johann  Bernoulli",
-      "year": 1690,
-      "institution": "Universität Basel",
-      "dissertation": "Dissertatio de effervescentia et fermentatione; Dissertatio Inauguralis Physico-Anatomica de Motu Musculorum",
-      "advisors": [
-        54440,
-        129628
-      ],
-      "students": [
-        235010,
-        108998,
-        110897,
-        38586,
-        113403
-      ],
-      "dimag_status": null
-    },
-    {
-      "id": 294942,
-      "name": "Léonor  Caron",
-      "year": 1710,
-      "institution": "Collège Mazarin",
-      "dissertation": "",
-      "advisors": [
-        112689
-      ],
-      "students": [
-        108266
-      ],
-      "dimag_status": null
-    },
-    {
       "id": 125886,
       "name": "Georg Erhard Hamberger",
       "year": 1684,
@@ -5296,6 +6667,79 @@
         129079,
         215353,
         228986
+      ],
+      "dimag_status": null
+    },
+    {
+      "id": 76483,
+      "name": "Burchard David Mauchart",
+      "year": 1722,
+      "institution": "Eberhard-Karls-Universität Tübingen",
+      "dissertation": "Hernia incarcerata solerti delineatione illustrata novaque extricata encheiresi",
+      "advisors": [
+        76482
+      ],
+      "students": [
+        76484
+      ],
+      "dimag_status": null
+    },
+    {
+      "id": 143084,
+      "name": "Peter  Werenfels",
+      "year": 1649,
+      "institution": "Universität Basel",
+      "dissertation": "Diatribe In Psalmum S. S. Psalterii Primum. De Vnica Et Vera Hominis Felicitate",
+      "advisors": [
+        143083
+      ],
+      "students": [
+        54440
+      ],
+      "dimag_status": null
+    },
+    {
+      "id": 125125,
+      "name": "Emmanuel  Stupanus",
+      "year": 1613,
+      "institution": "Universität Basel",
+      "dissertation": "De omnis pleuritidis theoria et generali therapia themata medica",
+      "advisors": [
+        130248
+      ],
+      "students": [
+        129708,
+        101860,
+        129628
+      ],
+      "dimag_status": null
+    },
+    {
+      "id": 129708,
+      "name": "Johann Caspar Bauhin",
+      "year": 1649,
+      "institution": "Universität Basel",
+      "dissertation": "Signorum medicorum doctrina, annexa sphygmice, uromantia & crisium theoria, ex praecipuis Galen. & Hippocr. monumentis semeioticis excerpta",
+      "advisors": [
+        125125
+      ],
+      "students": [
+        129628
+      ],
+      "dimag_status": null
+    },
+    {
+      "id": 143011,
+      "name": "Nicolas  Malebranche",
+      "year": null,
+      "institution": null,
+      "dissertation": "We show a link to Leibniz to show a connection in our intellectual heritage.",
+      "advisors": [
+        60985
+      ],
+      "students": [
+        54440,
+        112689
       ],
       "dimag_status": null
     },
@@ -5372,48 +6816,60 @@
       "dimag_status": null
     },
     {
-      "id": 54440,
-      "name": "Jacob  Bernoulli",
-      "year": 1676,
-      "institution": "Universität Basel",
-      "dissertation": "Primi et Secundi Adami Collatio",
+      "id": 76482,
+      "name": "Elias Rudolph Camerarius, Jr.",
+      "year": 1691,
+      "institution": "Eberhard-Karls-Universität Tübingen",
+      "dissertation": "Inaugurale tentamen de subsidiis pro arte medica ab antlia pneumatica petendis",
       "advisors": [
+        76481
+      ],
+      "students": [
+        76483
+      ],
+      "dimag_status": null
+    },
+    {
+      "id": 143083,
+      "name": "Theodor  Zwinger, Jr.",
+      "year": 1630,
+      "institution": "Universität Basel",
+      "dissertation": "De Illustri Sententia Apostolica Hebr. c. 13. V. 8",
+      "advisors": [
+        143082
+      ],
+      "students": [
         143084
       ],
-      "students": [
-        96720,
-        53410,
-        103742
-      ],
       "dimag_status": null
     },
     {
-      "id": 129628,
-      "name": "Nikolaus  Eglinger",
-      "year": 1660,
+      "id": 130248,
+      "name": "Petrus  Ryff",
+      "year": 1584,
       "institution": "Universität Basel",
-      "dissertation": "Disputatio medica in universam physiologiam; Disputatio Medica Inauguralis De Angina",
+      "dissertation": "De Affectibus cordis",
       "advisors": [
-        125125,
-        129708
+        182090
       ],
       "students": [
-        53410
+        125125
       ],
       "dimag_status": null
     },
     {
-      "id": 112689,
-      "name": "Pierre  Varignon",
-      "year": 1687,
-      "institution": "Académie royale des sciences de Paris",
-      "dissertation": "Projet d'une nouvelle méchanique avec un examen de l'opinion de M. Borelli sur les propriétez des poids suspendus par des cordes",
+      "id": 60985,
+      "name": "Gottfried Wilhelm Leibniz",
+      "year": 1666,
+      "institution": "Universität Leipzig",
+      "dissertation": "Disputatio arithmetica de complexionibus",
       "advisors": [
-        143011
+        137705,
+        60984
       ],
       "students": [
-        112748,
-        294942
+        47793,
+        143011
       ],
       "dimag_status": null
     },
@@ -5475,61 +6931,73 @@
       "dimag_status": null
     },
     {
-      "id": 143084,
-      "name": "Peter  Werenfels",
-      "year": 1649,
-      "institution": "Universität Basel",
-      "dissertation": "Diatribe In Psalmum S. S. Psalterii Primum. De Vnica Et Vera Hominis Felicitate",
+      "id": 76481,
+      "name": "Elias Rudolph Camerarius, Sr.",
+      "year": 1663,
+      "institution": "Eberhard-Karls-Universität Tübingen",
+      "dissertation": "Dissertatio medica inauguralis de acidulis",
       "advisors": [
+        123974
+      ],
+      "students": [
+        128938,
+        76482
+      ],
+      "dimag_status": null
+    },
+    {
+      "id": 143082,
+      "name": "Sebastian  Beck",
+      "year": 1610,
+      "institution": "Universität Basel",
+      "dissertation": "Illustre Axioma, Ivstvs Avtem Fide Sva Vivet",
+      "advisors": [
+        143045
+      ],
+      "students": [
         143083
       ],
-      "students": [
-        54440
-      ],
       "dimag_status": null
     },
     {
-      "id": 125125,
-      "name": "Emmanuel  Stupanus",
-      "year": 1613,
-      "institution": "Universität Basel",
-      "dissertation": "De omnis pleuritidis theoria et generali therapia themata medica",
+      "id": 182090,
+      "name": "Felix  Plater",
+      "year": 1557,
+      "institution": "Université de Montpellier",
+      "dissertation": "",
       "advisors": [
+        158329
+      ],
+      "students": [
         130248
       ],
-      "students": [
-        129708,
-        101860,
-        129628
-      ],
       "dimag_status": null
     },
     {
-      "id": 129708,
-      "name": "Johann Caspar Bauhin",
-      "year": 1649,
-      "institution": "Universität Basel",
-      "dissertation": "Signorum medicorum doctrina, annexa sphygmice, uromantia & crisium theoria, ex praecipuis Galen. & Hippocr. monumentis semeioticis excerpta",
+      "id": 60984,
+      "name": "Erhard  Weigel",
+      "year": 1650,
+      "institution": "Universität Leipzig",
+      "dissertation": "De ascensionibus et descensionibus astronomicis dissertatio",
       "advisors": [
-        125125
+        144221
       ],
       "students": [
-        129628
-      ],
-      "dimag_status": null
-    },
-    {
-      "id": 143011,
-      "name": "Nicolas  Malebranche",
-      "year": null,
-      "institution": "",
-      "dissertation": "We show a link to Leibniz to show a connection in our intellectual heritage.",
-      "advisors": [
-        60985
-      ],
-      "students": [
-        54440,
-        112689
+        108000,
+        181729,
+        181728,
+        103783,
+        228983,
+        90395,
+        64080,
+        17240,
+        63867,
+        232469,
+        232471,
+        17241,
+        60985,
+        127386,
+        127387
       ],
       "dimag_status": null
     },
@@ -5595,46 +7063,59 @@
       "dimag_status": null
     },
     {
-      "id": 143083,
-      "name": "Theodor  Zwinger, Jr.",
-      "year": 1630,
-      "institution": "Universität Basel",
-      "dissertation": "De Illustri Sententia Apostolica Hebr. c. 13. V. 8",
+      "id": 123974,
+      "name": "Georg Balthasar Metzger",
+      "year": 1646,
+      "institution": "Friedrich-Schiller-Universität Jena",
+      "dissertation": "Suppressionem mensium",
       "advisors": [
+        182089
+      ],
+      "students": [
+        76481,
+        128938
+      ],
+      "dimag_status": null
+    },
+    {
+      "id": 143045,
+      "name": "Johann Jacob Grynaeus",
+      "year": 1559,
+      "institution": "Universität Basel",
+      "dissertation": "",
+      "advisors": [
+        182092
+      ],
+      "students": [
         143082
       ],
-      "students": [
-        143084
-      ],
       "dimag_status": null
     },
     {
-      "id": 130248,
-      "name": "Petrus  Ryff",
-      "year": 1584,
-      "institution": "Universität Basel",
-      "dissertation": "De Affectibus cordis",
+      "id": 158329,
+      "name": "Guillaume  Rondelet",
+      "year": 1529,
+      "institution": "Université de Paris",
+      "dissertation": "",
       "advisors": [
+        119159
+      ],
+      "students": [
         182090
       ],
-      "students": [
-        125125
-      ],
       "dimag_status": null
     },
     {
-      "id": 60985,
-      "name": "Gottfried Wilhelm Leibniz",
-      "year": 1666,
+      "id": 144221,
+      "name": "Philipp  Müller",
+      "year": 1604,
       "institution": "Universität Leipzig",
-      "dissertation": "Disputatio arithmetica de complexionibus",
+      "dissertation": "",
       "advisors": [
-        137705,
-        60984
+        144220
       ],
       "students": [
-        47793,
-        143011
+        60984
       ],
       "dimag_status": null
     },
@@ -5702,7 +7183,7 @@
       "id": 127942,
       "name": "Petrus  Otto",
       "year": null,
-      "institution": "",
+      "institution": null,
       "dissertation": "",
       "advisors": [],
       "students": [
@@ -5711,58 +7192,61 @@
       "dimag_status": null
     },
     {
-      "id": 143082,
-      "name": "Sebastian  Beck",
-      "year": 1610,
-      "institution": "Universität Basel",
-      "dissertation": "Illustre Axioma, Ivstvs Avtem Fide Sva Vivet",
+      "id": 182089,
+      "name": "Gottfried  Möbius",
+      "year": 1640,
+      "institution": "Friedrich-Schiller-Universität Jena",
+      "dissertation": "Disputatio Medica, De Affectu Hypochondriaco",
       "advisors": [
-        143045
+        125154
       ],
       "students": [
-        143083
+        123974
       ],
       "dimag_status": null
     },
     {
-      "id": 182090,
-      "name": "Felix  Plater",
-      "year": 1557,
-      "institution": "Université de Montpellier",
+      "id": 182092,
+      "name": "Simon  Sulzer",
+      "year": 1531,
+      "institution": "Collège Saint-Guillaume à Strasbourg",
       "dissertation": "",
       "advisors": [
-        158329
+        131399
       ],
       "students": [
-        130248
+        143045
       ],
       "dimag_status": null
     },
     {
-      "id": 60984,
-      "name": "Erhard  Weigel",
-      "year": 1650,
-      "institution": "Universität Leipzig",
-      "dissertation": "De ascensionibus et descensionibus astronomicis dissertatio",
+      "id": 119159,
+      "name": "Johannes Winter von Andernach",
+      "year": 1527,
+      "institution": "Université Catholique de Louvain",
+      "dissertation": "",
       "advisors": [
-        144221
+        126571
       ],
       "students": [
-        108000,
-        181729,
-        181728,
-        103783,
-        228983,
-        90395,
-        64080,
-        17240,
-        63867,
-        232469,
-        232471,
-        17241,
-        60985,
-        127386,
-        127387
+        126064,
+        158329,
+        119178,
+        125665
+      ],
+      "dimag_status": null
+    },
+    {
+      "id": 144220,
+      "name": "Christoph  Meurer",
+      "year": 1582,
+      "institution": "Universität Leipzig",
+      "dissertation": "De Iride seu Arcu coelesti",
+      "advisors": [
+        127790
+      ],
+      "students": [
+        144221
       ],
       "dimag_status": null
     },
@@ -5827,44 +7311,48 @@
       "dimag_status": null
     },
     {
-      "id": 143045,
-      "name": "Johann Jacob Grynaeus",
-      "year": 1559,
-      "institution": "Universität Basel",
+      "id": 125154,
+      "name": "Werner  Rolfinck",
+      "year": 1618,
+      "institution": "Martin-Luther-Universität Halle-Wittenberg",
       "dissertation": "",
       "advisors": [
-        182092
+        126111
       ],
       "students": [
-        143082
+        125488,
+        182089,
+        128411,
+        125143
       ],
       "dimag_status": null
     },
     {
-      "id": 158329,
-      "name": "Guillaume  Rondelet",
-      "year": 1529,
+      "id": 131399,
+      "name": "Wolfgang Fabricius Capito",
+      "year": 1506,
+      "institution": "Universität Ingolstadt",
+      "dissertation": "",
+      "advisors": [
+        126659
+      ],
+      "students": [
+        131236,
+        182092
+      ],
+      "dimag_status": null
+    },
+    {
+      "id": 126571,
+      "name": "Rutger  Rescius",
+      "year": 1513,
       "institution": "Université de Paris",
       "dissertation": "",
       "advisors": [
+        127181
+      ],
+      "students": [
         119159
-      ],
-      "students": [
-        182090
-      ],
-      "dimag_status": null
-    },
-    {
-      "id": 144221,
-      "name": "Philipp  Müller",
-      "year": 1604,
-      "institution": "Universität Leipzig",
-      "dissertation": "",
-      "advisors": [
-        144220
-      ],
-      "students": [
-        60984
       ],
       "dimag_status": null
     },
@@ -5933,7 +7421,7 @@
       "id": 184935,
       "name": "Johann  Hoffmann",
       "year": null,
-      "institution": "",
+      "institution": null,
       "dissertation": "",
       "advisors": [],
       "students": [
@@ -5942,47 +7430,46 @@
       "dimag_status": null
     },
     {
-      "id": 182092,
-      "name": "Simon  Sulzer",
-      "year": 1531,
-      "institution": "Collège Saint-Guillaume à Strasbourg",
-      "dissertation": "",
+      "id": 126111,
+      "name": "Daniel  Sennert",
+      "year": 1594,
+      "institution": "Martin-Luther-Universität Halle-Wittenberg",
+      "dissertation": "De visu exteriorum sensuum; De sympathiae et antipathiæ rerum naturalium caussis disquisitio singularis",
       "advisors": [
+        127848,
+        127278
+      ],
+      "students": [
+        125154
+      ],
+      "dimag_status": null
+    },
+    {
+      "id": 126659,
+      "name": "Ulrich  Zasius",
+      "year": 1501,
+      "institution": "Albert-Ludwigs-Universität Freiburg im Breisgau",
+      "dissertation": "",
+      "advisors": [],
+      "students": [
+        126667,
         131399
       ],
-      "students": [
-        143045
-      ],
       "dimag_status": null
     },
     {
-      "id": 119159,
-      "name": "Johannes Winter von Andernach",
-      "year": 1527,
-      "institution": "Université Catholique de Louvain",
+      "id": 127181,
+      "name": "Girolamo (Hieronymus Aleander) Aleandro",
+      "year": 1499,
+      "institution": "Università degli Studi di Padova",
       "dissertation": "",
       "advisors": [
-        126571
+        131446,
+        131447
       ],
       "students": [
-        126064,
-        158329,
-        119178,
-        125665
-      ],
-      "dimag_status": null
-    },
-    {
-      "id": 144220,
-      "name": "Christoph  Meurer",
-      "year": 1582,
-      "institution": "Universität Leipzig",
-      "dissertation": "De Iride seu Arcu coelesti",
-      "advisors": [
-        127790
-      ],
-      "students": [
-        144221
+        126571,
+        131235
       ],
       "dimag_status": null
     },
@@ -6062,31 +7549,60 @@
       "dimag_status": null
     },
     {
-      "id": 131399,
-      "name": "Wolfgang Fabricius Capito",
-      "year": 1506,
-      "institution": "Universität Ingolstadt",
+      "id": 127848,
+      "name": "Jacobus  Martini",
+      "year": 1596,
+      "institution": "Universität Helmstedt",
       "dissertation": "",
       "advisors": [
-        126659
+        128105
       ],
       "students": [
-        131236,
-        182092
+        126111,
+        128240,
+        127734,
+        225911,
+        128991
       ],
       "dimag_status": null
     },
     {
-      "id": 126571,
-      "name": "Rutger  Rescius",
-      "year": 1513,
-      "institution": "Université de Paris",
+      "id": 127278,
+      "name": "Jan  Jessenius",
+      "year": 1588,
+      "institution": "Universität Leipzig",
       "dissertation": "",
       "advisors": [
-        127181
+        125109
       ],
       "students": [
-        119159
+        126111
+      ],
+      "dimag_status": null
+    },
+    {
+      "id": 131446,
+      "name": "Moses  Perez",
+      "year": null,
+      "institution": null,
+      "dissertation": "",
+      "advisors": [],
+      "students": [
+        127181
+      ],
+      "dimag_status": null
+    },
+    {
+      "id": 131447,
+      "name": "Scipione  Fortiguerra",
+      "year": 1493,
+      "institution": "Università degli Studi di Firenze",
+      "dissertation": "",
+      "advisors": [
+        131535
+      ],
+      "students": [
+        127181
       ],
       "dimag_status": null
     },
@@ -6094,7 +7610,7 @@
       "id": 131443,
       "name": "Georgius  Hermonymus",
       "year": null,
-      "institution": "",
+      "institution": null,
       "dissertation": "",
       "advisors": [],
       "students": [
@@ -6192,31 +7708,52 @@
       "dimag_status": null
     },
     {
-      "id": 126659,
-      "name": "Ulrich  Zasius",
-      "year": 1501,
-      "institution": "Albert-Ludwigs-Universität Freiburg im Breisgau",
-      "dissertation": "",
-      "advisors": [],
+      "id": 128105,
+      "name": "Cornelius  Martini",
+      "year": 1591,
+      "institution": "Universität Helmstedt",
+      "dissertation": "THESES DE NATVRA LOGICAE AD VNIVERSVM ARISTOTELIS Organon",
+      "advisors": [
+        200006
+      ],
       "students": [
-        126667,
-        131399
+        127848,
+        128097,
+        235321
       ],
       "dimag_status": null
     },
     {
-      "id": 127181,
-      "name": "Girolamo (Hieronymus Aleander) Aleandro",
-      "year": 1499,
+      "id": 125109,
+      "name": "Hieronymus (Girolamo Fabrici d'Acquapendente) Fabricius",
+      "year": 1559,
       "institution": "Università degli Studi di Padova",
       "dissertation": "",
       "advisors": [
-        131446,
-        131447
+        125142
       ],
       "students": [
-        126571,
-        131235
+        125124,
+        127278,
+        125006,
+        127252,
+        125274
+      ],
+      "dimag_status": null
+    },
+    {
+      "id": 131535,
+      "name": "Angelo  Poliziano",
+      "year": 1477,
+      "institution": "Università degli Studi di Firenze",
+      "dissertation": "",
+      "advisors": [
+        131539,
+        131540
+      ],
+      "students": [
+        131589,
+        131447
       ],
       "dimag_status": null
     },
@@ -6324,7 +7861,7 @@
       "id": 126888,
       "name": "Luca  Pacioli",
       "year": null,
-      "institution": "",
+      "institution": null,
       "dissertation": "",
       "advisors": [],
       "students": [
@@ -6333,28 +7870,60 @@
       "dimag_status": null
     },
     {
-      "id": 131446,
-      "name": "Moses  Perez",
+      "id": 200006,
+      "name": "Albert  Clampius",
       "year": null,
-      "institution": "",
-      "dissertation": "",
-      "advisors": [],
+      "institution": "Ruprecht-Karls-Universität Heidelberg",
+      "dissertation": "De iure ususfructus",
+      "advisors": [
+        224249
+      ],
       "students": [
-        127181
+        128105,
+        235324
       ],
       "dimag_status": null
     },
     {
-      "id": 131447,
-      "name": "Scipione  Fortiguerra",
-      "year": 1493,
+      "id": 125142,
+      "name": "Gabriele  Falloppio",
+      "year": 1547,
+      "institution": "Università degli Studi di Padova and Università degli Studi di Ferrara",
+      "dissertation": "",
+      "advisors": [
+        127245,
+        125303
+      ],
+      "students": [
+        125109
+      ],
+      "dimag_status": null
+    },
+    {
+      "id": 131539,
+      "name": "Marsilio  Ficino",
+      "year": 1462,
       "institution": "Università degli Studi di Firenze",
       "dissertation": "",
       "advisors": [
-        131535
+        131444
       ],
       "students": [
-        127181
+        131535
+      ],
+      "dimag_status": null
+    },
+    {
+      "id": 131540,
+      "name": "Cristoforo  Landino",
+      "year": null,
+      "institution": null,
+      "dissertation": "",
+      "advisors": [
+        298288
+      ],
+      "students": [
+        131535
       ],
       "dimag_status": null
     },
@@ -6362,7 +7931,7 @@
       "id": 131575,
       "name": "Georgios Plethon Gemistos",
       "year": 1380,
-      "institution": "",
+      "institution": null,
       "dissertation": "Nómoi (Book of Laws)",
       "advisors": [
         134780,
@@ -6447,18 +8016,73 @@
       "dimag_status": null
     },
     {
-      "id": 131535,
-      "name": "Angelo  Poliziano",
-      "year": 1477,
-      "institution": "Università degli Studi di Firenze",
+      "id": 224249,
+      "name": "Reinhard  Bachoff von Echt",
+      "year": 1598,
+      "institution": "Ruprecht-Karls-Universität Heidelberg",
+      "dissertation": "",
+      "advisors": [],
+      "students": [
+        200006
+      ],
+      "dimag_status": null
+    },
+    {
+      "id": 127245,
+      "name": "Antonio Musa Brasavola",
+      "year": 1520,
+      "institution": "Università degli Studi di Ferrara",
       "dissertation": "",
       "advisors": [
-        131539,
-        131540
+        127166
       ],
       "students": [
-        131589,
-        131447
+        125142
+      ],
+      "dimag_status": null
+    },
+    {
+      "id": 125303,
+      "name": "Matteo Realdo (Renaldus Columbus) Colombo",
+      "year": 1544,
+      "institution": "Università degli Studi di Padova",
+      "dissertation": "",
+      "advisors": [
+        119178
+      ],
+      "students": [
+        125142
+      ],
+      "dimag_status": null
+    },
+    {
+      "id": 131444,
+      "name": "Johannes  Argyropoulos",
+      "year": 1444,
+      "institution": "Università degli Studi di Padova",
+      "dissertation": "",
+      "advisors": [
+        131561
+      ],
+      "students": [
+        125760,
+        131539,
+        131700,
+        131398
+      ],
+      "dimag_status": null
+    },
+    {
+      "id": 298288,
+      "name": "George  of Trebizond",
+      "year": null,
+      "institution": null,
+      "dissertation": "",
+      "advisors": [
+        134873
+      ],
+      "students": [
+        131540
       ],
       "dimag_status": null
     },
@@ -6466,7 +8090,7 @@
       "id": 134780,
       "name": "Demetrios  Kydones",
       "year": null,
-      "institution": "",
+      "institution": null,
       "dissertation": "",
       "advisors": [
         146365
@@ -6481,7 +8105,7 @@
       "id": 134781,
       "name": "Elissaeus  Judaeus",
       "year": null,
-      "institution": "",
+      "institution": null,
       "dissertation": "",
       "advisors": [],
       "students": [
@@ -6566,30 +8190,33 @@
       "dimag_status": null
     },
     {
-      "id": 131539,
-      "name": "Marsilio  Ficino",
-      "year": 1462,
-      "institution": "Università degli Studi di Firenze",
+      "id": 127166,
+      "name": "Niccolò  Leoniceno",
+      "year": 1446,
+      "institution": "Scuola Pubblica di Vicenza",
       "dissertation": "",
       "advisors": [
-        131444
+        149192
       ],
       "students": [
-        131535
+        152904,
+        127245
       ],
       "dimag_status": null
     },
     {
-      "id": 131540,
-      "name": "Cristoforo  Landino",
-      "year": null,
-      "institution": "",
-      "dissertation": "",
+      "id": 119178,
+      "name": "Andreas (Andries van Wesel) Vesalius",
+      "year": 1537,
+      "institution": "Università degli Studi di Padova and Université Catholique de Louvain",
+      "dissertation": "Paraphrasis in nonum librum Rhazae medici arabis clariss ad regem Almansorum de affectum singularum corporis partium curatione",
       "advisors": [
-        298288
+        119159,
+        119097,
+        152904
       ],
       "students": [
-        131535
+        125303
       ],
       "dimag_status": null
     },
@@ -6597,7 +8224,7 @@
       "id": 146365,
       "name": "Nilos  Kabasilas",
       "year": 1363,
-      "institution": "",
+      "institution": null,
       "dissertation": "",
       "advisors": [
         176844
@@ -6708,33 +8335,48 @@
       "dimag_status": null
     },
     {
-      "id": 131444,
-      "name": "Johannes  Argyropoulos",
-      "year": 1444,
-      "institution": "Università degli Studi di Padova",
-      "dissertation": "",
-      "advisors": [
-        131561
-      ],
-      "students": [
-        125760,
-        131539,
-        131700,
-        131398
-      ],
-      "dimag_status": null
-    },
-    {
-      "id": 298288,
-      "name": "George  of Trebizond",
-      "year": null,
-      "institution": "",
+      "id": 149192,
+      "name": "Ognibene (Omnibonus Leonicenus) Bonisoli da Lonigo",
+      "year": 1433,
+      "institution": "Università di Mantova",
       "dissertation": "",
       "advisors": [
         134873
       ],
       "students": [
-        131540
+        127166
+      ],
+      "dimag_status": null
+    },
+    {
+      "id": 119097,
+      "name": "Gemma (Jemme Reinerszoon) Frisius",
+      "year": 1529,
+      "institution": "Université Catholique de Louvain",
+      "dissertation": "",
+      "advisors": [
+        125892
+      ],
+      "students": [
+        119224,
+        119178,
+        119164,
+        119165
+      ],
+      "dimag_status": null
+    },
+    {
+      "id": 152904,
+      "name": "Giovanni Battista  della Monte",
+      "year": 1520,
+      "institution": "Università degli Studi di Ferrara",
+      "dissertation": "",
+      "advisors": [
+        127166
+      ],
+      "students": [
+        152906,
+        119178
       ],
       "dimag_status": null
     },
@@ -6756,7 +8398,7 @@
       "id": 135185,
       "name": "Manuel  Chrysoloras",
       "year": null,
-      "institution": "",
+      "institution": null,
       "dissertation": "",
       "advisors": [
         134780
@@ -6785,7 +8427,7 @@
       "id": 140181,
       "name": "Thomas von Kempen à Kempis",
       "year": null,
-      "institution": "",
+      "institution": null,
       "dissertation": "",
       "advisors": [
         179836,
@@ -6805,6 +8447,20 @@
       "advisors": [],
       "students": [
         127264
+      ],
+      "dimag_status": null
+    },
+    {
+      "id": 125892,
+      "name": "Petrus (Pieter de Corte) Curtius",
+      "year": 1513,
+      "institution": "Université Catholique de Louvain",
+      "dissertation": "",
+      "advisors": [
+        125894
+      ],
+      "students": [
+        119097
       ],
       "dimag_status": null
     },
@@ -6848,6 +8504,20 @@
       "dimag_status": null
     },
     {
+      "id": 125894,
+      "name": "Maarten (Martinus Dorpius) van Dorp",
+      "year": 1504,
+      "institution": "Université Catholique de Louvain",
+      "dissertation": "",
+      "advisors": [
+        125897
+      ],
+      "students": [
+        125892
+      ],
+      "dimag_status": null
+    },
+    {
       "id": 184632,
       "name": "Manuel  Bryennios",
       "year": 1300,
@@ -6858,6 +8528,18 @@
       ],
       "students": [
         184631
+      ],
+      "dimag_status": null
+    },
+    {
+      "id": 125897,
+      "name": "Leo  Outers",
+      "year": 1485,
+      "institution": "Université Catholique de Louvain",
+      "dissertation": "",
+      "advisors": [],
+      "students": [
+        125894
       ],
       "dimag_status": null
     },
@@ -6893,7 +8575,7 @@
       "id": 217509,
       "name": "Nasir al-Dīn  al-Ṭūsī",
       "year": null,
-      "institution": "",
+      "institution": null,
       "dissertation": "",
       "advisors": [
         223724,
@@ -6909,7 +8591,7 @@
       "id": 223724,
       "name": "Kamāl al-Dīn  Ibn Yūnus",
       "year": null,
-      "institution": "",
+      "institution": null,
       "dissertation": "",
       "advisors": [
         230926,
@@ -6925,7 +8607,7 @@
       "id": 287480,
       "name": "Athīr al-Dīn  al-Mufaḍḍal al-Abharī",
       "year": 1264,
-      "institution": "",
+      "institution": null,
       "dissertation": "",
       "advisors": [
         223724,
@@ -6940,7 +8622,7 @@
       "id": 230926,
       "name": "Sharaf al-Dīn  al-Ṭūsī",
       "year": null,
-      "institution": "",
+      "institution": null,
       "dissertation": "",
       "advisors": [],
       "students": [
@@ -6952,7 +8634,7 @@
       "id": 287466,
       "name": "Saraf al-Dīn Muhammad  al-Masʿūdī al-Marwazī",
       "year": null,
-      "institution": "",
+      "institution": null,
       "dissertation": "",
       "advisors": [
         295739
@@ -6967,7 +8649,7 @@
       "id": 287479,
       "name": "Qutb al-Dīn  Ibrāhīm al-Mīṣrī",
       "year": 1222,
-      "institution": "",
+      "institution": null,
       "dissertation": "",
       "advisors": [
         287478
@@ -6981,7 +8663,7 @@
       "id": 295739,
       "name": "Ghiyāth al-Dīn Abū al-Fatḥ ʿUmar ibn Ibrāhīm al-Khayyām al-Nīsābūrī",
       "year": 1068,
-      "institution": "",
+      "institution": null,
       "dissertation": "",
       "advisors": [
         287468
@@ -6995,7 +8677,7 @@
       "id": 287478,
       "name": "Fakhr al-Dīn Muhammad  al-Rēzī",
       "year": null,
-      "institution": "",
+      "institution": null,
       "dissertation": "",
       "advisors": [
         287466
@@ -7009,7 +8691,7 @@
       "id": 287468,
       "name": "Bahmanyār  ibn al-Marzubān",
       "year": null,
-      "institution": "",
+      "institution": null,
       "dissertation": "",
       "advisors": [
         298616
@@ -7023,7 +8705,7 @@
       "id": 298616,
       "name": "Abu ʿAli al-Husayn (Avicenna) ibn Sina",
       "year": null,
-      "institution": "",
+      "institution": null,
       "dissertation": "",
       "advisors": [
         316872,
@@ -7039,7 +8721,7 @@
       "id": 316872,
       "name": "Abu Abdallah Al-Husayn  ibn Ibrahim al-Natili",
       "year": null,
-      "institution": "",
+      "institution": null,
       "dissertation": "",
       "advisors": [],
       "students": [
@@ -7051,7 +8733,7 @@
       "id": 310782,
       "name": "Abu Sahl 'Isa  ibn Yahya al-Masihi",
       "year": null,
-      "institution": "",
+      "institution": null,
       "dissertation": "",
       "advisors": [],
       "students": [
@@ -7063,13 +8745,83 @@
       "id": 316873,
       "name": "Abu Mansur al-Hasan  ibn Nuh al-Qumri",
       "year": null,
-      "institution": "",
+      "institution": null,
       "dissertation": "",
       "advisors": [],
       "students": [
         298616
       ],
       "dimag_status": null
+    },
+    {
+      "id": "no-mgp-Jinha Kim",
+      "name": "Jinha Kim",
+      "year": 2019,
+      "institution": "Seoul National University",
+      "dissertation": "Topological combinatorics in rainbow set problems",
+      "advisors": [
+        14897
+      ],
+      "students": [],
+      "dimag_status": "current",
+      "photo_url": "https://dimag.ibs.re.kr/cms/wp-content/uploads/2024/11/jinha-300x300.jpeg",
+      "is_manual": true
+    },
+    {
+      "id": "no-mgp-Eun Jung Kim",
+      "name": "Eun Jung Kim",
+      "year": 2010,
+      "institution": "Royal Holloway, University of London",
+      "dissertation": "Parameterized Algorithms on Digraph and Constraint Satisfaction Problems",
+      "advisors": [
+        99061
+      ],
+      "students": [],
+      "dimag_status": "current",
+      "photo_url": "https://dimag.ibs.re.kr/cms/wp-content/uploads/2024/11/eunjung-300x300.jpeg",
+      "is_manual": true
+    },
+    {
+      "id": "no-mgp-Colin Geniet",
+      "name": "Colin Geniet",
+      "year": 2024,
+      "institution": "École Normale Supérieure de Lyon",
+      "dissertation": "Twin-Width: Caractérisations Logiques et Combinatoires",
+      "advisors": [
+        250938
+      ],
+      "students": [],
+      "dimag_status": "current",
+      "photo_url": "https://dimag.ibs.re.kr/cms/wp-content/uploads/2024/11/colin-300x300.jpeg",
+      "is_manual": true
+    },
+    {
+      "id": "no-mgp-Roohani Sharma",
+      "name": "Roohani Sharma",
+      "year": 2020,
+      "institution": "The Institute of Mathematical Sciences, Chennai",
+      "dissertation": "Advancing the Algorithmic Tool-kit for Parameterized Cut Problems",
+      "advisors": [
+        172829
+      ],
+      "students": [],
+      "dimag_status": "current",
+      "photo_url": "https://dimag.ibs.re.kr/cms/wp-content/uploads/2025/05/sharma-300x300.jpeg",
+      "is_manual": true
+    },
+    {
+      "id": "no-mgp-Ben Lund",
+      "name": "Ben Lund",
+      "year": 2017,
+      "institution": "Rutgers University, New Brunswick",
+      "dissertation": "Incidences and extremal problems on finite point sets",
+      "advisors": [
+        163442
+      ],
+      "students": [],
+      "dimag_status": "former",
+      "photo_url": "https://dimag.ibs.re.kr/cms/wp-content/uploads/2024/11/ben-300x300.jpeg",
+      "is_manual": true
     }
   ],
   "edges": [
@@ -7078,20 +8830,12 @@
       "target": 69604
     },
     {
-      "source": 69604,
-      "target": 315591
-    },
-    {
       "source": 50728,
       "target": 92455
     },
     {
       "source": 92455,
       "target": 304352
-    },
-    {
-      "source": 92455,
-      "target": 231364
     },
     {
       "source": 92455,
@@ -7190,6 +8934,26 @@
       "target": 333539
     },
     {
+      "source": 14885,
+      "target": 14897
+    },
+    {
+      "source": 58918,
+      "target": 99061
+    },
+    {
+      "source": 72850,
+      "target": 163442
+    },
+    {
+      "source": 67044,
+      "target": 172829
+    },
+    {
+      "source": 23645,
+      "target": 250938
+    },
+    {
       "source": 14683,
       "target": 41257
     },
@@ -7254,6 +9018,30 @@
       "target": 166481
     },
     {
+      "source": 18610,
+      "target": 14885
+    },
+    {
+      "source": 58897,
+      "target": 58918
+    },
+    {
+      "source": 58918,
+      "target": 60733
+    },
+    {
+      "source": 38686,
+      "target": 72850
+    },
+    {
+      "source": 65036,
+      "target": 67044
+    },
+    {
+      "source": 24547,
+      "target": 23645
+    },
+    {
       "source": 25275,
       "target": 14683
     },
@@ -7294,10 +9082,6 @@
       "target": 97092
     },
     {
-      "source": 58918,
-      "target": 60733
-    },
-    {
       "source": 11321,
       "target": 51155
     },
@@ -7316,6 +9100,26 @@
     {
       "source": 21544,
       "target": 21317
+    },
+    {
+      "source": 4638,
+      "target": 18610
+    },
+    {
+      "source": 26965,
+      "target": 58897
+    },
+    {
+      "source": 13373,
+      "target": 38686
+    },
+    {
+      "source": 42043,
+      "target": 65036
+    },
+    {
+      "source": 24548,
+      "target": 24547
     },
     {
       "source": 13305,
@@ -7358,10 +9162,6 @@
       "target": 53162
     },
     {
-      "source": 58897,
-      "target": 58918
-    },
-    {
       "source": 107016,
       "target": 11321
     },
@@ -7388,6 +9188,34 @@
     {
       "source": 21606,
       "target": 21544
+    },
+    {
+      "source": 18355,
+      "target": 4638
+    },
+    {
+      "source": 17409,
+      "target": 4638
+    },
+    {
+      "source": 48145,
+      "target": 26965
+    },
+    {
+      "source": 6869,
+      "target": 13373
+    },
+    {
+      "source": 10404,
+      "target": 42043
+    },
+    {
+      "source": 9041,
+      "target": 42043
+    },
+    {
+      "source": 105158,
+      "target": 24548
     },
     {
       "source": 18953,
@@ -7426,10 +9254,6 @@
       "target": 37083
     },
     {
-      "source": 26965,
-      "target": 58897
-    },
-    {
       "source": 90711,
       "target": 107016
     },
@@ -7466,6 +9290,42 @@
       "target": 21606
     },
     {
+      "source": 17409,
+      "target": 18355
+    },
+    {
+      "source": 57566,
+      "target": 18355
+    },
+    {
+      "source": 7361,
+      "target": 17409
+    },
+    {
+      "source": 19524,
+      "target": 17409
+    },
+    {
+      "source": 37083,
+      "target": 48145
+    },
+    {
+      "source": 8581,
+      "target": 6869
+    },
+    {
+      "source": 10395,
+      "target": 10404
+    },
+    {
+      "source": 8012,
+      "target": 9041
+    },
+    {
+      "source": 34266,
+      "target": 105158
+    },
+    {
       "source": 25248,
       "target": 18953
     },
@@ -7486,10 +9346,6 @@
       "target": 7361
     },
     {
-      "source": 7361,
-      "target": 17409
-    },
-    {
       "source": 84506,
       "target": 84657
     },
@@ -7506,20 +9362,12 @@
       "target": 7487
     },
     {
-      "source": 48145,
-      "target": 26965
-    },
-    {
       "source": 18336,
       "target": 90711
     },
     {
       "source": 7461,
       "target": 7811
-    },
-    {
-      "source": 19524,
-      "target": 17409
     },
     {
       "source": 13648,
@@ -7544,6 +9392,34 @@
     {
       "source": 18593,
       "target": 21245
+    },
+    {
+      "source": 57094,
+      "target": 57566
+    },
+    {
+      "source": 44413,
+      "target": 57566
+    },
+    {
+      "source": 7401,
+      "target": 19524
+    },
+    {
+      "source": 7461,
+      "target": 8581
+    },
+    {
+      "source": 10385,
+      "target": 10395
+    },
+    {
+      "source": 8011,
+      "target": 8012
+    },
+    {
+      "source": 34254,
+      "target": 34266
     },
     {
       "source": 141987,
@@ -7594,16 +9470,8 @@
       "target": 18336
     },
     {
-      "source": 37083,
-      "target": 48145
-    },
-    {
       "source": 7451,
       "target": 7461
-    },
-    {
-      "source": 7401,
-      "target": 19524
     },
     {
       "source": 72581,
@@ -7622,6 +9490,50 @@
       "target": 67327
     },
     {
+      "source": 29675,
+      "target": 57094
+    },
+    {
+      "source": 27250,
+      "target": 44413
+    },
+    {
+      "source": 7405,
+      "target": 44413
+    },
+    {
+      "source": 7402,
+      "target": 7401
+    },
+    {
+      "source": 19964,
+      "target": 7401
+    },
+    {
+      "source": 7401,
+      "target": 7611
+    },
+    {
+      "source": 7401,
+      "target": 7404
+    },
+    {
+      "source": 7401,
+      "target": 7405
+    },
+    {
+      "source": 7868,
+      "target": 10385
+    },
+    {
+      "source": 805,
+      "target": 8011
+    },
+    {
+      "source": 26995,
+      "target": 34254
+    },
+    {
       "source": 67041,
       "target": 141987
     },
@@ -7630,8 +9542,8 @@
       "target": 17829
     },
     {
-      "source": 7401,
-      "target": 7404
+      "source": 7404,
+      "target": 29675
     },
     {
       "source": 46967,
@@ -7666,14 +9578,6 @@
       "target": 7451
     },
     {
-      "source": 7402,
-      "target": 7401
-    },
-    {
-      "source": 19964,
-      "target": 7401
-    },
-    {
       "source": 17982,
       "target": 72581
     },
@@ -7684,6 +9588,46 @@
     {
       "source": 170019,
       "target": 34187
+    },
+    {
+      "source": 35953,
+      "target": 27250
+    },
+    {
+      "source": 56263,
+      "target": 27250
+    },
+    {
+      "source": 29642,
+      "target": 7402
+    },
+    {
+      "source": 17946,
+      "target": 19964
+    },
+    {
+      "source": 47064,
+      "target": 19964
+    },
+    {
+      "source": 7611,
+      "target": 7868
+    },
+    {
+      "source": 37346,
+      "target": 7868
+    },
+    {
+      "source": 806,
+      "target": 805
+    },
+    {
+      "source": 17865,
+      "target": 26995
+    },
+    {
+      "source": 26995,
+      "target": 7865
     },
     {
       "source": 132487,
@@ -7746,18 +9690,6 @@
       "target": 18589
     },
     {
-      "source": 29642,
-      "target": 7402
-    },
-    {
-      "source": 17946,
-      "target": 19964
-    },
-    {
-      "source": 47064,
-      "target": 19964
-    },
-    {
       "source": 62547,
       "target": 17982
     },
@@ -7776,6 +9708,42 @@
     {
       "source": 169078,
       "target": 170019
+    },
+    {
+      "source": 18230,
+      "target": 35953
+    },
+    {
+      "source": 101893,
+      "target": 56263
+    },
+    {
+      "source": 18231,
+      "target": 29642
+    },
+    {
+      "source": 17865,
+      "target": 17946
+    },
+    {
+      "source": 17981,
+      "target": 17946
+    },
+    {
+      "source": 47025,
+      "target": 47064
+    },
+    {
+      "source": 7865,
+      "target": 806
+    },
+    {
+      "source": 17864,
+      "target": 17865
+    },
+    {
+      "source": 108295,
+      "target": 17865
     },
     {
       "source": 80886,
@@ -7815,10 +9783,6 @@
     },
     {
       "source": 18231,
-      "target": 29642
-    },
-    {
-      "source": 18231,
       "target": 62547
     },
     {
@@ -7850,20 +9814,36 @@
       "target": 57659
     },
     {
-      "source": 17865,
-      "target": 17946
+      "source": 127710,
+      "target": 18230
     },
     {
-      "source": 17981,
-      "target": 17946
+      "source": 76486,
+      "target": 101893
+    },
+    {
+      "source": 127135,
+      "target": 101893
     },
     {
       "source": 47025,
-      "target": 47064
+      "target": 101893
     },
     {
-      "source": 127710,
-      "target": 18230
+      "source": 57659,
+      "target": 101893
+    },
+    {
+      "source": 17864,
+      "target": 17981
+    },
+    {
+      "source": 38586,
+      "target": 17864
+    },
+    {
+      "source": 108266,
+      "target": 108295
     },
     {
       "source": 147797,
@@ -7906,20 +9886,20 @@
       "target": 57670
     },
     {
-      "source": 17864,
-      "target": 17865
-    },
-    {
-      "source": 108295,
-      "target": 17865
-    },
-    {
-      "source": 17864,
-      "target": 17981
-    },
-    {
       "source": 127668,
       "target": 127710
+    },
+    {
+      "source": 76485,
+      "target": 76486
+    },
+    {
+      "source": 53410,
+      "target": 38586
+    },
+    {
+      "source": 294942,
+      "target": 108266
     },
     {
       "source": 133301,
@@ -7950,6 +9930,10 @@
       "target": 123957
     },
     {
+      "source": 123957,
+      "target": 76485
+    },
+    {
       "source": 21235,
       "target": 72669
     },
@@ -7958,16 +9942,24 @@
       "target": 128986
     },
     {
-      "source": 38586,
-      "target": 17864
-    },
-    {
-      "source": 108266,
-      "target": 108295
-    },
-    {
       "source": 60782,
       "target": 127668
+    },
+    {
+      "source": 76484,
+      "target": 76485
+    },
+    {
+      "source": 54440,
+      "target": 53410
+    },
+    {
+      "source": 129628,
+      "target": 53410
+    },
+    {
+      "source": 112689,
+      "target": 294942
     },
     {
       "source": 133367,
@@ -7998,16 +9990,28 @@
       "target": 128046
     },
     {
-      "source": 53410,
-      "target": 38586
-    },
-    {
-      "source": 294942,
-      "target": 108266
-    },
-    {
       "source": 125886,
       "target": 60782
+    },
+    {
+      "source": 76483,
+      "target": 76484
+    },
+    {
+      "source": 143084,
+      "target": 54440
+    },
+    {
+      "source": 125125,
+      "target": 129628
+    },
+    {
+      "source": 129708,
+      "target": 129628
+    },
+    {
+      "source": 143011,
+      "target": 112689
     },
     {
       "source": 133368,
@@ -8038,64 +10042,8 @@
       "target": 127962
     },
     {
-      "source": 54440,
-      "target": 53410
-    },
-    {
-      "source": 129628,
-      "target": 53410
-    },
-    {
-      "source": 112689,
-      "target": 294942
-    },
-    {
-      "source": 103068,
-      "target": 133368
-    },
-    {
-      "source": 115471,
-      "target": 115155
-    },
-    {
-      "source": 208258,
-      "target": 124000
-    },
-    {
-      "source": 127734,
-      "target": 127801
-    },
-    {
-      "source": 143084,
-      "target": 54440
-    },
-    {
-      "source": 125125,
-      "target": 129628
-    },
-    {
-      "source": 129708,
-      "target": 129628
-    },
-    {
-      "source": 143011,
-      "target": 112689
-    },
-    {
-      "source": 103067,
-      "target": 103068
-    },
-    {
-      "source": 115395,
-      "target": 115471
-    },
-    {
-      "source": 115008,
-      "target": 115471
-    },
-    {
-      "source": 127424,
-      "target": 127734
+      "source": 76482,
+      "target": 76483
     },
     {
       "source": 143083,
@@ -8118,6 +10066,70 @@
       "target": 54440
     },
     {
+      "source": 103068,
+      "target": 133368
+    },
+    {
+      "source": 115471,
+      "target": 115155
+    },
+    {
+      "source": 208258,
+      "target": 124000
+    },
+    {
+      "source": 127734,
+      "target": 127801
+    },
+    {
+      "source": 76481,
+      "target": 76482
+    },
+    {
+      "source": 143082,
+      "target": 143083
+    },
+    {
+      "source": 182090,
+      "target": 130248
+    },
+    {
+      "source": 60984,
+      "target": 60985
+    },
+    {
+      "source": 103067,
+      "target": 103068
+    },
+    {
+      "source": 115395,
+      "target": 115471
+    },
+    {
+      "source": 115008,
+      "target": 115471
+    },
+    {
+      "source": 127424,
+      "target": 127734
+    },
+    {
+      "source": 123974,
+      "target": 76481
+    },
+    {
+      "source": 143045,
+      "target": 143082
+    },
+    {
+      "source": 158329,
+      "target": 182090
+    },
+    {
+      "source": 144221,
+      "target": 60984
+    },
+    {
       "source": 74313,
       "target": 103067
     },
@@ -8138,16 +10150,20 @@
       "target": 127424
     },
     {
-      "source": 143082,
-      "target": 143083
+      "source": 182089,
+      "target": 123974
     },
     {
-      "source": 182090,
-      "target": 130248
+      "source": 182092,
+      "target": 143045
     },
     {
-      "source": 60984,
-      "target": 60985
+      "source": 119159,
+      "target": 158329
+    },
+    {
+      "source": 144220,
+      "target": 144221
     },
     {
       "source": 131606,
@@ -8166,16 +10182,28 @@
       "target": 127898
     },
     {
-      "source": 143045,
-      "target": 143082
+      "source": 125154,
+      "target": 182089
     },
     {
-      "source": 158329,
-      "target": 182090
+      "source": 131399,
+      "target": 182092
     },
     {
-      "source": 144221,
-      "target": 60984
+      "source": 126571,
+      "target": 119159
+    },
+    {
+      "source": 119159,
+      "target": 119178
+    },
+    {
+      "source": 119159,
+      "target": 125665
+    },
+    {
+      "source": 127790,
+      "target": 144220
     },
     {
       "source": 131546,
@@ -8190,6 +10218,10 @@
       "target": 128122
     },
     {
+      "source": 128122,
+      "target": 128105
+    },
+    {
       "source": 126827,
       "target": 127790
     },
@@ -8198,20 +10230,16 @@
       "target": 127790
     },
     {
-      "source": 127790,
-      "target": 144220
+      "source": 126111,
+      "target": 125154
     },
     {
-      "source": 182092,
-      "target": 143045
+      "source": 126659,
+      "target": 131399
     },
     {
-      "source": 119159,
-      "target": 158329
-    },
-    {
-      "source": 144220,
-      "target": 144221
+      "source": 127181,
+      "target": 126571
     },
     {
       "source": 131517,
@@ -8238,16 +10266,24 @@
       "target": 126827
     },
     {
-      "source": 131399,
-      "target": 182092
+      "source": 127848,
+      "target": 126111
     },
     {
-      "source": 126571,
-      "target": 119159
+      "source": 127278,
+      "target": 126111
     },
     {
-      "source": 119159,
-      "target": 125665
+      "source": 126659,
+      "target": 126667
+    },
+    {
+      "source": 131446,
+      "target": 127181
+    },
+    {
+      "source": 131447,
+      "target": 127181
     },
     {
       "source": 131443,
@@ -8278,12 +10314,20 @@
       "target": 126177
     },
     {
-      "source": 126659,
-      "target": 131399
+      "source": 128105,
+      "target": 127848
     },
     {
-      "source": 127181,
-      "target": 126571
+      "source": 127848,
+      "target": 127734
+    },
+    {
+      "source": 125109,
+      "target": 127278
+    },
+    {
+      "source": 131535,
+      "target": 131447
     },
     {
       "source": 131561,
@@ -8314,16 +10358,20 @@
       "target": 126112
     },
     {
-      "source": 126659,
-      "target": 126667
+      "source": 200006,
+      "target": 128105
     },
     {
-      "source": 131446,
-      "target": 127181
+      "source": 125142,
+      "target": 125109
     },
     {
-      "source": 131447,
-      "target": 127181
+      "source": 131539,
+      "target": 131535
+    },
+    {
+      "source": 131540,
+      "target": 131535
     },
     {
       "source": 131575,
@@ -8358,8 +10406,24 @@
       "target": 126109
     },
     {
-      "source": 131535,
-      "target": 131447
+      "source": 224249,
+      "target": 200006
+    },
+    {
+      "source": 127245,
+      "target": 125142
+    },
+    {
+      "source": 125303,
+      "target": 125142
+    },
+    {
+      "source": 131444,
+      "target": 131539
+    },
+    {
+      "source": 298288,
+      "target": 131540
     },
     {
       "source": 134780,
@@ -8394,12 +10458,20 @@
       "target": 126087
     },
     {
-      "source": 131539,
-      "target": 131535
+      "source": 127166,
+      "target": 127245
     },
     {
-      "source": 131540,
-      "target": 131535
+      "source": 119178,
+      "target": 125303
+    },
+    {
+      "source": 131444,
+      "target": 125760
+    },
+    {
+      "source": 134873,
+      "target": 298288
     },
     {
       "source": 146365,
@@ -8423,7 +10495,7 @@
     },
     {
       "source": 134873,
-      "target": 298288
+      "target": 149192
     },
     {
       "source": 125888,
@@ -8450,12 +10522,20 @@
       "target": 126887
     },
     {
-      "source": 131444,
-      "target": 131539
+      "source": 149192,
+      "target": 127166
     },
     {
-      "source": 298288,
-      "target": 131540
+      "source": 127166,
+      "target": 152904
+    },
+    {
+      "source": 119097,
+      "target": 119178
+    },
+    {
+      "source": 152904,
+      "target": 119178
     },
     {
       "source": 176844,
@@ -8468,10 +10548,6 @@
     {
       "source": 135185,
       "target": 134931
-    },
-    {
-      "source": 131444,
-      "target": 125760
     },
     {
       "source": 125760,
@@ -8490,6 +10566,10 @@
       "target": 127264
     },
     {
+      "source": 125892,
+      "target": 119097
+    },
+    {
       "source": 184631,
       "target": 176844
     },
@@ -8502,8 +10582,16 @@
       "target": 140181
     },
     {
+      "source": 125894,
+      "target": 125892
+    },
+    {
       "source": 184632,
       "target": 184631
+    },
+    {
+      "source": 125897,
+      "target": 125894
     },
     {
       "source": 201288,
@@ -8572,13 +10660,31 @@
     {
       "source": 316873,
       "target": 298616
+    },
+    {
+      "source": 14897,
+      "target": "no-mgp-Jinha Kim"
+    },
+    {
+      "source": 99061,
+      "target": "no-mgp-Eun Jung Kim"
+    },
+    {
+      "source": 250938,
+      "target": "no-mgp-Colin Geniet"
+    },
+    {
+      "source": 172829,
+      "target": "no-mgp-Roohani Sharma"
+    },
+    {
+      "source": 163442,
+      "target": "no-mgp-Ben Lund"
     }
   ],
   "meta": {
-    "generated": "2026-03-23T13:32:23.523346+00:00",
-    "node_count": 338,
-    "edge_count": 375,
-    "patched": "2026-03-24T05:59:20.281758+00:00",
-    "patch_added_years": 196
+    "generated": "2026-03-25T03:02:26.885621+00:00",
+    "node_count": 414,
+    "edge_count": 464
   }
 }
