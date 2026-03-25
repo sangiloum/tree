@@ -1148,10 +1148,11 @@
       "name": "Béla  Bollobás",
       "year": 1967,
       "institution": "Eötvös Loránd University",
-      "dissertation": "",
+      "dissertation": "Banach Algebras and the Theory of Numerical Ranges",
       "advisors": [
         153675,
-        19470
+        19470,
+        24507
       ],
       "students": [
         334342,
@@ -1228,7 +1229,26 @@
         86771,
         38652
       ],
-      "dimag_status": null
+      "dimag_status": null,
+      "degrees": [
+        {
+          "year": 1967,
+          "institution": "Eötvös Loránd University",
+          "dissertation": null,
+          "advisors": [
+            153675,
+            19470
+          ]
+        },
+        {
+          "year": 1972,
+          "institution": "University of Cambridge",
+          "dissertation": "Banach Algebras and the Theory of Numerical Ranges",
+          "advisors": [
+            24507
+          ]
+        }
+      ]
     },
     {
       "id": 97092,
@@ -8822,6 +8842,26 @@
       "dimag_status": "former",
       "photo_url": "https://dimag.ibs.re.kr/cms/wp-content/uploads/2024/11/ben-300x300.jpeg",
       "is_manual": true
+    },
+    {
+      "id": 24507,
+      "name": "J. Frank (John) Adams",
+      "year": 1955,
+      "institution": "University of Cambridge",
+      "dissertation": null,
+      "advisors": [],
+      "students": [
+        22719
+      ],
+      "dimag_status": null,
+      "degrees": [
+        {
+          "year": 1955,
+          "institution": "University of Cambridge",
+          "dissertation": null,
+          "advisors": []
+        }
+      ]
     }
   ],
   "edges": [
@@ -10680,11 +10720,15 @@
     {
       "source": 163442,
       "target": "no-mgp-Ben Lund"
+    },
+    {
+      "source": 24507,
+      "target": 22719
     }
   ],
   "meta": {
     "generated": "2026-03-25T03:02:26.885621+00:00",
-    "node_count": 414,
-    "edge_count": 464
+    "node_count": 415,
+    "edge_count": 465
   }
 }

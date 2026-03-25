@@ -918,9 +918,19 @@ function openSidebar(d) {
     <h2>${d.name || 'Unknown'}${krHtml}</h2>
     ${badgeHtml}
     ${roleHtml}
-    ${d.institution ? `<div class="sb-section"><div class="sb-label">Institution</div><div class="sb-value">${d.institution}</div></div>` : ''}
-    ${(d.year || d.yearEstimated) ? `<div class="sb-section"><div class="sb-label">PhD Year</div><div class="sb-value">${d.yearEstimated ? 'N/A' : d.year}</div></div>` : ''}
-    ${d.dissertation ? `<div class="sb-section"><div class="sb-label">Dissertation</div><div class="sb-value" style="font-style:italic">${d.dissertation}</div></div>` : ''}
+    ${(() => {
+      const src = (d.degrees && d.degrees.length) ? d.degrees : (
+        (d.institution || d.dissertation || d.year) ? [{
+          year: d.year, institution: d.institution, dissertation: d.dissertation
+        }] : []);
+      if (!src.length) return '';
+      const multi = src.length > 1;
+      const rows = src.map(deg => {
+        const hdr = [deg.yearEstimated ? null : deg.year, deg.institution].filter(Boolean).join(' · ');
+        return `<div class="sb-degree">${hdr ? `<div class="sb-degree-header">${hdr}</div>` : ''}${deg.dissertation ? `<div class="sb-degree-diss">${deg.dissertation}</div>` : ''}</div>`;
+      }).join('');
+      return `<div class="sb-section"><div class="sb-label">PhD${multi ? 's' : ''}</div>${rows}</div>`;
+    })()}
     <hr class="sb-divider">
     ${ancestryHtml}
     ${advisorsHtml}

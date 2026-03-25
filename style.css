@@ -320,6 +320,10 @@ a:hover { text-decoration: underline; }
 .sb-people-list li:hover { color: var(--color-current); }
 
 .sb-divider { border: none; border-top: 1px solid var(--border); margin: 14px 0; }
+.sb-degree { margin-bottom: 6px; font-size: 0.84rem; color: var(--text); }
+.sb-degree:last-child { margin-bottom: 0; }
+.sb-degree-header { font-weight: 500; }
+.sb-degree-diss { font-style: italic; color: var(--text-dim); font-size: 0.88em; margin-top: 2px; }
 
 .sb-mgp-link {
   display: inline-block; margin-top: 4px; padding: 5px 12px;

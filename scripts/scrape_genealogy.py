@@ -74,31 +74,66 @@ def parse_person(mgp_id: int, soup: BeautifulSoup) -> dict:
         "advisors": [],
         "students": [],
         "dimag_status": None,
+        "degrees": [],
     }
 
-    # Name — typically in <h2> or the page title
+    # Name — typically in <h2>
     h2 = soup.find("h2")
     if h2:
         node["name"] = h2.get_text(strip=True)
 
-    # Institution — in <span style="color: #006633"> (may be multiple for multi-degree people)
-    inst_spans = soup.find_all("span", style=re.compile(r"#006633"))
-    for inst_span in inst_spans:
-        text = inst_span.get_text(strip=True)
-        if text and not node["institution"]:
-            node["institution"] = text
-        # Year is a sibling text node in the parent <span>
-        parent = inst_span.parent
-        if parent:
-            year_m = re.search(r'\b(1\d{3}|20[0-2]\d)\b', parent.get_text())
-            if year_m:
-                node["year"] = int(year_m.group(1))
-                break
+    # ── Degrees ──────────────────────────────────────────────────────────────
+    # Each degree block in the HTML:
+    #   <div ...><span style="color:#006633">INSTITUTION</span> YEAR</div>
+    #   <div ...><span id="thesisTitle">DISSERTATION</span></div>
+    #   <p ...>Advisor[s]: <a href="id.php?id=...">...</a></p>
+    degrees = []
+    for inst_span in soup.find_all("span", style=re.compile(r"#006633")):
+        deg: dict = {
+            "year":         None,
+            "institution":  inst_span.get_text(strip=True) or None,
+            "dissertation": None,
+            "advisors":     [],
+        }
 
-    # Fallback: for scholars with no institution span, the year appears as a
-    # bare text node between <h2> and <p>Dissertation</p> (e.g. ancient scholars).
-    if node["year"] is None:
-        h2 = soup.find("h2")
+        # Year: plain text after the institution span inside its wrapper span
+        wrapper = inst_span.parent
+        if wrapper:
+            year_m = re.search(r'\b(1\d{3}|20[0-2]\d)\b', wrapper.get_text())
+            if year_m:
+                deg["year"] = int(year_m.group(1))
+
+        # Walk forward from the institution <div> to collect dissertation + advisors
+        # for THIS degree, stopping before the next degree block or student table.
+        inst_div = wrapper.parent if wrapper else None
+        if inst_div:
+            for sib in inst_div.next_siblings:
+                if not hasattr(sib, "name"):
+                    continue
+                if sib.name == "div":
+                    # Stop if this sibling IS another degree block
+                    if sib.find("span", style=re.compile(r"#006633")):
+                        break
+                    ts = sib.find("span", id="thesisTitle")
+                    if ts:
+                        text = ts.get_text(strip=True)
+                        if text:
+                            deg["dissertation"] = text[:300]
+                elif sib.name == "p":
+                    if re.search(r"Advisor", sib.get_text(), re.I):
+                        deg["advisors"] = extract_ids_from_links(
+                            sib.find_all("a", href=re.compile(r"id\.php")))
+                    elif re.search(r"Student", sib.get_text(), re.I):
+                        break
+                elif sib.name == "table":
+                    break
+
+        degrees.append(deg)
+
+    # Fallback for ancient scholars with no institution span (e.g. al-Khayyam):
+    # year appears as bare text between <h2> and the Dissertation label.
+    if not degrees:
+        deg = {"year": None, "institution": None, "dissertation": None, "advisors": []}
         diss_tag = soup.find(string=re.compile(r"Dissertation", re.I))
         if h2 and diss_tag:
             between = []
@@ -107,29 +142,40 @@ def parse_person(mgp_id: int, soup: BeautifulSoup) -> dict:
                     break
                 if isinstance(el, str):
                     between.append(el.strip())
-            year_m = re.search(r'\b(1\d{3}|20[0-2]\d)\b', ' '.join(between))
+            year_m = re.search(r'\b(1\d{3}|20[0-2]\d)\b', " ".join(between))
             if year_m:
-                node["year"] = int(year_m.group(1))
+                deg["year"] = int(year_m.group(1))
+        # Advisors fallback
+        advisor_text = soup.find(string=re.compile(r"Advisor", re.I))
+        if advisor_text:
+            p = advisor_text.find_parent()
+            if p and p.name == "p":
+                deg["advisors"] = extract_ids_from_links(
+                    p.find_all("a", href=re.compile(r"id\.php")))
+        degrees.append(deg)
 
-    # Dissertation — always in <span id="thesisTitle">
-    thesis_span = soup.find("span", id="thesisTitle")
-    if thesis_span:
-        node["dissertation"] = thesis_span.get_text(strip=True)[:300]
+    # ── Populate top-level fields from degrees ────────────────────────────────
+    node["degrees"]     = degrees
+    node["year"]        = min((d["year"] for d in degrees if d["year"]), default=None)
+    node["institution"] = next((d["institution"] for d in degrees if d["institution"]), None)
+    node["dissertation"] = next(
+        (d["dissertation"] for d in reversed(degrees) if d["dissertation"]), None)
 
-    # Advisors — links appearing in "Advisor" section
-    advisor_section = soup.find(string=re.compile(r"Advisor", re.I))
-    if advisor_section:
-        parent = advisor_section.find_parent()
-        if parent:
-            node["advisors"] = extract_ids_from_links(parent.find_all("a", href=re.compile(r"id\.php")))
+    # Advisors = union of all degrees' advisors, deduplicated, order preserved
+    seen: set[int] = set()
+    all_advisors: list[int] = []
+    for d in degrees:
+        for aid in d["advisors"]:
+            if aid not in seen:
+                seen.add(aid)
+                all_advisors.append(aid)
+    node["advisors"] = all_advisors
 
-    # Students — links in the student table (usually a <table> at bottom)
-    tables = soup.find_all("table")
-    student_ids = []
-    for table in tables:
-        links = table.find_all("a", href=re.compile(r"id\.php"))
-        student_ids.extend(extract_ids_from_links(links))
-    # De-dup and remove self-references
+    # ── Students — links in the student table ─────────────────────────────────
+    student_ids: list[int] = []
+    for table in soup.find_all("table"):
+        student_ids.extend(extract_ids_from_links(
+            table.find_all("a", href=re.compile(r"id\.php"))))
     node["students"] = list(set(student_ids) - {mgp_id})
 
     return node
