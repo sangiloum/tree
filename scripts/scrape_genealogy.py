@@ -26,7 +26,7 @@ from bs4 import BeautifulSoup
 BASE_URL = "https://www.mathgenealogy.org/id.php?id={}"
 SLEEP_BETWEEN_REQUESTS = 1.5   # seconds (polite crawl)
 ANCESTOR_DEPTH = None          # None = full depth (all ancestors)
-DESCENDANT_DEPTH = 3           # depth from DIMAG seeds downward
+DESCENDANT_DEPTH = 0           # ancestors only; no student crawling
 
 DATA_DIR = Path(__file__).parent.parent / "data"
 MEMBERS_FILE = DATA_DIR / "members.json"
@@ -137,7 +137,7 @@ def parse_person(mgp_id: int, soup: BeautifulSoup) -> dict:
 
 # ── Main BFS ────────────────────────────────────────────────────────────────
 
-def scrape(seed_ids: list[int], dimag_current: set[int], dimag_former: set[int]) -> dict:
+def scrape(seed_ids: list[int], up_only_ids: list[int], dimag_current: set[int], dimag_former: set[int]) -> dict:
     dimag_all = dimag_current | dimag_former
 
     nodes: dict[int, dict] = {}   # mgp_id → node
@@ -151,6 +151,10 @@ def scrape(seed_ids: list[int], dimag_current: set[int], dimag_former: set[int])
     for sid in seed_ids:
         queue.append((sid, "both", 0))
         visited[sid] = ("both", 0)
+    for sid in up_only_ids:
+        if sid not in visited:
+            queue.append((sid, "up", 0))
+            visited[sid] = ("up", 0)
 
     processed = 0
     while queue:
@@ -229,21 +233,24 @@ def main():
     current_ids = {m["mgp_id"] for m in members["current"] if m["mgp_id"]}
     former_ids  = {m["mgp_id"] for m in members["former"]  if m["mgp_id"]}
 
-    # Also seed advisors of null-mgp members so they're guaranteed to be scraped
+    # Advisors of null-mgp members: crawl up only (not down) to avoid pulling
+    # in academic siblings and their students
     advisor_ids: set[int] = set()
     for role in ("current", "former"):
         for m in members[role]:
             if not m.get("mgp_id"):
                 advisor_ids.update(m.get("advisor_mgp_ids") or [])
 
-    seed_ids    = sorted(current_ids | former_ids | advisor_ids)
+    dimag_seed_ids   = sorted(current_ids | former_ids)
+    advisor_seed_ids = sorted(advisor_ids - current_ids - former_ids)
 
-    print(f"Seeds: {seed_ids}")
+    print(f"DIMAG seeds: {dimag_seed_ids}")
+    print(f"Advisor-only seeds (up only): {advisor_seed_ids}")
     print(f"Starting BFS crawl — ancestor_depth={'∞' if ANCESTOR_DEPTH is None else ANCESTOR_DEPTH}, descendant_depth={DESCENDANT_DEPTH}")
     print(f"Sleep between requests: {SLEEP_BETWEEN_REQUESTS}s")
     print()
 
-    graph = scrape(seed_ids, current_ids, former_ids)
+    graph = scrape(dimag_seed_ids, advisor_seed_ids, current_ids, former_ids)
 
     # Synthesize nodes for null-mgp members that have advisor_mgp_ids specified
     existing_ids = {n["id"] for n in graph["nodes"]}
