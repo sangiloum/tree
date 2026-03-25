@@ -54,6 +54,30 @@ This is a single-page static app with no build tooling or bundler.
 
 Edit `data/members.json` — each entry needs `mgp_id` (integer or `null`), `name`, and `role` (`"current"` or `"former"`). Then re-run the scraper.
 
+### Members not yet on MathGenealogy
+
+For members whose `mgp_id` is `null` but whose advisor IS on MGP, add these optional fields to their `members.json` entry:
+
+```json
+{
+  "name": "Full Name",
+  "mgp_id": null,
+  "advisor_mgp_ids": [92455],
+  "year": 2021,
+  "institution": "KAIST",
+  "dissertation": "Optional title",
+  "photo_url": "https://dimag.ibs.re.kr/.../photo.jpg"
+}
+```
+
+Then run:
+```bash
+python scripts/download_photos.py   # downloads photo as data/photos/no-mgp-{name}.jpg
+python scripts/scrape_genealogy.py  # writes synthetic node + edges into genealogy.json
+```
+
+The member will appear as a connected, solid-border colored pill with an advisor edge.
+
 ## Scraper Configuration
 
 Edit constants at the top of `scripts/scrape_genealogy.py`:
@@ -64,3 +88,7 @@ Edit constants at the top of `scripts/scrape_genealogy.py`:
 ## Deployment
 
 GitHub Pages: push to `main`, enable Pages with root `/`. No build step needed.
+
+## Shell / Bash Rules
+
+- The project root contains a space (`My Drive/website/tree`). Always quote paths in bash commands with double quotes to avoid word-splitting errors, e.g. `cd "/Users/sangil/My Drive/website/tree"`.

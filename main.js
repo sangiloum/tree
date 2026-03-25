@@ -461,7 +461,7 @@ function buildAncestryChain(d) {
 // ── Node visual helpers ───────────────────────────────────────────────────
 
 function nodeRadius(n) {
-  if (!n.mgp_id && n.dimag_status) return NODE_RADIUS.no_mgp;
+  if (!n.mgp_id && !n.is_manual && n.dimag_status) return NODE_RADIUS.no_mgp;
   if (n.dimag_status === 'current') return NODE_RADIUS.current;
   if (n.dimag_status === 'former')  return NODE_RADIUS.former;
   const d = depthMap.get(n.id) ?? 99;
@@ -480,8 +480,8 @@ function isPillNode(n) { return true; }  // all nodes are pill-shaped
 
 function pillWidth(n) {
   const h = pillHeight(n);
-  // Reserve photo slot for any pill node that has an mgp_id
-  const photoSlot = n.mgp_id ? (h - 4 + 8) : 0;  // circle diameter + gap
+  // Reserve photo slot for pill nodes with mgp_id or a manual photo_url
+  const photoSlot = (n.mgp_id || n.photo_url) ? (h - 4 + 8) : 0;  // circle diameter + gap
   const textW     = (n.name || '').length * baseFontSize * 0.56;
   const pad = 12;
   return Math.max(h * 2.5, photoSlot + textW + pad * 2);
@@ -612,7 +612,7 @@ function renderGraph() {
       let c = 'node';
       if (d.dimag_status === 'current') c += ' node-current';
       if (d.dimag_status === 'former')  c += ' node-former';
-      if (!d.mgp_id && d.dimag_status)  c += ' node-no-mgp';
+      if (!d.mgp_id && !d.is_manual && d.dimag_status)  c += ' node-no-mgp';
       return c;
     })
     .style('opacity', 0)
@@ -639,11 +639,11 @@ function renderGraph() {
     .attr('fill',   nodeColor)
     .attr('stroke', d => d3.color(nodeColor(d))?.brighter(0.5).toString())
     .attr('stroke-width', 1.5)
-    .attr('stroke-dasharray', d => (!d.mgp_id && d.dimag_status) ? '5 3' : null)
+    .attr('stroke-dasharray', d => (!d.mgp_id && !d.is_manual && d.dimag_status) ? '5 3' : null)
     .attr('filter', nodeGlow);
 
-  // Photo image (for any pill node with mgp_id)
-  pillEnter.filter(d => d.mgp_id)
+  // Photo image (for pill nodes with mgp_id, or manual nodes with photo_url)
+  pillEnter.filter(d => d.mgp_id || d.photo_url)
     .append('image')
     .attr('class', 'node-photo')
     .attr('x', d => -pillWidth(d) / 2 + 3)
@@ -651,7 +651,7 @@ function renderGraph() {
     .attr('width',  d => pillHeight(d) - 4)
     .attr('height', d => pillHeight(d) - 4)
     .attr('preserveAspectRatio', 'xMidYMid slice')
-    .attr('href', d => `data/photos/${d.mgp_id}.jpg`)
+    .attr('href', d => `data/photos/${d.mgp_id ?? d.id}.jpg`)
     .attr('clip-path', 'url(#photo-circle-clip)')
     .on('error', function() { d3.select(this).style('display', 'none'); });
 
@@ -659,11 +659,11 @@ function renderGraph() {
   pillEnter.append('text')
     .attr('class', d => 'node-pill-label' + (d.dimag_status ? ' label-dimag' : ''))
     .attr('x', d => {
-      if (!d.mgp_id) return 0;                              // no photo → centered
+      if (!d.mgp_id && !d.photo_url) return 0;              // no photo → centered
       return -pillWidth(d) / 2 + (pillHeight(d) - 4) + 10; // right of photo
     })
     .attr('y', 0)
-    .attr('text-anchor',       d => d.mgp_id ? 'start' : 'middle')
+    .attr('text-anchor',       d => (d.mgp_id || d.photo_url) ? 'start' : 'middle')
     .attr('dominant-baseline', 'middle')
     .attr('font-size', baseFontSize + 'px')
     .attr('font-family', 'Inter, system-ui, sans-serif')
@@ -692,7 +692,7 @@ function renderGraph() {
 
   nodeSel.selectAll('text.node-pill-label')
     .attr('x', d => {
-      if (!d.mgp_id) return 0;
+      if (!d.mgp_id && !d.photo_url) return 0;
       return -pillWidth(d) / 2 + (pillHeight(d) - 4) + 10;
     })
     .attr('font-size', baseFontSize + 'px');
@@ -907,8 +907,10 @@ function openSidebar(d) {
        </div>`
     : '';
 
-  const photoHtml = d.mgp_id
-    ? `<img class="sb-photo" src="data/photos/${d.mgp_id}.jpg" alt="${d.name}" onerror="this.style.display='none'">`
+  const photoSrc  = d.mgp_id ? `data/photos/${d.mgp_id}.jpg`
+                             : d.photo_url ? `data/photos/${d.id}.jpg` : null;
+  const photoHtml = photoSrc
+    ? `<img class="sb-photo" src="${photoSrc}" alt="${d.name}" onerror="this.style.display='none'">`
     : '';
 
   sidebarContent.innerHTML = `
